@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"auto-save",
+		"AutoFileName",
+		"Chromeless",
+		"Color Highlight",
+		"ColorPicker",
+		"Emmet",
+		"Gist",
+		"Goto-CSS-Declaration",
+		"Hide Menu",
+		"HTML-CSS-JS Prettify",
+		"LiveReload",
+		"MarkdownEditing",
+		"Package Control",
+		"SideBarEnhancements",
+		"Terminus"
+	]
+}

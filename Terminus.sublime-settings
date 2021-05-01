@@ -1,0 +1,131 @@
+{
+	"256color": false,
+	"debug": false,
+	"default_config":
+	{
+		"linux": null,
+		"osx": null,
+		"windows": "WSL Login Shell"
+	},
+	"max_columns": 500,
+	"min_columns": 20,
+	"natural_keyboard": true,
+	"preserve_keys":
+	[
+	],
+	"scrollback_history_size": 10000,
+	"shell_configs":
+	[
+		{
+			"cmd":
+			[
+				"bash",
+				"-i",
+				"-l"
+			],
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd":
+			[
+				"zsh",
+				"-i",
+				"-l"
+			],
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Zsh",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd": "cmd.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Command Prompt",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "pwsh.exe",
+			"enable": false,
+			"env":
+			{
+			},
+			"name": "PowerShell Core",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "powershell.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "PowerShell",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd":
+			[
+				"cmd.exe",
+				"/k",
+				"%CMDER_ROOT%\\vendor\\init.bat"
+			],
+			"enable": false,
+			"env":
+			{
+			},
+			"name": "Cmder",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "wsl.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "WSL Login Shell",
+			"platforms":
+			[
+				"windows"
+			]
+		}
+	],
+	"theme": "solarized-dark-higher-contrast",
+	"unix_lang": "en_US.UTF-8",
+	"unix_term": "linux",
+	"user_theme_colors":
+	{
+		"background": "#262626"
+	},
+	"view_settings":
+	{
+	}
+}

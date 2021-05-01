@@ -1,0 +1,72 @@
+ [
+
+// ------------------------------------------    CUSTOM
+// Menu comands
+    { "keys": ["alt+s"], "command": "toggle_status_bar" },
+    { "keys": ["alt+'"], "command": "toggle_tabs" },
+    { "keys": ["ctrl+k", "ctrl+m",], "command": "toggle_minimap" },
+
+// Settings Toggling
+    { "keys": ["ctrl+k", "ctrl+n"], "command": "toggle_setting",
+      "args": {"setting": "line_numbers"}
+    },
+    { "keys": ["ctrl+k", "ctrl+k", "ctrl+n"], "command": "toggle_setting",
+      "args": {"setting": "gutter"}
+    },
+
+// For closing a file
+   	{ "keys": ["ctrl+shift+c"], "command": "close_file" },
+
+// Reindent
+    { "keys": ["alt+e"], "command": "reindent" },
+// ------------------------------------------ // CUSTOM
+
+// Gist
+    { "keys": ["ctrl+k", "ctrl+p"], "command": "gist_private" },
+    { "keys": ["ctrl+k", "ctrl+s"], "command": "gist_update_file" },
+    { "keys": ["ctrl+k", "ctrl+o"], "command": "gist_list" },
+    { "keys": ["ctrl+k", "ctrl+i"], "command": "insert_gist_list" },
+    { "keys": ["ctrl+k", "ctrl+["], "command": "gist" },
+    { "keys": ["ctrl+k", "ctrl+]"], "command": "gist_add_file" },
+    { "keys": ["ctrl+k", "ctrl+'"], "command": "gist_gitio" },
+
+
+
+// Terminus
+    { 
+        "keys": ["alt+`"], "command": "toggle_terminus_panel", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    { 
+        "keys": ["ctrl+shift+c"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+    },
+
+// Wrap with abreviation
+    {
+        "keys": ["ctrl+shift+g"],
+        "command": "emmet_wrap_with_abbreviation",
+        "context": [{"key": "setting.is_widget",  "operand": false }]
+    },
+
+// Auto Save
+	{ "keys": ["ctrl+alt+s"], "command": "auto_save" },
+
+
+// GoTo-CSS-Declaration
+    {
+        "keys": ["ctrl+shift+."], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["ctrl+shift+,"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    }
+
+
+]
