@@ -1,0 +1,160 @@
+{
+    "name": "MarkdownEditing",
+    "author": "Unknown",
+    "variables":
+    {
+
+
+// LIGHT COLOR SCHEME:
+        // "backg": "hsl(0, 0%, 25%)",
+
+        // "text": "hsl(246, 100%, 50%)",
+        "foreg": "hsl(0, 0%, 1%)",
+        "backg": "hsl(0, 0%, 99%)",
+        "backg_css_js": "hsl(0, 0%, 92%)", 
+
+        "focus_line": "#A0804026",
+        // "comment": "hsl(120, 30%, 80%)",
+        // "comment": "hsl(120, 13%, 50%)",
+        // "comment": "hsl(240, 30%, 70%)",
+        // "comment": "hsl(0, 30%, 70%)",
+        "comment": "hsl(0, 0%, 65%)",
+
+        // "focus": "#000000",
+        "value": "red",
+        // "const": "hsl(246, 100%, 50%)",
+        // "const": "hsl(216, 76%, 50%)",
+        // "const": "hsl(216, 100%, 70%)",
+        "const": "hsl(0, 100%, 75%)",
+        // "tag_name": "#1A921C",
+        // "tag_name": "hsl(246, 100%, 50%)",
+        // "tag_name": "#036A07",
+        // "tap_punctuation": "hsl(246, 100%, 50%)",
+        // "tap_punctuation": "hsl(121, 100%, 35%)",
+        // "tap_punctuation": "hsl(121, 70%, 34%)",
+        // "tap_punctuation": "hsl(122, 94%, 21%)",
+        "tag": "hsl(122, 94%, 21%)",
+
+        // "css_value": "hsl(271, 77%, 50%)",
+        "css_value": "hsl(300, 77%, 50%)",
+        "values_sufix": "hsl(183, 76%, 34%)",
+        // "class_name": "red",
+        // "class_name": "hsl(121, 100%, 35%)",
+        // "class_name": "hsl(246, 100%, 50%)",
+        "class_name": "hsl(121, 70%, 34%)",
+        "url_path": "hsl(300, 77%, 50%)",
+
+        // "secondary": "hsl(120, 13%, 50%)",
+        // "secondary": "hsl(216, 13%, 50%)",
+        // "secondary": "hsl(216, 47%, 50%)",
+        // "secondary": "hsl(246, 76%, 50%)",
+        "secondary": "hsl(216, 76%, 50%)",
+
+        "selection_border": "hsl(120, 100%, 75%)",
+        "light": "hsl(120, 100%, 85%)",
+        "min_light": "hsl(120, 100%, 85%)",
+        "inside": "red",
+
+
+        "black": "#000000",
+        "white": "#ffffff",
+        "blue": "hsl(246, 100%, 50%)",
+        "plum": "hsl(300, 77%, 50%)",
+        // "khaki": "khaki",
+        // "gold": "gold",
+        // "coral": "coral",
+
+    },
+
+    "globals":
+    {
+        "foreground": "var(foreg)",
+        // "background": "var(backg)",
+        // "background": "#969696",
+        // "background": "#AAAAAA",
+        // "background": "#000000",
+        // "line_highlight": "var(backg)",
+        // "line_highlight": "var(focus_line)",
+
+        "block_caret": "aqua",
+        // "invisibles": "",
+        // "selection": "color(var(light) alpha(0.3))",
+        "selection": "var(light)",
+        "selection_border": "var(selection_border)",
+        "inactive_selection": "var(min_light)",
+        "misspelling": "red",
+        // "shadow": "var(foreg)",
+        "shadow": "color(var(foreg) alpha(0.2))",
+        "active_guide": "aqua",
+        "stack_guide": "aqua",
+        "highlight": "blue",
+        "find_highlight_foreground": "blue",
+        "find_highlight": "yellow",
+        // "brackets_options": "nothing",
+        // "brackets_options": "bold underline",
+        "brackets_options": "bold",
+        "brackets_foreground": "var(inside)",
+        "bracket_contents_options": "bold",
+        "bracket_contents_foreground": "var(inside)",
+        // "tags_options": "",
+        // "tags_options": "italic",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "#FFFFFF",
+
+        // "font_style": "italic",
+
+    },
+
+    "rules":
+    [
+        {
+            "name": "Plain Text",
+            "scope": "text.plain",
+            // "foreground": "",
+            // "background": "",
+            // "font_style": "bold",
+        },
+
+        {
+            "name": "Tag Punctuation",
+            "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+            // "foreground": "var(secondary)",
+            // "foreground": "var(foreg)",
+            "foreground": "var(tag)",
+            "font_style": "",
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(tag)",
+            // "foreground": "var(foreg)",
+            "font_style": "bold"
+        },
+        {
+            "name": "A Tag",
+            "scope": "entity.name.tag.inline.a.html",
+            // "foreground": "",
+            // "font_style": "italic",
+        },
+
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(secondary)",
+            "font_style": "italic",
+        },
+// text.html.basic meta.tag.block.any.html meta.attribute-with-value.class.html entity.other.attribute-name.class.html
+        {
+            // "name": "class Atribute && href Atribute",
+            // "scope": "meta.tag.inline.a.html entity.other.attribute-name.href, entity.other.attribute-name.class.html,",
+            // "foreground": "url_path",
+            // "font_style": "",
+        },
+
+    ]
+}
+
+
+
+
+// text.html.markdown meta.paragraph.markdown markup.italic.markdown

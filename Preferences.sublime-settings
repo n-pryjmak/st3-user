@@ -13,96 +13,94 @@
 		// "TODO.txt": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
 		// "*.sublime-settings": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
 		// "": ""
-		"example.md": "Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
+		// "example.md": "Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
 	},
+
+	// "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
+	// "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
+	// "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+	"color_scheme": "RGB Moonlight.sublime-color-scheme",
+		"show_legacy_color_schemes": true,
+
+	"theme": "Adaptive.sublime-theme",
+
 
 	// Note that the font_face and font_size are overridden in the platform
 	// specific settings file, for example, "Preferences (Linux).sublime-settings".
 	// Because of this, setting them here will have no effect: you must set them
 	// in your User File Preferences.
-	// "font_face": "Roboto",
 
+	// "font_face": "Roboto",
 	// "font_face": "Courier New",
-	// "font_face": "Monospace",
+	"font_face": "Monospace",
 	"font_size": 10,
 
 
-	// Adaptive theme only: controls if a custom or default title bar is used.
-	// Note that on Windows, the hamburger menu is used whenever this is
-	// enabled and the adaptive theme is in use.
-	"themed_title_bar": false,
 
-	"always_show_minimap_viewport": true,
-	// "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
-	// "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
-	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-	// "color_scheme": "RGB Moonlight.sublime-color-scheme",
-	// "color_scheme": "RGB Moonlight.sublime-color-scheme",
+// LAYOUT
+"rulers": [],
+	// "draw_centered": true,
 
-
-	"fade_fold_buttons": false,
-	"fold_buttons": true,
-	// "font_size": 11,
-	"gutter": true,
-	"highlight_line": true,
-
-	
-	"ignored_packages":
-	[
-		// "auto-save",
-		"Markdown",
-		"Vintage",
-	],
-	"line_numbers": false,
-	"margin": 0,
-	"mini_diff": true,
-	"show_legacy_color_schemes": true,
-	"theme": "Adaptive.sublime-theme",
-
-
-	// Disables horizontal scrolling if enabled.
-	// May be set to true, false, or "auto", where it will be disabled for
-	// source code, and otherwise enabled.
-	// "word_wrap": "auto",
 	"word_wrap": false,
+	// "wrap_width": 80,
+
+	// "line_padding_top": 1,
+	// "line_padding_bottom": 1,
+
+	// Layout components
+		"highlight_line": true,
+
+		"themed_title_bar": false,
+		"always_show_minimap_viewport": true,
+
+		// "auto_hide_tabs": true,
+		// "reveal_tabs_with_timeout": true,
+		"hide_tab_scrolling_buttons": true,
+		"hide_new_tab_button": true,
+
+		"show_sidebar_button": false,
+		// status_bar
+		"show_git_status_in_status_bar": true, // requires the show_git_status setting to be enabled
+		"show_encoding": true,
+		"show_line_endings": true,
+
+	// Gutter
+		"gutter": true,
+		"margin": 0,
+
+		"mini_diff": true,
+
+		"line_numbers": false,
+
+		"fold_buttons": true,
+		"fade_fold_buttons": false,
 
 
+// Caret
 	// Valid values are "smooth", "phase", "blink" and "solid". Previous
-	// versions of Sublime Text used "smooth" by default.
 	"caret_style": "blink",
 
+	// These work only in ST Build 3057 and later.
+	"caret_extra_top": 5,
+	"caret_extra_bottom": 5,
+	"caret_extra_width": 1,
 
-	// folder_exclude_patterns and file_exclude_patterns control which files
-	// are listed in folders on the side bar. These can also be set on a per-
-	// project basis.
+
+
+
+
+
+// Includes
 	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
 	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.sublime-project"],
 
 
-	// Hides the buttons for scrolling tabs left/right, requiring use of a
-	// trackpad or mouse scroll wheel
-	"hide_tab_scrolling_buttons": true,
-
-	// Hides the new tab button
-	"hide_new_tab_button": true,
-
-	// Display the toggle sidebar button in the status bar
-	"show_sidebar_button": false,
-
-	// Display the git status in the status bar, requires the show_git_status
-	// setting to be enabled
-	"show_git_status_in_status_bar": true,
-
-	// Display file encoding in the status bar
-	"show_encoding": true,
-
-	// Display line endings in the status bar
-	"show_line_endings": true,
 
 
-	// The number of spaces a tab is considered equal to
+// Editinig
+	"trim_trailing_white_space_on_save": "not_on_caret",
+
 	"tab_size": 3,
-
 	// Set to true to insert spaces when tab is pressed
 	"translate_tabs_to_spaces": true,
 
@@ -110,6 +108,16 @@
 	// backspace insert/delete up to the next tabstop
 	"use_tab_stops": true,
 
-	// "auto_hide_tabs": true,
-	// "reveal_tabs_with_timeout": true,
+
+
+
+
+
+	"ignored_packages":
+	[
+		// "auto-save",
+		"Markdown",
+		"Vintage",
+	],
+
 }
