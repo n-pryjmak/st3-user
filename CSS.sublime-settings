@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the CSS syntax
+{
+	
+	// "font_face": "Monospace",
+	"font_size": 10,
+}
+

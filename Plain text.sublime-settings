@@ -1,0 +1,12 @@
+{
+	"extensions":
+	[
+		// "txt",
+		"own"
+	],
+
+	// "font_face": "Courier New",
+	// "font_face": "Consolas",
+	"font_face": "Monospace",
+	"font_size": 10,
+}

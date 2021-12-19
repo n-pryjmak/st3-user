@@ -1,30 +1,44 @@
 {
-    "name": "Pryjmak_Night",
-    "author": "Nazar Pryjmak",
+    "name": "RGB Moonlight",
+    "author": "Zanark",
     "variables":
     {
         // "backg": "#E5E5E5",
-        "backg": "#BBBBBB",
-        "backg": "#CCCCCC",
         "backg": "#F2F2F2",
+        "backg": "#BBBBBB",
+        // "backg": "hsl(320, 25%, 80%)",     //   < pink
+        // "backg": "hsl(0, 25%, 80%)",       //   < red
+        // "backg": "hsl(280, 25%, 80%)",     //   < purple
+        // "backg": "hsl(240, 25%, 80%)",     //   < blue
+        // "backg": "hsl(120, 25%, 80%)",     //   < green
+        "backg": "#CCCCCC",     //   <--
         
-        "focus": "#F2F2F2",     // 1
-        "focus": "#E5E5E5",     // 2
-        "focus": "#CCCCCC",     // 4
         "focus": "white",       // 0
+        "focus": "#F2F2F2",     // 1
+        "focus": "#CCCCCC",     // 4
+        "focus": "#E5E5E5",     // 2 <-- 0142
 
         // "focus_line": "white",
 
         "comment": "blue",
+        "comment": "hsl(310, 100%, 50%)",
+        "comment": "red",
         "comment": "white",
 
         "value": "black",
-        "value": "blue",
-        "value": "deeppink",
-        "value": "fuchsia",
         "value": "limegreen",
+        "value": "fuchsia",
+        "value": "deeppink",
         "value": "#7F00FF",
         "value": "red",
+        "value": "blue",
+
+        // "light": "#B7E5B2",
+        "min_light": "hsl(300, 40%, 80%)",
+        "light": "hsl(114, 50%, 80%)",
+        "inside": "blue",
+
+        "purple": "hsl(270, 100%, 50%)",
 
     },
     "globals":
@@ -33,72 +47,51 @@
         "background": "var(backg)",
         // "background": "#969696",
         // "background": "#AAAAAA",
-        "line_highlight": "var(focus)",
-        "caret": "black",
-        "selection": "#B7E5B2",
-        "selection_border": "#B7E5B2",
-        "inactive_selection": "#C9DAC7",
+        // "background": "black",
+        // "line_highlight": "var(focus)",
+        // "line_highlight": "var(backg)",
+        "caret": "red",
+        "block_caret": "aqua",
+        // "invisibles": "",
+        "selection": "var(light)",
+        "selection_border": "limegreen",
+        "inactive_selection": "var(min_light)",
         "misspelling": "red",
-        "shadow": "",
-        "active_guide": "",
-        "stack_guide": "",
+        // "shadow": "black",
+        "shadow": "color(black alpha(0.2))",
+        "active_guide": "aqua",
+        "stack_guide": "aqua",
         "highlight": "blue",
         "find_highlight_foreground": "blue",
-        "find_highlight": "#B7E5B2",
-        "brackets_options": "underline",
-        "brackets_foreground": "",
-        "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "",
-        "tags_options": "stippled_underline",
-        "tags_foreground": "",
+        "find_highlight": "var(light)",
+        // "brackets_options": "nothing",
+        // "brackets_options": "bold underline",
+        "brackets_options": "bold",
+        "brackets_foreground": "var(inside)",
+        "bracket_contents_options": "bold",
+        "bracket_contents_foreground": "var(inside)",
+        // "tags_options": "nothing",
+        // "tags_options": "stippled_underline",
+        "tags_options": "bold stippled_underline",
+        "tags_foreground": "var(inside)",
 
         // "font_style": "italic",
     },
 
     "rules":
     [
+    
         {
             "scope": "text.html",
-            "font_style": "italic",
+            "foreground": "cyan",
+            "foreground": "hsl(180, 100%, 30%)",
+            "foreground": "coral",
+            "foreground": "#FF7D00",
+            "foreground": "red",
+            "foreground": "teal",
+            // "font_style": "italic",
             // "background": "#BBBBBB",
 
-        },
-
-
-        {
-            "scope": "col_gutter",
-            "background": "#000000",
-            "foreground": "#ffffff"
-        },
-        {
-            "scope": "col_001EFFFF",
-            "background": "#001EFFFF",
-            "foreground": "#AEAEAEFF"
-        },
-        {
-            "scope": "col_CA27FFFF",
-            "background": "#CA27FFFF",
-            "foreground": "#F0F0F0FF"
-        },
-        {
-            "scope": "col_000000FF",
-            "background": "#000000FF",
-            "foreground": "#808080FF"
-        },
-        {
-            "scope": "col_648880FF",
-            "background": "#648880FF",
-            "foreground": "#FCFCFCFF"
-        },
-        {
-            "scope": "col_F1A3FFFF",
-            "background": "#F1A3FFFF",
-            "foreground": "#444444FF"
-        },
-        {
-            "scope": "col_3F3AA6FF",
-            "background": "#3F3AA6FF",
-            "foreground": "#C7C7C7FF"
         },
 
 
@@ -107,26 +100,35 @@
             "name": "Tag name",
             "scope": "entity.name.tag",
             "foreground": "black",
+            "background": "var(backg)",
             "font_style": "bold"
         },
+
+
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            
+            // "foreground": "black",
+            // "font_style": "italic",
+        },
+        
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name.class",
+            "foreground": "black",
         },
         {
             "name": "Tag attribute",
-            "scope": "text.html.entity.other.attribute-name",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name.class.html, entity.other.attribute-name.style",
             "foreground": "black",
-            "font_style": "italic"
+            "font_style": "italic",
         },
-
         {
-            // "name": "Tag attribute",
-            // "scope": "entity.other.attribute-name.html",
-            // "foreground": "black",
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name.class.html.value",
+            // "foreground": "gold",
+            // "font_style": "bold",
         },
-
 
 
         {
@@ -134,7 +136,7 @@
             "scope": "punctuation.definition",
             "foreground": "black",
             "background": "var(backg)",
-            "font_style": ""
+            "font_style": "",
         },
         {
             "name": "Annotation Punctuation",
@@ -143,26 +145,22 @@
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation.separator, punctuation.terminator",
+            "scope": "punctuation.separator",
             "foreground": "black",
-            // "font_style": "italic"
+            "font_style": "",
         },
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator",
             "foreground": "black",
-            "font_style": "italic"
+            "font_style": ""
 
         },
+
         {
             "name": "Accessor",
             "scope": "punctuation.accessor",
-            "foreground": "aqua"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "aqua",
+            "foreground": "black"
         },
 
         {
@@ -170,34 +168,78 @@
             "scope": "string",
             "background": "var(focus)",
             "foreground": "var(value)",
-            // "foreground": "#FF2200",
-            // "font_style": "bold",
             "font_style": "",
+        },
+        {
+            "name": "Unquoted String",
+            "scope": "string.unquoted",
+            "background": "var(backg)",
         },
         {
             "name": "JSON String",
             "scope": "meta.structure.dictionary.json, string.quoted.double.json",
             "background": "var(backg)",
-            // "background": "",
         },
+        // {
+        //     "name": "JSON String in HTML",
+        //     "scope": "meta.structure.dictionary.json.html, string.quoted.double.json.html",
+        //     "background": "var(backg)",
+        // },
+        
         {
             "name": "Number",
             "scope": "constant.numeric",
             "foreground": "var(value)",
-            "font_style": "italic",
+            // "font_style": "italic",
+            "font_style": "",
         },
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comment)",
-            "font_style": "italic",
+            // "line_highlight": "var(backg)",
+            // "font_style": "italic",
+            // "font_style": "bold",
         },
+
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "aqua",
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(purple)",
+            "font_style": "italic"
+        },
+
+        // {
+        //     "name": "Brackets Curly",
+        //     "scope": "meta.block, punctuation.section.block.begin, punctuation.section.block.end, meta.braces, punctuation.section.braces.begin, punctuation.section.braces.end",
+        //     "foreground": "black",
+        //     "font_style": "bold",
+        // },
 
         {
             "name": "Keyword",
             "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word",
-            // "foreground": ""
-            "font_style": "bold italic",
+            "foreground": "var(value)",
+            "font_style": "bold",
+        },
+
+        {
+            "name": "Keyword HTML",
+            "scope": "keyword - (keyword.operator)",
+            "foreground": "var(value)",
+            // "font_style": "bold italic",
+        },
+
+
+        {
+            "name": "markup headings",
+            "scope": "markup.heading, punctuation.definition.heading",
+            "foreground": "aqua"
         },
 
 
@@ -205,30 +247,27 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "red"
+            "foreground": "var(value)"
         },
 
         {
             "name": "Library function",
             "scope": "support.function, support.macro",
             "foreground": "var(value)",
-            "font_style": "italic",
-            // "font_style": "",
+            // "font_style": "italic",
+            "font_style": "",
         },
         {
             "name": "Library constant",
             "scope": "support.constant",
             "foreground": "var(value)",
-            "font_style": "italic",
-            // "font_style": "",
+            // "font_style": "italic",
+            "font_style": "",
         },
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            // "foreground": "white",
-            // "foreground": "#FFA995",
-            // "foreground": "yellow",
-            "foreground": "blue",
+            "foreground": "var(purple)",
             "font_style": "italic",
         },
 
@@ -252,14 +291,16 @@
         {
             "name": "diff.inserted",
             "scope": "markup.inserted",
+            // "foreground": "limegreen",
             // "foreground": "hsl(80, 76%, 53%)",
-            "foreground": "#00ff00"
+            "foreground": "hsl(80, 100%, 53%)",
         },
         {
             "name": "diff.changed",
             "scope": "markup.changed",
+            // "foreground": "orange",
             // "foreground": "hsl(54, 70%, 68%)",
-            "foreground": "#FF9400"
+            "foreground": "hsl(54, 100%, 68%)",
         },
 
 
@@ -294,8 +335,9 @@
         {
             "name": "Markup DOCTYPE",
             "scope": "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string",
-            // "foreground": ""
-            "font_style": ""
+            "foreground": "black",
+            // "background": "",
+            // "font_style": "",
 
         },
 

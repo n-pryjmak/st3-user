@@ -1,0 +1,896 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-radius",
+				"border-top-left-radius\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"bakgro",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 5827,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"swap_line_up",
+					null,
+					"AgAAAIcAAAAAAAAAhwAAAAAAAAA1AAAAICAgIHsgImtleXMiOiBbImFsdCsnIl0sICJjb21tYW5kIjogInRvZ2dsZV90YWJzIiB9LApMAAAAAAAAAIEAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC0AAAAAAAAALQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAADsAAAAAAAAAPAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7AAAAAAAAADsAAAAAAAAA////////738"
+				],
+				[
+					17,
+					1,
+					"left_delete",
+					null,
+					"AQAAADsAAAAAAAAAOwAAAAAAAAABAAAACg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"AwAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"reindent",
+					null,
+					"AQAAAD0AAAAAAAAAQQAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA9AAAAAAAAAD0AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					27,
+					1,
+					"paste",
+					null,
+					"AQAAAEEAAAAAAAAAaAEAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABBAAAAAAAAAEEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEEAAAAAAAAAQQAAAAAAAAAEAAAAICAgIA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABFAAAAAAAAAEUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "\n//"
+					},
+					"AwAAADwAAAAAAAAAPQAAAAAAAAAAAAAAPQAAAAAAAAA+AAAAAAAAAAAAAAA+AAAAAAAAAD8AAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAAPUA"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": " Tab"
+					},
+					"BAAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAABBAAAAAAAAAEIAAAAAAAAAAAAAAEIAAAAAAAAAQwAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "s'"
+					},
+					"AgAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDAAAAAAAAAEMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": " s"
+					},
+					"AgAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABFAAAAAAAAAEUAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "witch"
+					},
+					"BQAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABHAAAAAAAAAEcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					4,
+					"left_delete",
+					null,
+					"EAAAAC8BAAAAAAAALwEAAAAAAAABAAAAbPYAAAAAAAAA9gAAAAAAAAABAAAAbJsAAAAAAAAAmwAAAAAAAAABAAAAbGAAAAAAAAAAYAAAAAAAAAABAAAAbCsBAAAAAAAAKwEAAAAAAAABAAAAcvMAAAAAAAAA8wAAAAAAAAABAAAAcpkAAAAAAAAAmQAAAAAAAAABAAAAcl8AAAAAAAAAXwAAAAAAAAABAAAAcicBAAAAAAAAJwEAAAAAAAABAAAAdPAAAAAAAAAA8AAAAAAAAAABAAAAdJcAAAAAAAAAlwAAAAAAAAABAAAAdF4AAAAAAAAAXgAAAAAAAAABAAAAdCMBAAAAAAAAIwEAAAAAAAABAAAAY+0AAAAAAAAA7QAAAAAAAAABAAAAY5UAAAAAAAAAlQAAAAAAAAABAAAAY10AAAAAAAAAXQAAAAAAAAABAAAAYw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABhAAAAAAAAAGEAAAAAAAAAAAAAAAAA8L+cAAAAAAAAAJwAAAAAAAAAAAAAAAAA8L/3AAAAAAAAAPcAAAAAAAAAAAAAAAAA8L8wAQAAAAAAADABAAAAAAAAAAAAAADgYUA"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "alt"
+					},
+					"DAAAACABAAAAAAAAIQEAAAAAAAAAAAAA6wAAAAAAAADsAAAAAAAAAAAAAACUAAAAAAAAAJUAAAAAAAAAAAAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAADuAAAAAAAAAO8AAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAAAoAQAAAAAAACkBAAAAAAAAAAAAAPEAAAAAAAAA8gAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAABfAAAAAAAAAGAAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAQAAABdAAAAAAAAAF0AAAAAAAAAAAAAAAAA8L+UAAAAAAAAAJQAAAAAAAAAAAAAAAAA8L/rAAAAAAAAAOsAAAAAAAAAAAAAAAAA8L8gAQAAAAAAACABAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 3287,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n\n\n"
+					},
+					"DgAAAI0IAAAAAAAAjggAAAAAAAAAAAAAjggAAAAAAACPCAAAAAAAAAAAAACPCAAAAAAAAJAIAAAAAAAAAAAAAJAIAAAAAAAAkQgAAAAAAAAAAAAAjggAAAAAAACOCAAAAAAAAAEAAAAJkAgAAAAAAACRCAAAAAAAAAAAAACRCAAAAAAAAJIIAAAAAAAAAAAAAI8IAAAAAAAAjwgAAAAAAAABAAAACZEIAAAAAAAAkggAAAAAAAAAAAAAkggAAAAAAACTCAAAAAAAAAAAAACQCAAAAAAAAJAIAAAAAAAAAQAAAAmSCAAAAAAAAJMIAAAAAAAAAAAAAJMIAAAAAAAAlAgAAAAAAAAAAAAAkQgAAAAAAACRCAAAAAAAAAEAAAAJ",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACNCAAAAAAAAI0IAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AQAAAJMIAAAAAAAAWwkAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACTCAAAAAAAAJMIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "g"
+					},
+					"AgAAABsJAAAAAAAAHAkAAAAAAAAAAAAAHAkAAAAAAAAcCQAAAAAAAAUAAABmYWxzZQ",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgCQAAAAAAABsJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					17,
+					1,
+					"left_delete",
+					null,
+					"AQAAABsJAAAAAAAAGwkAAAAAAAABAAAAZw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcCQAAAAAAABwJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "true"
+					},
+					"BAAAABsJAAAAAAAAHAkAAAAAAAAAAAAAHAkAAAAAAAAdCQAAAAAAAAAAAAAdCQAAAAAAAB4JAAAAAAAAAAAAAB4JAAAAAAAAHwkAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbCQAAAAAAABsJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "true"
+					},
+					"BQAAADQJAAAAAAAANQkAAAAAAAAAAAAANQkAAAAAAAA1CQAAAAAAAAUAAABmYWxzZTUJAAAAAAAANgkAAAAAAAAAAAAANgkAAAAAAAA3CQAAAAAAAAAAAAA3CQAAAAAAADgJAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5CQAAAAAAADQJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "true"
+					},
+					"BQAAAFMJAAAAAAAAVAkAAAAAAAAAAAAAVAkAAAAAAABUCQAAAAAAAAUAAABmYWxzZVQJAAAAAAAAVQkAAAAAAAAAAAAAVQkAAAAAAABWCQAAAAAAAAAAAABWCQAAAAAAAFcJAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABTCQAAAAAAAFgJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					47,
+					2,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AgAAACIJAAAAAAAAJQkAAAAAAAAAAAAAIgkAAAAAAAAiCQAAAAAAAAMAAAAvLyA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5CQAAAAAAADkJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAAAkJAAAAAAAADAkAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgCQAAAAAAACAJAAAAAAAAAAAAAAAgaEA"
+				],
+				[
+					58,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AQAAACUJAAAAAAAAKAkAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA8CQAAAAAAADwJAAAAAAAAAAAAAABAb0A"
+				],
+				[
+					64,
+					2,
+					"left_delete",
+					null,
+					"AgAAAI8IAAAAAAAAjwgAAAAAAADPAAAACgoKCS8vIFRoZXNlIHNldHRpbmdzIGhpZGUgdmFyaW91cyBwYXJ0cyBvZiB0aGUgVUkgYXV0b21hdGljYWxseSB3aGVuIHR5cGluZy4KCS8vIE1vdmluZyB0aGUgbW91c2Ugd2lsbCBzaG93IHRoZW0gYWdhaW4uCgkvLyAiYXV0b19oaWRlX21lbnUiOiB0cnVlLAoJLy8gImF1dG9faGlkZV90YWJzIjogdHJ1ZSwKCSJhdXRvX2hpZGVfc3RhdHVzX2JhciI6IHRydWUsjggAAAAAAACOCAAAAAAAAAEAAAAK",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABeCQAAAAAAAI8IAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"me ccs",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"theme",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"p i",
+				"Package Control: Install Package"
+			],
+			[
+				"res",
+				"Color Highlight: Reset"
+			],
+			[
+				"vi",
+				"View Package File"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"view ",
+				"View Package File"
+			],
+			[
+				"openfile",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"lp",
+				"Package Control: List Packages"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"shell",
+				"Terminus: List Shells"
+			],
+			[
+				"rese",
+				"Color Highlight: Reset"
+			],
+			[
+				"v",
+				"View Package File"
+			],
+			[
+				"vp",
+				"View Package File"
+			],
+			[
+				"mde: ",
+				"MarkdownEditing: Open Journal"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"she",
+				"Terminus: List Shells"
+			],
+			[
+				"shells",
+				"Terminus: List Shells"
+			],
+			[
+				"vp\t",
+				"View Package File"
+			],
+			[
+				"ui:",
+				"UI: Select Color Scheme"
+			],
+			[
+				"termi",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"lshells",
+				"Terminus: List Shells"
+			],
+			[
+				"the",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"ttheme",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"them",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"terminus",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"pc: disc p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"rp",
+				"Package Control: Remove Package"
+			],
+			[
+				"me: color",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"lp\\",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				" ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set ",
+				"Set Syntax: JSON"
+			],
+			[
+				"color hi",
+				"Color Highlight: Disable Color Highlighting"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"RP",
+				"Package Control: Remove Package"
+			],
+			[
+				"reset",
+				"Color Highlight: Reset"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"hi",
+				"Color Highlight: Reset"
+			],
+			[
+				"high",
+				"Color Highlight: Reset"
+			],
+			[
+				"UI",
+				"UI: Select Theme"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"Color Highlight: Reset"
+			],
+			[
+				"co",
+				"Color Highlight: Reset"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"UI:",
+				"UI: Select Color Scheme"
+			],
+			[
+				"tthe",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"which convert"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Projects/digital real estate/SEO/TODOs/TODO.txt",
+		"/D/www/n-pryjmak.github.io/docs/index.html",
+		"/D/www/n-pryjmak.github.io/my_website.sublime-project",
+		"/D/www/n-pryjmak.github.io.sublime-project",
+		"/D/www/zanark-seo/docs/index.html",
+		"/D/www/zanarklex.github.io/docs/index.html",
+		"/D/www/n-pryjmak.github.io/docs/assets/stylesheets/test.css",
+		"/D/www/temp/RayPeat.com/assets/stylesheets/typography.css",
+		"/D/www/temp/RayPeat.com/assets/stylesheets/grid.css",
+		"/D/www/temp/RayPeat.com/index.html",
+		"/D/www/n-pryjmak.github.io/docs/hsray.jpg",
+		"/D/www/n-pryjmak.github.io/.git/config",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight.sublime-color-scheme",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight - Blue.sublime-color-scheme",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight - Green.sublime-color-scheme",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight - Pink.sublime-color-scheme",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight - Purple.sublime-color-scheme",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
+		"/C/Program Files/Git/etc/ssh/ssh_config",
+		"/C/Users/nazar/.ssh/config",
+		"/D/www/test/.git/COMMIT_EDITMSG",
+		"/D/Projects/[Notes]/[Git]/base file.txt",
+		"/D/Projects/temp/health advisor/README.md",
+		"/D/www/n-pryjmak.github.io/index.html",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/LiveReload.sublime-settings",
+		"/C/Program Files/Git/etc/ssh/sshd_config",
+		"/C/Program Files/Git/etc/ssh/moduli",
+		"/D/www/test/.git/config",
+		"/C/Users/nazar/.ssh/id_rsa_zanark.pub",
+		"/C/Users/nazar/.ssh/id_rsa_zanark",
+		"/C/Users/nazar/.gitconfig",
+		"/D/www/zanarklex.github.io/index.html",
+		"/D/Projects/Personal BLOG (Nazar Pryimak - Personal Grouth)/ideas/draft.txt",
+		"/D/www/jekyll-test-website/_site/index.html",
+		"/D/www/jekyll-test-website/404.html",
+		"/D/www/zanarklex.github.io/[A[Bid_rsa_zanarklex",
+		"/D/www/zanarklex.github.io/[A[Bid_rsa_zanarklex.pub",
+		"/C/Users/nazar/.git-for-windows-updater",
+		"/D/Projects/digital-real-estate-Git/CEO/Local CEO & GMB.txt",
+		"/D/Projects/LeadGen Projects/ex/Blinds installation [city name]/keywords 001.txt",
+		"/D/www/Styles Conference - @ Pryjmak/index.html",
+		"/D/www/Styles Conference - @ Pryjmak/assets/stylesheets/grid.css",
+		"/D/Projects/[Notes]/2021-04-06.md",
+		"/D/Projects/[Notes]/LeadGen.md",
+		"/D/Projects/LeadGen Projects/ex/Blinds installation [city name]/temp.txt",
+		"/D/Projects/[Notes]/CEO_v3.md",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Markdown.sublime-settings",
+		"/D/www/n-pryjmak.github.io/assets/stylesheets/_grid.css",
+		"/D/www/n-pryjmak.github.io/test.html",
+		"/D/www/n-pryjmak.github.io/assets/stylesheets/grid.css",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/MarkdownEditing/samples/GFM.md",
+		"/D/Projects/[Notes]/2021-02-20.md",
+		"/D/Projects/[Notes]/HomePage.md",
+		"/D/Projects/[Notes]/2021-02-19.md",
+		"/D/www/n-pryjmak.github.io/google77d206d8918f8d9f.html",
+		"/D/www/n-pryjmak.github.io/new.html",
+		"/D/www/n-pryjmak.github.io/index - Copy.html",
+		"/D/www/n-pryjmak.github.io/2021-02-14.md",
+		"/D/www/jekyll-test-website/_config.yml",
+		"/D/www/n-pryjmak.github.io/readme.txt",
+		"/D/Google Drive/[Desctops]/Work/sample.txt",
+		"/D/Google Drive/[Desctops]/Work/2021-02-14.md",
+		"/D/www/n-pryjmak.github.io/2021-02-09.md",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/RGB Moonlight.sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/Package Control/Package Control.py",
+		"/D/www/n-pryjmak.github.io/HomePage.md",
+		"/D/www/n-pryjmak.github.io/.index.html.swp",
+		"/D/Google Drive/[Desctops]/Work/god_explaned.txt",
+		"/D/www/jekyll-test-website/Gemfile",
+		"/D/www/jekyll-test-website/_site/404.html",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/www/n-pryjmak.github.io/readme.md",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/index.html",
+		"/D/Google Drive/[Desctops]/Work/sample.custom",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Mariana - Copy.custom",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Moonlight - Copy.custom",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Mariana.sublime-color-scheme_",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Pryjmak_Night.sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Mac Classic - Copy.custom",
+		"/c/users/nazar/appdata/local/temp/Clearfix.css",
+		"/c/users/nazar/appdata/local/temp/Бенчмаркинг.js",
+		"/c/users/nazar/appdata/local/temp/Подсветкаячейки таблицы.js",
+		"/c/users/nazar/appdata/local/temp/sample.html",
+		"/c/users/nazar/appdata/local/temp/index.html",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/Gist/Gist.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Gist.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Pryjmak_Day - Copy.custom",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Pryjmak_Day.sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Pryjmak_Night - Copy.custom",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/MagicWB (Amiga).tmTheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/temp.tmTheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/MarkdownEditor-Dark_NEW.tmTheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/MyScheme.sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/MyScheme (backup).sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Pryjmak_Night - Copy.sublime-color-scheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/Mac Classic (backup).tmTheme",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/MarkdownEditing/MarkdownEditor.tmTheme.chback",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlight.sublime-settings",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/Color Highlighter/themes/MagicWB (Amiga) rebuild.tmTheme",
+		"/D/www/n-pryjmak.github.io/assets/stylesheets/typography.css",
+		"/C/Users/nazar/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/MarkdownEditing/Default (Windows).sublime-keymap",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/Color Highlight/Color Highlight.sublime-settings",
+		"/D/www/n-pryjmak.github.io/assets/stylesheets/test.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/perfect-pixel/layout.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/css/main.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default — 20-46/assets/pixel-glass-js-master/script.js",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default — 20-46/assets/pixel-glass-js-master/styles.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default — 20-46/index.html",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/js/main.js",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/css/base/bootstrap-grid.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/css/base/grid-v2.css",
+		"/D/Google Drive/Projects/Web-development/Frontend/Projects/01 Home Page Default/assets/img/makets/01 Home Page Default.png",
+		"/D/www/Styles Conference - @ Shay Howe/assets/stylesheets/main.css",
+		"/D/www/Styles Conference - @ Shay Howe/index.html",
+		"/D/Google Drive/FREE SPACE (MMD & CFL)/Programing/WEB/Front-end/Gulp (таск-менеджер)/Примеры использования.js",
+		"/D/www/Styles Conference/assets/stylesheets/main.css",
+		"/D/www/Styles Conference/index.html",
+		"/D/www/n-pryjmak.github.io/dist/index.html",
+		"/D/www/n-pryjmak.github.io/dist/assets/stylesheets/typography.css",
+		"/D/www/n-pryjmak.github.io/dist/assets/stylesheets/grid.css",
+		"/D/System/Program Files/Sublime Text Build 3211 x64/Data/Packages/User/ColorHighlighter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.4
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctrl+pageup",
+			"alt+pageup",
+			"tab",
+			"switch_",
+			"switch",
+			"switch_",
+			"line_numbers"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Default (Windows).sublime-keymap",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"edit_settings_other_view_id": 561,
+							"edit_settings_view": "user",
+							"gutter": true,
+							"line_numbers": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "Preferences.sublime-settings",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"edit_settings_other_view_id": 547,
+							"edit_settings_view": "user",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.4
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.471089122767,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.Terminus":
+	{
+		"height": 124.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 366.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 215.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 315.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 286.0
+	},
+	"pinned_build_system": "",
+	"project": "All Prefs.sublime-project",
+	"replace":
+	{
+		"height": 49.6
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"grid",
+				"Styles Conference - @ Pryjmak\\assets\\stylesheets\\grid.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 280.2,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,8 @@
+// These settings override both User and Default settings for the HTML syntax
+{
+	// "color_scheme": "Packages/User/Color Highlighter/themes/RGB Moonlight - HTML_Night.sublime-color-scheme",
+	// "color_scheme": "Packages/User/Color Highlighter/themes/Mariana.sublime-color-scheme",
+	// "color_scheme": "Packages/User/Color Highlighter/themes/RGB Moonlight - HTML_Day.sublime-color-scheme",
+
+	// "font_face": "Courier New",
+}
