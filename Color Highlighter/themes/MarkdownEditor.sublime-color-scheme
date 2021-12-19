@@ -70,12 +70,9 @@
     {
         "foreground": "var(foreg)",
         // "background": "var(backg)",
-        // "background": "#969696",
-        // "background": "#AAAAAA",
-        // "background": "#000000",
-        // "line_highlight": "var(backg)",
-        // "line_highlight": "var(focus_line)",
-
+        "line_highlight": "var(focus_line)",
+        "caret": "#FFFF66",
+        "caret": "purple",
         "block_caret": "aqua",
         // "invisibles": "",
         // "selection": "color(var(light) alpha(0.3))",

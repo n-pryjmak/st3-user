@@ -124,7 +124,7 @@
         // "background": "#000000",
         // "line_highlight": "var(backg)",
         "line_highlight": "var(focus_line)",
-        "caret": "#FFFF66",
+        // "caret": "#FFFF66",
         "caret": "purple",
         "block_caret": "aqua",
         // "invisibles": "",
