@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "author": "Nazar Pryjmak",
+    "variables":
+    {},
+
+    "globals":
+    {},
+
+    "rules":
+    [
+        {
+            "name": "Plain Text",
+            "scope": "text.plain",
+            "background": "hsl(70, 8%, 15%)",
+            "foreground": "hsl(60, 30%, 96%)",
+            "foreground": "hsl(54, 70%, 68%)",
+            // "font_style": "bold",
+        },
+    ]
+}

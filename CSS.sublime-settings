@@ -3,5 +3,13 @@
 	
 	// "font_face": "Monospace",
 	"font_size": 10,
+
+
+	// LAYOUT
+"rulers": [
+	-0.2, 70,
+],
+	"wrap_width": 70,
+	   
 }
 

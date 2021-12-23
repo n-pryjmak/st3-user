@@ -127,7 +127,7 @@
         // "caret": "#FFFF66",
         "caret": "purple",
         "block_caret": "aqua",
-        // "invisibles": "",
+        // "invisibles": "color(var(white3) alpha(0.35))",
         // "selection": "color(var(light) alpha(0.3))",
         "selection": "var(light)",
         "selection_border": "var(selection_border)",
@@ -168,8 +168,9 @@
         {
             "name": "Plain Text",
             "scope": "text.plain",
-            // "foreground": "",
-            // "background": "",
+            "foreground": "hsl(54, 70%, 68%)",
+            "foreground": "hsl(60, 30%, 96%)",
+            "background": "hsl(70, 8%, 15%)",
             // "font_style": "bold",
         },
 
@@ -342,6 +343,10 @@
         {
             "name": "JSON String",
             "scope": "meta.structure.dictionary.json, string.quoted.double.json",
+            // "foreground": "var(tag)",
+            "foreground": "hsl(121, 100%, 35%)",
+            "foreground": "hsl(122, 94%, 21%)",
+            "foreground": "hsl(121, 70%, 34%)",
             "background": "var(backg)",
         },
         
@@ -430,9 +435,11 @@
 
 // source.js meta.group.js meta.function.js meta.block.js meta.conditional.js meta.block.js meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.conditional.js constant.language.boolean.false.js
 
+// constant.language.boolean.json
+
         {    
             "name": "Boolean Constant",
-            "scope": "constant.language.boolean.true.js, constant.language.boolean.false.js",
+            "scope": "constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.boolean.json",
             "foreground": "var(const)",
             "font_style": "bold",
         },
@@ -469,12 +476,6 @@
             // "font_style": "",
         },
 
-        {
-            // "name": "JSON String",
-            // "scope": "meta.structure.dictionary.json, string.quoted.double.json",
-            // "background": "var(backg)",
-        },
-        
         {
             // "name": "Number JS",
             // "scope": "constant.numeric.value.js",
@@ -525,8 +526,64 @@
             // "font_style": "",
         },
 
+// Git
 
 
+// text.git.commit meta.subject.git.commit markup.heading.subject.git.commit
+// text.git.commit comment.line.git.commit
+// text.git.commit comment.line.git.commit constant.language.branch-name.git.commit
+// text.git.commit comment.line.git.commit markup.heading.on-branch.git.commit
+// text.git.commit comment.line.git.commit markup.heading.git.commit
+// text.git.commit comment.line.git.commit meta.change-list.git.commit
+//                             string.unquoted.git.commit markup.changed.file.content.git.commit
+
+        {
+            "name": "Commit Name",
+            "scope": "markup.heading.subject.git.commit",
+            "foreground": "var(foreg)",
+            "font_style": "bold",
+            // "background": "",
+        },
+
+        {
+            "name": "Branch Name",
+            "scope": "constant.language.branch-name.git.commit",
+            // "foreground": "var(foreg)",
+            "font_style": "bold",
+            // "background": "",
+        },
+
+        {
+            // "name": "",
+            "scope": "markup.heading.on-branch.git.commit, markup.heading.git.commit",
+            "foreground": "var(comment)",
+            // "font_style": "bold",
+            // "background": "",
+        },
+
+        {
+            "name": "Keywords",
+            "scope": "keyword.other.change-list.git.commit",
+            "foreground": "var(comment)",
+            "font_style": "bold",
+            // "background": "",
+        },
+
+        {
+            "name": "Changed File",
+            "scope": "markup.changed.file.content.git.commit",
+            "foreground": "var(value)",
+            "font_style": "italic",
+            // "background": "",
+        },
+
+        {
+            "name": "String",
+            "scope": "string.unquoted.git.commit",
+            // "foreground": "lime",
+            // "font_style": "bold",
+            // "background": "",
+        },
 
 
 // OTHERS

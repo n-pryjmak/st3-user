@@ -1,0 +1,138 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+   "variables":
+   {
+   },
+   "rules":
+   [
+
+
+
+      {
+         "class": "sidebar_label",
+         // "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+         // "parents": [{"class": "tree_row"}],
+         "settings": ["bold_folder_labels"],
+         "font.bold": true
+      },
+
+
+      // Folder & File Icons
+      {
+         "class": "disclosure_button_control",
+         "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
+         // "layer0.tint": "var(shape_tint)",
+         "layer0.tint": "hsl(261, 100%, 50%)",
+         "layer0.opacity": "var(sidebar_button_opacity)",
+         "content_margin": [8, 8]
+      },
+      {
+         "class": "disclosure_button_control",
+         "attributes": ["expanded"],
+         "layer0.texture": "Theme - Default/common/disclosure_expanded.png",
+      },
+      {
+         "class": "disclosure_button_control",
+         "attributes": ["hover"],
+         "layer0.opacity": "var(sidebar_button_hover_opacity)",
+      },
+
+
+      {
+         "class": "icon_folder",
+         // "layer0.texture": "Theme - Default/common/folder_closed.png",
+         // "layer0.tint": "var(icon_tint)",
+         // "layer0.tint": "lime",
+         // "layer0.opacity": 0.3,
+         "layer0.opacity": 0,
+         // "content_margin": [9, 8],
+         "content_margin": [0, 8],
+         "content_margin": [-2, 8],
+      },
+      {
+         "class": "icon_folder",
+         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+         // "layer0.texture": "Theme - Default/common/folder_open.png",
+      },
+
+
+      {
+         "class": "icon_file_type",
+         "layer0.tint": "var(icon_tint)",
+         // "layer0.opacity": 0.5,
+         "layer0.opacity": 0,
+         // "content_margin": [9, 8]
+         "content_margin": [-2, 8]
+      },
+
+
+
+
+
+      {
+         "class": "vcs_status_badge",
+         "content_margin": 6,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+         "layer0.texture": "Theme - Default/common/status_untracked.png",
+         "layer0.tint": "var(vcs_untracked)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+         "layer0.texture": "Theme - Default/common/status_modified.png",
+         // "layer0.tint": "var(vcs_modified)",
+         "layer0.tint": "skyblue",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+         "layer0.texture": "Theme - Default/common/status_modified.png",
+         "layer0.tint": "var(vcs_missing)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+         "layer0.texture": "Theme - Default/common/status_staged.png",
+         // "layer0.tint": "var(vcs_staged)",
+         "layer0.tint": "hsl(121, 100%, 35%)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+         "layer0.texture": "Theme - Default/common/status_staged.png",
+         "layer0.tint": "var(vcs_added)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+         "layer0.texture": "Theme - Default/common/status_staged.png",
+         "layer0.tint": "var(vcs_deleted)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+         "layer0.texture": "Theme - Default/common/status_unmerged.png",
+         "layer0.tint": "var(vcs_unmerged)",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "vcs_status_badge",
+         "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+         "content_margin": 0,
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+         "color": "var(sidebar_label_ignored)"
+      },
+   ]
+}

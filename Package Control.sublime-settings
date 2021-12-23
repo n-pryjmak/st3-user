@@ -17,8 +17,9 @@
 		"HTML-CSS-JS Prettify",
 		"LiveReload",
 		"MarkdownEditing",
+		"MarkdownPreview",
 		"Package Control",
 		"SideBarEnhancements",
-		"Terminus"
+		"Terminus",
 	],
 }

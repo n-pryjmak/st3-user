@@ -3,17 +3,26 @@
 // ------------------------------------------ // NATIVE
 
     { "keys": ["alt+s"], "command": "wrap_lines" }, // ?
-   	{ "keys": ["ctrl+shift+c"], "command": "close" },
     { "keys": ["alt+e"], "command": "reindent" },
 
+   	{ "keys": ["ctrl+shift+c"], "command": "close" },
+    { "keys": ["ctrl+shift+x"], "command": "close_window" },
+
 // Toggle
-    { "keys": ["alt+q"], "command": "toggle_tabs" },
+    { "keys": ["alt+;"], "command": "toggle_tabs" },
     { "keys": ["alt+'"], "command": "toggle_status_bar" },
     { "keys": ["ctrl+k", "ctrl+m",], "command": "toggle_minimap" },
 
+    // Distraction free MODE
+    { "keys": ["alt+q"], "command": "toggle_distraction_free" },
+    // { "keys": ["f11"], "command": "toggle_full_screen" },
+
 // Toggle Setting
-    { "keys": ["ctrl+w"], "command": "toggle_setting",
+    { "keys": ["alt+w"], "command": "toggle_setting",
       "args": {"setting": "word_wrap"},
+    },
+    { "keys": ["alt+x"], "command": "toggle_setting",
+      "args": {"setting": "draw_centered"},
     },
 
     { "keys": ["ctrl+k", "ctrl+n"], "command": "toggle_setting",
@@ -21,6 +30,12 @@
     },
     { "keys": ["ctrl+k", "ctrl+k", "ctrl+n"], "command": "toggle_setting",
       "args": {"setting": "gutter"},
+    },
+
+
+// Key combination make free
+    { "keys": ["ctrl+w"], "command": "toggle_whole_word", "context":
+        [{"key": "panel_type", "operand": "find"}, {"key": "panel_has_focus"}],
     },
 // ------------------------------------------
 

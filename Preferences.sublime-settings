@@ -19,7 +19,7 @@
 	// "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
 	// "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
 	// "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-	"color_scheme": "RGB Moonlight.sublime-color-scheme",
+	"color_scheme": "RGB_Moonlight.sublime-color-scheme",
 		"show_legacy_color_schemes": true,
 
 	"theme": "Adaptive.sublime-theme",
@@ -38,11 +38,16 @@
 
 
 // LAYOUT
-"rulers": [],
-	// "draw_centered": true,
+"rulers": [
+	-0.2, 90,
+	],
+	"draw_centered": true,
 
-	"word_wrap": false,
-	// "wrap_width": 80,
+	// "word_wrap": "auto",
+	"word_wrap": true,
+	     "wrap_width": 90, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+	  // "wrap_width_style": "constant",
+
 
 	// "line_padding_top": 1,
 	// "line_padding_bottom": 1,
@@ -58,15 +63,16 @@
 		"hide_tab_scrolling_buttons": true,
 		"hide_new_tab_button": true,
 
+		// Status_bar
 		"show_sidebar_button": false,
-		// status_bar
 		"show_git_status_in_status_bar": true, // requires the show_git_status setting to be enabled
 		"show_encoding": true,
 		"show_line_endings": true,
 
+		"margin": 0,
+
 	// Gutter
 		"gutter": true,
-		"margin": 0,
 
 		"mini_diff": true,
 
