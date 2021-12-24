@@ -55,13 +55,17 @@
 	// Layout components
 		"highlight_line": true,
 
-		"themed_title_bar": false,
+		// "themed_title_bar": false,
 		"always_show_minimap_viewport": true,
 
 		// "auto_hide_tabs": true,
 		// "reveal_tabs_with_timeout": true,
 		"hide_tab_scrolling_buttons": true,
 		"hide_new_tab_button": true,
+
+
+		// Side bar
+		// "bold_folder_labels": true,
 
 		// Status_bar
 		"show_sidebar_button": false,

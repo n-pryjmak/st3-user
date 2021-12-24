@@ -2,24 +2,133 @@
 {
    "variables":
    {
+
+     "plum": "hsl(300, 77%, 50%)",
+     "khaki": "hsl(54, 70%, 68%)",
    },
    "rules":
    [
+
+
+      {
+         "class": "tree_row",
+         "attributes": ["!hover"],
+         "layer0.opacity": 0.0,
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selectable", "hover"],
+         "layer0.tint": "color(var(khaki) a(0.06))",
+         "layer0.opacity": 1.0,
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selectable", "hover"],
+         "parents": [{"class": "window", "attributes": ["file_medium"]}],
+         "layer0.tint": "color(var(khaki) a(0.08))",
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selectable", "hover"],
+         "parents": [{"class": "window", "attributes": ["file_light"]}],
+         "layer0.tint": "color(var(khaki) a(0.3))",
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selected"],
+         "layer0.tint": "color(var(khaki) a(0.18))",
+         "layer0.opacity": 0.6,
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selected"],
+         "parents": [{"class": "window", "attributes": ["file_medium"]}],
+         "layer0.tint": "color(var(khaki) a(0.16))",
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["selected"],
+         "parents": [{"class": "window", "attributes": ["file_light"]}],
+         "layer0.tint": "color(var(khaki) a(0.5))",
+      },
+      {
+         "class": "tree_row",
+         "attributes": ["highlighted"],
+         "layer0.opacity": 1.0,
+      },
+
+
+
+
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row"}],
+         // "font.face": "var(font_face)",
+         // "font.size": "var(font_size)"
+         // "fg": "color(var(--background) blend(white 20%))",
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "window", "attributes": ["file_light"]}],
+         // "fg": "color(var(--background) blend(black 20%))",
+         // "fg": "lime",
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+         // "fg": "white",
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [
+            {"class": "window", "attributes": ["file_light"]},
+            {"class": "tree_row", "attributes": ["selected"]}
+         ],
+         // "fg": "black",
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
+         // "font.italic": true,
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+         // "settings": ["bold_folder_labels"],
+         // "fg": "red",
+         // "fg": "hsl(261, 100%, 50%)",
+         // "fg": "hsl(121, 100%, 35%)",
+         "fg": "hsl(122, 94%, 21%)",
+         "font.bold": true,
+         // "font.italic": true,
+      },
+
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+         // "fg": "hsl(261, 100%, 50%)",
+         "fg": "hsl(216, 76%, 50%)",
+         "font.bold": false,
+         // "font.italic": true,
+      },
+
+
 
       // Folder & File Icons
       {
          "class": "disclosure_button_control",
          // "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
          // "layer0.tint": "white",
-         // "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
-         // "content_margin": [8, 8]
+         // "layer0.opacity": { "target": 1, "speed": 4.0, "interpolation": "smoothstep" },
+         "layer0.opacity": { "target": 0, "speed": 4.0, "interpolation": "smoothstep" },
+         // "content_margin": [8, 8],
+         "content_margin": [0, 0],
       },
       {
          "class": "disclosure_button_control",
          // "parents": [{"class": "window", "attributes": ["file_light"]}],
          // "layer0.tint": "black",
-         // "layer0.tint": "blue",
-         "layer0.tint": "hsl(261, 100%, 50%)",
+         "layer0.tint": "hsl(261, 100%, 75%)",
       },
 
       {
@@ -30,7 +139,8 @@
       {
          "class": "disclosure_button_control",
          "attributes": ["hover"],
-         "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+         // "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+         "layer0.opacity": { "target": 0, "speed": 4.0, "interpolation": "smoothstep" },
       },
 
       {
