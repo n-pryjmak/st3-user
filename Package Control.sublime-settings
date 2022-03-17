@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"ActualVim",
 		"auto-save",
 		"AutoFileName",
+		"Chain of Command",
 		"Chromeless",
 		"Color Highlight",
 		"ColorPicker",

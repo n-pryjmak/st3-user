@@ -1,6 +1,6 @@
 // These settings override both User and Default settings for the XML syntax
 {
    // "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-   "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+   // "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
 
 }

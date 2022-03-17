@@ -1,12 +1,6 @@
 {
-	"256color": false,
+
 	"debug": false,
-	"default_config":
-	{
-		"linux": null,
-		"osx": null,
-		"windows": "WSL Login Shell"
-	},
 	"max_columns": 500,
 	"min_columns": 20,
 	"natural_keyboard": true,
@@ -14,110 +8,69 @@
 	[
 	],
 	"scrollback_history_size": 10000,
-	"shell_configs":
-	[
+
+
+	"default_config":
+	{
+		"linux": null,
+		"osx": null,
+		"windows": "WSL Login Shell"
+	},
+
+	// a list of available shells to execute
+	"shell_configs": [
 		{
-			"cmd":
-			[
-				"bash",
-				"-i",
-				"-l"
-			],
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Bash",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+		   "name": "Bash",
+		   "cmd": ["bash", "-i", "-l"],
+		   "env": {},
+		   "enable": true,
+		   "platforms": ["linux", "osx"]
 		},
 		{
-			"cmd":
-			[
-				"zsh",
-				"-i",
-				"-l"
-			],
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Zsh",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+		   "name": "Zsh",
+		   "cmd": ["zsh", "-i", "-l"],
+		   "env": {},
+		   "enable": false,
+		   "platforms": ["linux", "osx"]
 		},
 		{
-			"cmd": "cmd.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Command Prompt",
-			"platforms":
-			[
-				"windows"
-			]
+		   "name": "Command Prompt",
+		   "cmd": "cmd.exe",
+		   "env": {},
+		   "enable": true,
+		   "platforms": ["windows"]
 		},
 		{
-			"cmd": "pwsh.exe",
-			"enable": false,
-			"env":
-			{
-			},
-			"name": "PowerShell Core",
-			"platforms":
-			[
-				"windows"
-			]
+		   "name": "PowerShell Core",
+		   "cmd": "pwsh.exe",
+		   "env": {},
+		   "enable": false,
+		   "platforms": ["windows"]
 		},
 		{
-			"cmd": "powershell.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "PowerShell",
-			"platforms":
-			[
-				"windows"
-			]
+		   "name": "PowerShell",
+		   "cmd": "powershell.exe",
+		   "env": {},
+		   "enable": true,
+		   "platforms": ["windows"]
 		},
 		{
-			"cmd":
-			[
-				"cmd.exe",
-				"/k",
-				"%CMDER_ROOT%\\vendor\\init.bat"
-			],
-			"enable": false,
-			"env":
-			{
-			},
-			"name": "Cmder",
-			"platforms":
-			[
-				"windows"
-			]
+		   "name": "Cmder",
+		   "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
+		   "env": {},
+		   "enable": false,
+		   "platforms": ["windows"]
 		},
 		{
-			"cmd": "wsl.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "WSL Login Shell",
-			"platforms":
-			[
-				"windows"
-			]
+		   "name": "WSL Login Shell",
+		   "cmd": "wsl.exe",
+		   "env": {},
+		   "enable": true,
+		   "platforms": ["windows"]
 		}
 	],
+
+
 	"theme": "solarized-dark-higher-contrast",
 	"unix_lang": "en_US.UTF-8",
 	"unix_term": "linux",

@@ -1,26 +1,35 @@
 {
-	"extensions":
-	[
-		"txt",
-		"own"
-	],
+   "extensions":
+   [
+      "txt",
+      "own",
+      ""
+   ],
 
 
-   "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+   // "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 
-	// "font_face": "Courier New",
-	// "font_face": "Consolas",
-	// "font_face": "Monospace",
-	// "font_size": 10,
+   // "font_face": "Courier New",
+   // "font_face": "Consolas",
+   // "font_face": "Monospace",
+   // "font_size": 10.5,
+
+   "tab_size": 4,
+   // "spell_check": true,
 
 
-	// LAYOUT
+
+// LAYOUT
 "rulers": [
-	-0.2, 100,
-	],
-	"draw_centered": true,
+   -0.2, 155,
+],
+   // "draw_centered": false,
 
-	// "word_wrap": "auto",
-	"word_wrap": true,
-	     "wrap_width": 100, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+   // "word_wrap": true,
+           "wrap_width": 155,
+
+
+
+// Editinig
+   "tab_size": 7,
 }

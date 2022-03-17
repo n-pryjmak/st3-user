@@ -1,8 +1,23 @@
 {
-   // "line_numbers": false,
-   "gutter": true,
+
+
+
+   // LAYOUT
+"rulers": [
+   -0.2, 155,
+],
    // "draw_centered": true,
-   // "wrap_width": 80,
+   "draw_centered": false,
+
    // "word_wrap": true,
+           "wrap_width": 155,
+
+   // "margin": 304,
+
+
+   // Gutter
+   "gutter": true,
+
    // "scroll_past_end": true [default]
+
 }

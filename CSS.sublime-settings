@@ -1,15 +1,21 @@
 // These settings override both User and Default settings for the CSS syntax
 {
 	
+
+	// "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+
+
 	// "font_face": "Monospace",
 	"font_size": 10,
 
 
-	// LAYOUT
-"rulers": [
-	-0.2, 70,
-],
-	"wrap_width": 70,
-	   
+
+
+
+// Layout components
+   // Gutter
+      "margin": 0,
+
+
 }
 

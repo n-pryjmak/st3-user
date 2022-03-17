@@ -2,19 +2,42 @@
     "name": "example",
     "author": "Nazar Pryjmak",
     "variables":
-    {},
+    {
+        "foreg": "hsl(60, 30%, 96%)",
+
+        // "backg": "hsl(0, 0%, 0%)",
+        "backg": "hsl(70, 8%, 15%)",
+    },
 
     "globals":
-    {},
+    {
+        "foreground": "var(foreg)",
+        "background": "var(backg)",
+
+
+        "caret": "#FFFFFF",
+        // "line_highlight": "#00000012",
+        // "invisibles": "#FF38FF",
+        // "selection": "#B1B1B1",
+        // "selection_border": "",
+
+
+        "gutter": "color(var(backg) l(- 3%)",
+
+
+    },
 
     "rules":
     [
         {
             "name": "Plain Text",
             "scope": "text.plain",
-            "background": "hsl(70, 8%, 15%)",
+
+            // "background": "#969696",
             "foreground": "hsl(60, 30%, 96%)",
-            "foreground": "hsl(54, 70%, 68%)",
+            // "foreground": "hsl(54, 70%, 68%)",
+            // "foreground": "#FFA995",
+            // "foreground": "blue",
             // "font_style": "bold",
         },
     ]
