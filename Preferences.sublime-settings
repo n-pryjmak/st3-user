@@ -19,6 +19,8 @@
       "example - Default.md": "Mariana.sublime-color-scheme",
       /*"example - Default.md": "Breakers.sublime-color-scheme",*/
       /*"example - Default.md": "Mariana.sublime-color-scheme",*/
+
+      "c - default color scheme.md": "Monokai.sublime-color-scheme",
    },
 
    // "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
@@ -37,10 +39,13 @@
    // in your User File Preferences.
 
    // "font_face": "Roboto",
-   // "font_face": "Courier New",
-   "font_face": "Monospace",
-   "font_size": 9,
+   // "font_face": "monospace",
+   // "font_face": "Fira Code",
+   "font_face": "monospace",
+   /*"font_face": "monospace",*/
 
+
+   "font_size": 10,
    // "default_syntax": "Markdown",
 
 
@@ -64,15 +69,15 @@
 
 // LAYOUT
 "rulers": [
-   -0.2, 100,
+   -0.2, 120,
    ],
    // "draw_centered": false,
 
 // "word_wrap": "auto",
-   "word_wrap": true,
-        "wrap_width": 100, // wraping borders width (wrap_width) + sets text's extrinsic size to #
-        "wrap_width_style": "constant",
-        // "wrap_width_style": "min",
+   "word_wrap": false,
+        "wrap_width": 120, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+        // "wrap_width_style": "constant",
+        "wrap_width_style": "min",
 
 
    // "line_padding_top": 1,
@@ -134,7 +139,7 @@
    //          selected, otherwise a new view into the file is opened.
    // "select_across_groups": false,
 
-
+   // "scroll_past_end": false,
 
 
 
@@ -183,6 +188,7 @@
    "ignored_packages":
    [
       // "auto-save",
+      "AutoFileName",
       "Gist",
       "Markdown",
       "Vintage",

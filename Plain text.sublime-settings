@@ -11,8 +11,8 @@
 
    // "font_face": "Courier New",
    // "font_face": "Consolas",
-   // "font_face": "Monospace",
    // "font_size": 10.5,
+   "font_face": "monospace",
 
    "tab_size": 4,
    // "spell_check": true,
@@ -21,12 +21,12 @@
 
 // LAYOUT
 "rulers": [
-   -0.2, 155,
+   -0.2, 140,
 ],
    // "draw_centered": false,
 
    // "word_wrap": true,
-           "wrap_width": 155,
+           "wrap_width": 140,
 
 
 

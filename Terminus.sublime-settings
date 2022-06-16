@@ -14,7 +14,7 @@
 	{
 		"linux": null,
 		"osx": null,
-		"windows": "WSL Login Shell"
+		"windows": "Command Prompt"
 	},
 
 	// a list of available shells to execute

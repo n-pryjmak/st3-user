@@ -3,16 +3,25 @@
    "variables":
    {
 
-     "plum": "hsl(300, 77%, 50%)",
-     "khaki": "hsl(54, 70%, 68%)",
-     "theme_color": "hsl(71, 50%, 89%)",
-     // hsl(71, 73%, 84%)
 
-    "backg": "hsl(0, 0%, 97%)",
-    "gutter": "color(var(backg) l(- 3%)",
+      "font_size_sm": 11,
+      "font_size": 12,
+      "font_size_lg": 13,
+      "font_size_title": 24,
+
+      "smaller_screen_font_size": 13,
 
 
-   "blue": "hsl(246, 100%, 50%)",
+      "plum": "hsl(300, 77%, 50%)",
+      "khaki": "hsl(54, 70%, 68%)",
+      "theme_color": "hsl(71, 50%, 89%)",
+      // hsl(71, 73%, 84%)
+
+      "backg": "hsl(0, 0%, 97%)",
+      "gutter": "color(var(backg) l(- 3%)",
+
+
+      "blue": "hsl(246, 100%, 50%)",
 
 
    },
@@ -181,6 +190,7 @@
          // "font.face": "Century",
 
          // "font.size": "var(font_size)"
+         "font.size": "var(smaller_screen_font_size)"
 
          // "fg": "color(var(--background) blend(white 20%))",
       },
