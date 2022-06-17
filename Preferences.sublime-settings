@@ -188,6 +188,7 @@
    "ignored_packages":
    [
       // "auto-save",
+      "ActualVim",
       "AutoFileName",
       "Gist",
       "Markdown",
