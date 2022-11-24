@@ -1,0 +1,150 @@
+{
+    "name": "RGB Moonlight",
+    "author": "Nazar",
+    "variables":
+    {
+
+
+        // "backg": "hsl(0, 0%, 25%)",
+
+        // "text": "hsl(246, 100%, 50%)",
+        "foreg": "hsl(0, 0%, 0%)",
+        "backg": "hsl(0, 0%, 100%)",
+        "backg_dark": "color(var(backg) l(- 7%))",
+
+        "punctuation": "hsl(183, 76%, 45%)",
+        "punctuation_light": "color(var(punctuation) l(+ 20%))",
+
+        "punctuation_md": "hsl(183, 76%, 45%)",
+        "punctuation_light_md": "color(var(punctuation) l(+ 20%))",
+
+        "focus_line": "#A0804026",
+        "comment": "hsl(0, 0%, 65%)",
+        "comment": "hsl(216, 76%, 50%)",
+        "comment": "hsl(0, 30%, 70%)",
+        "comment": "hsl(120, 30%, 80%)",
+        "comment": "hsl(120, 13%, 50%)",
+        "comment": "hsl(240, 30%, 70%)",
+
+        // "focus": "#000000",
+        "value": "#1A921C",
+        // "value": "hsl(120, 100%, 50%)", // lime
+        // "value": "hsl(120, 100%, 40%)",
+        // "value": "hsl(121, 100%, 35%)",
+        // "value": "hsl(121,  70%, 34%)",
+        // "value": "hsl(122, 94%, 21%)",
+        // "value": "hsl(117, 77%, 22%)",
+
+        // "value": "hsl(261, 100%, 65%)",
+        // "value": "hsl(183, 76%, 34%)",
+        // "value": "hsl(51, 100%, 50%)",
+        // "value": "hsl(120, 95%, 25%)",
+        "value": "red",
+        "value": "hsl(0, 100%, 75%)",
+
+        "str_value": "hsl(261, 100%, 65%)",
+
+
+        // "parameter": "hsl(32, 93%, 66%)",
+        // "parameter": "hsl(121, 100%, 50%)",
+        "parameter": "hsl(0, 0%, 0%)",
+
+
+        // "const": "hsl(216, 76%, 50%)",
+        // "const": "hsl(216, 100%, 70%)",
+        // "const": "hsl(261, 100%, 75%)",
+        // "const": "hsl(261, 100%, 50%)",
+        // "const": "hsl(261, 100%, 65%)",
+        // "const": "hsl(51, 100%, 50%)",
+
+        // "const": "hsl(51, 100%, 50%)",
+        // "const": "hsl(0, 100%, 65%)",
+        // "const": "hsl(246, 100%, 50%)",
+
+        "const": "hsl(0, 100%, 75%)",
+        "const_md": "hsl(0, 100%, 75%)",
+
+
+        // "tag_name": "#1A921C",
+        // "tag_name": "hsl(246, 100%, 50%)",
+        // "tag_name": "#036A07",
+        // "tap_punctuation": "hsl(246, 100%, 50%)",
+        // "tap_punctuation": "hsl(121, 100%, 35%)",
+        // "tap_punctuation": "hsl(121, 70%, 34%)",
+        // "tap_punctuation": "hsl(122, 94%, 21%)",
+        // "green": "hsl(122, 94%, 21%)", // (#036A07)
+        "green": "hsl(117, 77%, 22%)", // RayPeat.com (#11640D)
+
+        // "css_value": "hsl(271, 77%, 50%)",
+        "css_value": "hsl(300, 77%, 50%)",
+        "values_sufix": "hsl(183, 76%, 34%)",
+
+        // "class_name": "red",
+        // "class_name": "hsl(121, 100%, 35%)",
+        // "class_name": "hsl(246, 100%, 50%)",
+        "class_name": "hsl(121, 70%, 34%)",
+        "url_path": "hsl(300, 77%, 50%)",
+        "url_path_md": "hsl(300, 77%, 50%)",
+
+        // "secondary": "hsl(216, 13%, 50%)",
+        // "secondary": "hsl(216, 47%, 50%)",
+        "secondary": "hsl(120, 13%, 50%)",
+        "secondary": "hsl(246, 76%, 50%)",
+        "secondary": "hsl(150, 76%, 50%)",
+        "secondary": "hsl(30, 76%, 34%)",
+        "secondary": "hsl(0, 100%, 75%)",
+        "secondary": "hsl(216, 76%, 50%)",
+
+        "selection_border": "hsl(120, 100%, 75%)",
+        "light": "hsl(120, 100%, 85%)",
+        "min_light": "hsl(120, 100%, 85%)",
+        "inside": "red",
+
+
+        "black": "#000000",
+        "white": "#ffffff",
+        "red": "red",
+
+
+        "blue": "hsl(246, 100%, 50%)",
+        "blue_md": "hsl(246, 100%, 50%)",
+        "plum": "hsl(300, 77%, 50%)",
+        "pink": "pink",
+
+        "crimson": "crimson",
+
+
+
+   // color: #648880;
+   // color: #728472;
+        "purple": "hsl(261, 100%, 75%)",
+        "yellow": "hsl(54, 70%, 68%)",
+        // "khaki": "khaki",
+        "gold": "hsl(51, 100%, 50%)", // gold
+        // "coral": "coral",
+    },
+
+
+// hsl(0, 100%, 75%) -> #FF8080
+// hsl(120, 13%, 50%)
+// hsl(246, 100%, 50%) -> #1C02FF
+// hsl(16, 100%, 66%) -> coral
+// hsl(271, 76%, 53%) -> blueviolet
+// hsl(183, 76%, 34%)
+// hsl(300, 77%, 75%)
+// hsl( 54, 77%, 75%) -> khaki
+// hsl(130, 77%, 75%)
+// hsl(120, 47%, 80%)
+// hsl(300, 47%, 75%) -> plum
+// hsl( 54, 47%, 75%)
+// hsl(130, 47%, 75%)
+// hsl(120, 100%, 50%) -> lime
+// 
+
+
+    "globals":
+    {},
+
+    "rules":
+    []
+}

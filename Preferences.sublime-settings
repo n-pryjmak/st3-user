@@ -1,65 +1,71 @@
 {
 
-   "tab_colors": {
-      // "Preferences.sublime-settings": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-      // "learnpython3.py": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
-      // "tutorial-py/*": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
-      // "_index.html": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
-      "_index.html": "Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
-      // "learnpython3.py": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-      // "D:\\Google Drive\\FREE SPACE (MMD & CFL)\\CONSPECT (Prog) 1\\*": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-      // "index.html": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-      // "D:\\www\\temp\\out\\index.html": "Monokai.sublime-color-scheme",
-      // "TODO.txt": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
-      // "*.sublime-settings": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
-      // "": ""
-      "Crawl budget. What it is and how to deal with it - Copy.md": "MarkdownEditor.sublime-color-scheme",
-      "example - MarkdownEditor.md": "MarkdownEditor.sublime-color-scheme",
+    "tab_colors": {
+        // "Preferences.sublime-settings": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+        // "learnpython3.py": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
+        // "tutorial-py/*": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
+        // "_index.html": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
+        // "_index.html": "Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
+        // "learnpython3.py": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+        // "D:\\Google Drive\\FREE SPACE (MMD & CFL)\\CONSPECT (Prog) 1\\*": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+        // "index.html": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+        // "D:\\www\\temp\\out\\index.html": "Monokai.sublime-color-scheme",
+        // "TODO.txt": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
+        // "*.sublime-settings": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
+        // "": ""
 
-      "example - Default.md": "Mariana.sublime-color-scheme",
-      /*"example - Default.md": "Breakers.sublime-color-scheme",*/
-      /*"example - Default.md": "Mariana.sublime-color-scheme",*/
+        "_main.js": "Mariana.sublime-color-scheme",
+        "qmain.js": "Monokai.sublime-color-scheme",
 
-      "c - default color scheme.md": "Monokai.sublime-color-scheme",
-   },
+        "Crawl budget. What it is and how to deal with it - Copy.md": "MarkdownEditor.sublime-color-scheme",
+        "example - MarkdownEditor.md": "MarkdownEditor.sublime-color-scheme",
 
-   // "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
-   // "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
-   // "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-   // "color_scheme": "Monokai.sublime-color-scheme",
-   "color_scheme": "RGB_Moonlight.sublime-color-scheme",
-      "show_legacy_color_schemes": true,
+        "example - Default.md": "Mariana.sublime-color-scheme",
+        /*"example - Default.md": "Breakers.sublime-color-scheme",*/
+        /*"example - Default.md": "Mariana.sublime-color-scheme",*/
 
-   "theme": "Adaptive.sublime-theme",
+        "c - default color scheme.md": "Monokai.sublime-color-scheme",
+    },
 
+    // "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
+    // "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
+    // "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+    // "color_scheme": "Monokai.sublime-color-scheme",
+    "color_scheme": "RGB_Moonlight.sublime-color-scheme",
+        "show_legacy_color_schemes": true,
 
-   // Note that the font_face and font_size are overridden in the platform
-   // specific settings file, for example, "Preferences (Linux).sublime-settings".
-   // Because of this, setting them here will have no effect: you must set them
-   // in your User File Preferences.
-
-   // "font_face": "Roboto",
-   // "font_face": "monospace",
-   // "font_face": "Fira Code",
-   "font_face": "monospace",
-   /*"font_face": "monospace",*/
+    "theme": "Adaptive.sublime-theme",
 
 
-   "font_size": 10,
-   // "default_syntax": "Markdown",
+    // Note that the font_face and font_size are overridden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+
+    "font_face": "Consolas",
+    /*"font_face": "Roboto",*/
+    /*"font_face": "Seriff monospace",*/
+    /*"font_face": "Sans-seriff monospace",*/
+    /*"font_face": "Fira Code",*/
+    /*"font_face": "Courier Prime",*/
+    /*"font_face": "Consolas",*/
+
+
+    "font_size": 10,
+    // "default_syntax": "Markdown",
 
 
 
 
 // NEW
-   // Set the number of context lines to show when scrolling to reveal. This
-   // affects all selection changes, like selection dragging, page-up/page-down
-   // and moving the caret.
-   "scroll_context_lines": 0,  // ????
+    // Set the number of context lines to show when scrolling to reveal. This
+    // affects all selection changes, like selection dragging, page-up/page-down
+    // and moving the caret.
+    "scroll_context_lines": 0,  // ????
 
-   // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
-   // scroll slower, or set to larger than 1 to scroll faster
-   "scroll_speed": 1.0,
+    // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
+    // scroll slower, or set to larger than 1 to scroll faster
+    "scroll_speed": 1.0,
 
 
 // Toogle (custom)
@@ -69,142 +75,183 @@
 
 // LAYOUT
 "rulers": [
-   -0.2, 120,
-   ],
-   // "draw_centered": false,
+    -0.2, 120,
+    ],
+    "draw_centered": true,
 
-// "word_wrap": "auto",
-   "word_wrap": false,
+    // "word_wrap": "auto",
+    "word_wrap": true,
         "wrap_width": 120, // wraping borders width (wrap_width) + sets text's extrinsic size to #
-        // "wrap_width_style": "constant",
-        "wrap_width_style": "min",
+        // "wrap_width_style": "min",
+        "wrap_width_style": "constant",
 
 
-   // "line_padding_top": 1,
-   // "line_padding_bottom": 1,
+    // "line_padding_top": 1,
+    // "line_padding_bottom": 1,
 
-   // Layout components
-      "reveal_menu": true,
-      "themed_title_bar": false,
+    // Layout components
+        "reveal_menu": true,
+        "themed_title_bar": true,
 
-      "highlight_line": true,
+        "highlight_line": true,
 
-      "always_show_minimap_viewport": true,
-
-
-      // Side bar
-      // "bold_folder_labels": true,
+        "always_show_minimap_viewport": true,
 
 
-      // Tabs
-         "highlight_modified_tabs": true,
-         "show_tab_close_buttons": false,
-
-         "hide_tab_scrolling_buttons": true,
-         "hide_new_tab_button": true,
-         // "show_tab_close_buttons_on_left": false,
-
-         // "auto_hide_tabs": true,
-         // "reveal_tabs_with_timeout": true,
-
-      // Status_bar
-         "show_sidebar_button": false,
-         "show_git_status_in_status_bar": true, // requires the show_git_status setting to be enabled
-         "show_encoding": true,
-         "show_line_endings": true,
-
-         "margin": 0,
-         // "margin": 300,
+        // Side bar
+        // "bold_folder_labels": true,
 
 
-      // Gutter
-         "gutter": true,
+        // Tabs
+            "highlight_modified_tabs": true,
+            "show_tab_close_buttons": false,
 
-         "mini_diff": true,
+            "hide_tab_scrolling_buttons": true,
+            "hide_new_tab_button": true,
+            // "show_tab_close_buttons_on_left": false,
 
-         "line_numbers": false,
+            // "auto_hide_tabs": true,
+            // "reveal_tabs_with_timeout": true,
 
-         "fold_buttons": true,
-         "fade_fold_buttons": false,
+        // Status_bar
+            "show_sidebar_button": false,
+            "show_git_status_in_status_bar": true, // requires the show_git_status setting to be enabled
+            "show_encoding": true,
+            "show_line_endings": true,
+
+            "margin": 0,
+            // "margin": 300,
+
+
+        // Gutter
+            "gutter": true,
+            // "gutter": false,
+
+            "mini_diff": true,
+
+            "line_numbers": false,
+
+            "fold_buttons": true,
+            "fade_fold_buttons": true,
 
 
 
 
 
 // Editior Behavour
-   // Controls the behavior when clicking on a single file in the sidebar
-   // that's already open.
-   // - true: If the file is already open in any group it will be selected.
-   // - false: Only if the file is open in the focused group will it be
-   //          selected, otherwise a new view into the file is opened.
-   // "select_across_groups": false,
+    // Controls the behavior when clicking on a single file in the sidebar
+    // that's already open.
+    // - true: If the file is already open in any group it will be selected.
+    // - false: Only if the file is open in the focused group will it be
+    //          selected, otherwise a new view into the file is opened.
+    // "select_across_groups": false,
 
-   // "scroll_past_end": false,
+    // "scroll_past_end": false,
 
 
 
 // Caret
-   // Valid values are "smooth", "phase", "blink" and "solid". Previous
-   // "caret_style": "blink",
-   "caret_style": "solid",
+    // Valid values are "smooth", "phase", "blink" and "solid". Previous
+    // "caret_style": "blink",
+    "caret_style": "solid",
 
-   // These work only in ST Build 3057 and later.
-   "caret_extra_top": 5,
-   "caret_extra_bottom": 5,
-   "caret_extra_width": 1,
-
-
+    // These work only in ST Build 3057 and later.
+    "caret_extra_top": 5,
+    "caret_extra_bottom": 5,
+    "caret_extra_width": 1,
 
 
 
 
-// Includes
-   "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
-   "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.sublime-project", "*.pdf"],
+
+
+// Exclude
+    "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
+    // "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.sublime-project", "*.pdf"],
+    // "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class",          "*.db", "*.sublime-workspace", "*.sublime-project", "*.pdf"],
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class",          "*.db", "*.pdf"],
 
 
 
 
 // Editinig
-   "trim_trailing_white_space_on_save": "not_on_caret",
+    "trim_trailing_white_space_on_save": "not_on_caret",
 
-   "tab_size": 3,
-   // Set to true to insert spaces when tab is pressed
-   "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
 
-   // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
-   // backspace insert/delete up to the next tabstop
-   "use_tab_stops": true,
+    // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+    // backspace insert/delete up to the next tabstop
+    "use_tab_stops": true,
 
 
 
 // Animations
-   "animation_enabled": false,
-   // "tree_animation_enabled": false,
+    "animation_enabled": false,
+    // "tree_animation_enabled": false,
 
 
 
 
-   "ignored_packages":
-   [
-      // "auto-save",
-      "ActualVim",
-      "AutoFileName",
-      "Gist",
-      "Markdown",
-      "Vintage",
-   ],
+    "ignored_packages":
+    [
+        // "auto-save",
+        "ActualVim",
+        "AutoFileName",
+        "Gist",
+        "Markdown",
+        "Vintage",
+    ],
+
+
+
+    // When Vintage, the vi emulation package, is enabled
+    // (see ignored_packages, below), this setting controls if files are opened
+    // in command mode or insert mode by default
+    "vintage_start_in_command_mode": false,
+
+    // Yank commands can place the text in either an internal register, or in
+    // the system clipboard.
+    "vintage_use_clipboard": false,
+
+    // By default Vintage will interpret all ctrl+<key> key bindings as
+    // regular Sublime Text key bindings. Set this to true to make ctrl keys
+    // act as they do in vim, instead (e.g., ctrl+f to move forward a page).
+    "vintage_ctrl_keys": false,
+
+    // relative_line_numbers will draw each line number as the distance from
+    // the current line. Useful in conjunction with Vintage.
+    // "relative_line_numbers": true,
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    // "ignored_packages": ["Vintage"],
+    // "ignored_packages": [],
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // ----------------------- PACKAGES -----------------------
 
-   // MarkdownEditing
+    // MarkdownEditing
 
-   // Always keep current line vertically centered.
-   // "mde.keep_centered": true,
+    // Always keep current line vertically centered.
+    // "mde.keep_centered": true,
 
-   // Enable automatic folding of url parts of inline references or images
-   "mde.auto_fold_link.enabled": true,
+    // Enable automatic folding of url parts of inline references or images
+    "mde.auto_fold_link.enabled": true,
 
 }

@@ -28,7 +28,7 @@
         "indent_char": " ",
 
         // Indentation size
-        "indent_size": 3,
+        "indent_size": 4,
 
         // Indent with tabs, overrides `indent_size` and `indent_char`
         "indent_with_tabs": false,

@@ -1,6 +1,6 @@
 {
-    "name": "RGB Moonlight",
-    "author": "Zanark",
+    "name": "Mono",
+    "author": "Nazar Pryjmak",
     "variables":
     {
         // "backg": "#E5E5E5",
@@ -14,7 +14,9 @@
         "backg": "#F2F2F2",
         "backg": "hsl(240, 50%, 15%)",
         "backg": "black",
-        "backg": "#404040",
+        // "backg": "#404040",
+        "backg": "#eeffcc",
+        "backg": "#fff",
         
         "focus": "black",       // 0
         "focus": "#F2F2F2",     // 1
@@ -53,7 +55,7 @@
     },
     "globals":
     {
-        "foreground": "white",
+        "foreground": "black",
         "background": "var(backg)",
         // "background": "#969696",
         // "background": "#AAAAAA",

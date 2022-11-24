@@ -35,12 +35,12 @@
 
 // LAYOUT
 "rulers": [
-   -0.2, 140,
+   -0.2, 100, 140,
    ],
    // "draw_centered": false,
 
    // "word_wrap": true,
-           "wrap_width": 140,
+           "wrap_width": 100,
 
 
 

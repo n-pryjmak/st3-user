@@ -3919,6 +3919,61 @@
 				<string>#7A7A7AFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_110088FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#110088FF</string>
+				<key>foreground</key>
+				<string>#949494FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_112211FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#112211FF</string>
+				<key>foreground</key>
+				<string>#9A9A9AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_110033FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#110033FF</string>
+				<key>foreground</key>
+				<string>#8A8A8AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_88119999</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#88119999</string>
+				<key>foreground</key>
+				<string>#0E0E0EFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_110055FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#110055FF</string>
+				<key>foreground</key>
+				<string>#8E8E8EFF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>71D40D9D-AE48-11D9-920A-000D93589AF6</string>

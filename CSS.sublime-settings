@@ -15,10 +15,14 @@
 
 
 
+// LAYOUT
+"rulers": [
+   -0.2, 4, 20, 32, 88
+   ],
+
 // Layout components
    // Gutter
       "margin": 0,
 
 
 }
-
