@@ -51,7 +51,7 @@
       "args": {
          "commands": [
             ["toggle_side_bar"],
-            ["toggle_setting", {"setting": "draw_centered"}],
+            // ["toggle_setting", {"setting": "draw_centered"}],
             // ["set_setting", {"setting": "margin", "value": 0}],
          ]
       }
@@ -62,7 +62,7 @@
       "args": {
          "commands": [
             ["toggle_side_bar"],
-            ["toggle_setting", {"setting": "draw_centered"}],
+            // ["toggle_setting", {"setting": "draw_centered"}],
             // ["set_setting", {"setting": "margin", "value": 0}],
          ]
       }
@@ -90,7 +90,7 @@
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 100}],
             ["set_setting", {"setting": "rulers", "value": [-0.2, 100]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
          ]
       }
    },
@@ -102,7 +102,7 @@
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 110}],
             ["set_setting", {"setting": "rulers", "value": [-0.2, 110]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
          ]
       }
    },
@@ -114,7 +114,7 @@
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 120}],
             ["set_setting", {"setting": "rulers", "value": [-0.2, 120]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
          ]
       }
    },

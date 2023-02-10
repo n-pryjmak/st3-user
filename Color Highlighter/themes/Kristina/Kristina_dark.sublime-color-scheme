@@ -3,60 +3,63 @@
     "author": "Nazar",
     "variables":
     {
-        "foreg": "hsl(0, 0%, 0%)",
-        "backg": "hsl(0, 0%, 100%)",
-        "backg_dark": "color(var(backg) l(- 3%))",
+        // "foreg": "hsl(0, 0%, 85%)",
+        "foreg": "hsl(0, 0%, 85%)",
+        // "backg": "hsl(0, 0%, 15%)",
+        "backg": "hsl(0, 0%, 10%)",
+        "backg_dark": "color(var(backg) l(+ 5%))",
 
         // "punctuation": "var(foreg)",
         // "punctuation": "hsl(183, 76%, 45%)",
         "punctuation": "hsl(183, 76%, 50%)",
         // "punctuation_blue": "hsl(246, 76%, 80%)",
-        "punctuation_blue": "hsl(246, 76%, 70%)",
-        "punctuation_gray": "hsl(0, 0%, 80%)",
+        "punctuation_blue": "hsl(246, 76%, 35%)",
+        "punctuation_gray": "hsl(0, 0%, 30%)",
         // "punctuation_light": "var(foreg)",
         // "punctuation_light": "color(var(punctuation_md) l(+ 30%))",
-        "punctuation_light": "color(var(punctuation_md) l(+ 10%))",
+        "punctuation_light": "color(var(punctuation) l(+ 10%))",
 
-        "punctuation_md": "hsl(183, 76%, 45%)",
+        // "punctuation_md": "hsl(183, 76%, 45%)",
+        "punctuation_md": "hsl(183, 76%, 25%)",
         "punctuation_light_md": "color(var(punctuation_md) l(+ 30%))",
 
 
         "focus_line": "#A0804026",
-        // "comment": "hsl(0, 0%, 65%)",
         // "comment": "hsl(216, 76%, 50%)",
-        // "comment": "hsl(0, 30%, 70%)",
+        // "comment": "hsl(240, 30%, 50%)",
+        // "comment": "color(hsl(240, 30%, 70%) a(70%))",
         // "comment": "hsl(120, 30%, 80%)",
-        // "comment": "hsl(120, 13%, 50%)",
-        "comment": "hsl(240, 30%, 70%)",
+        // "comment": "hsl(0, 30%, 70%)",
+        // "comment": "hsl(240, 30%, 70%)",
+        // "comment": "hsl(0, 0%, 65%)",
+        "comment": "hsl(120, 13%, 50%)",
 
         // "value": "var(foreg)",
         "value": "hsl(0, 100%, 75%)",
         "value_md": "hsl(0, 100%, 75%)",
         // "str_value": "var(foreg)",
         "str_value": "hsl(261, 100%, 65%)",
-        "str_value": "hsl(0, 100%, 50%)",
+        "str_value": "hsl(0, 100%, 70%)",
         
-        "parameter": "var(foreg)",
+        // "parameter": "var(foreg)",
+        "parameter": "hsl(183, 76%, 50%)",
+        "parameter": "hsl(183, 100%, 50%)",
         // "const": "var(foreg)",
         "const": "hsl(0, 100%, 75%)",
         "const_md": "hsl(0, 100%, 75%)",
         "green": "var(foreg)",
 
-        // "css_value": "var(foreg)",
-        "css_value": "hsl(300, 77%, 50%)",
-        // "values_sufix": "var(foreg)",
-        // "values_sufix": "hsl(300, 77%, 50%)",
-        "values_sufix": "hsl(183, 76%, 34%)",
+        // "css_value": "hsl(300, 77%, 50%)",
+        "css_value": "hsl(300, 100%, 65%)",
+        // "values_sufix": "hsl(183, 76%, 34%)",
+        "values_sufix": "hsl(183, 100%, 34%)",
 
-        // "class_name": "hsl(121, 70%, 34%)",
-        // "class_name": "var(foreg)",
         "class_name": "var(str_value)",
-        "pseudo_element_name": "hsl(183, 76%, 34%)",
-        "pseudo_class_name": "hsl(121, 70%, 34%)",
+        "pseudo_element_name": "hsl(183, 100%, 34%)",
+        "pseudo_class_name": "hsl(121, 100%, 34%)",
 
-        // "url_path": "hsl(300, 77%, 50%)",
         "url_path": "var(str_value)",
-        "url_path_md": "hsl(300, 77%, 50%)",
+        "url_path_md": "hsl(300, 100%, 65%)",
 
         "secondary": "var(foreg)",
         "secondary_md": "hsl(216, 76%, 50%)",
@@ -65,15 +68,26 @@
         "inside": "red",
 
 
-        "black": "#000000",
-        "white": "#ffffff",
+        "black": "hsl(0, 0%, 0%)",
+        "white": "hsl(0, 0%, 97%)",
         "red": "hsl(0, 100%, 50%)",
+
         "red_md": "red",
+
         // "blue": "var(foreg)",
-        "blue": "hsl(246, 100%, 50%)",
+        // "blue": "hsl(246, 100%, 50%)",
+        // "blue": "hsl(0, 100%, 75%)",
+        // "blue": "hsl(0, 10%, 100%)",
+        // "blue": "hsl(0, 30%, 60%)",
+        // "blue": "hsl(246, 10%, 60%)",
+        "bluecon": "hsl(246, 100%, 60%)",
+        "blue":    "hsl(246, 100%, 75%)",
+        "blue2":   "hsl(246, 100%, 50%)",
+        "bluekey": "hsl(246, 100%, 50%)",
+
         "blue_md": "hsl(246, 100%, 50%)",
-        // "plum": "hsl(300, 77%, 50%)",
         "plum": "var(foreg)",
+        "plum": "hsl(300, 77%, 50%)",
         "pink": "pink",
         "crimson": "var(foreg)",
     },
@@ -99,9 +113,9 @@
         "block_caret": "aqua",
 
         // "invisibles": "color(var(black) a(30%))",
-        "invisibles": "color(var(white) l(70%))",
+        "invisibles": "color(var(backg) l(+ 30%))",
 
-        "rulers": "color(var(white) l(95%))",
+        "rulers": "color(var(backg) l(+ 12%))",
 
         "selection": "color(var(light) alpha(0.7))",
         // "selection_border": "color(var(light) l(- 20%))",
@@ -252,6 +266,7 @@
             // "scope": "punctuation.section",
             "scope": "punctuation.section.block | punctuation.section.function | punctuation.section.class", // ???
             "foreground": "var(punctuation_gray)",
+            "foreground": "var(punctuation_blue)",
         },
 
         {
@@ -267,6 +282,7 @@
             //        + storage.type.string
             // "foreground": "var(punctuation)",
             "foreground": "var(punctuation_light)",
+            "foreground": "var(punctuation_blue)",
             // "font_style": "bold",
         },
 
@@ -279,6 +295,7 @@
         {
             "name": " '[' and  ']' ",
             "scope": "punctuation.section.brackets",
+            "foreground": "var(blue)",
             "font_style": "bold",
         },
 
@@ -299,7 +316,7 @@
             "name": "Built-in constant",
             "scope": "constant.language",
             // "scope": "constant.language.boolean",
-            // "foreground": "var(const)",
+            "foreground": "var(const)",
             // "font_style": "italic",
             "font_style": "bold",
         },
@@ -315,34 +332,39 @@
             "name": "Member Variable",
             "scope": "variable.member",
             // "foreground": "hsl(357, 79%, 65%)",
-            "foreground": "aqua",
+            "foreground": "lime",
         },
 
 
 
         {
             "name": "Keywords",
-            "scope": "(keyword - (keyword.operator), keyword.operator.word) | (punctuation.definition.keyword)",
+            "scope": "(keyword - (keyword.operator - keyword.operator.ternary), keyword.operator.word) | (punctuation.definition.keyword)",
             // "scope": "keyword.operator.word",
             // "scope": "keyword - (keyword.operator), keyword.operator.word, punctuation.definition.keyword.css",
             // "scope": "keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator)",
             // "foreground": "var(black)",
             // "foreground": "lime",
-            "font_style": "bold",
+            "foreground": "var(bluekey)",
+            // "font_style": "bold",
+            "font_style": "",
         },
-
+// source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.operator.ternary.js
         {
             "name": "Operators",
             "scope": "keyword.operator - (keyword.operator.logical | keyword.operator.comparison)",
             // "scope": "keyword.operator",
-            // "foreground": "var(foreg)"
+            // "foreground": "lime",
+            // "foreground": "var(foreg)",
         },
 
         {
             "name": "Logical/Comparison operators",
             "scope": "keyword.operator.logical | keyword.operator.comparison",
             // "foreground": "var(foreg)",
-            "font_style": "bold",
+            "foreground": "var(bluecon)",
+            // "font_style": "bold",
+            "font_style": "",
         },
 
 
@@ -356,13 +378,22 @@
         },
 
         {
-            "name": "Function/Class declaration name | Entity name",
-            "scope": "entity.name.function | entity.name.class",
-            // "scope": "entity.name.function",
+            "name": "Function declaration name | Entity name",
+            // "scope": "entity.name.function | entity.name.class",
+            "scope": "entity.name.function",
             // "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
             // "foreground": "var(plum)",
             // "font_style": "italic bold",
-            "font_style": "bold",
+            "foreground": "var(blue)",
+            "font_style": "",
+            "font_style": "underline",
+        },
+        {
+            "name": "Function/Class declaration name | Entity name",
+            "scope": "entity.name.class",
+            "foreground": "var(blue)",
+            "font_style": "",
+            "font_style": "stippled_underline",
         },
 
 
@@ -370,6 +401,8 @@
             "name": "Function argument",
             "scope": "variable.parameter",
             // "foreground": "var(foreg)"
+            "foreground": "var(parameter)",
+            "font_style": "italic",
         },
 
         {
@@ -426,7 +459,7 @@
         {
             "name": "JavaScript Dollar",
             "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
-            "foreground": "var(blue2)"
+            // "foreground": "var(blue2)"
         },
 
 
@@ -455,13 +488,14 @@
         {
             "name": "Tag Name",
             "scope": "entity.name.tag",
-            "foreground": "var(green)",
-            "font_style": "bold"
+            "foreground": "var(blue)",
+            "font_style": "bold",
+            "font_style": ""
         },
         {
             "name": "Punctuation - Tag",
             "scope": "punctuation.definition.tag",
-            "foreground": "var(green)",
+            "foreground": "var(blue)",
             "font_style": "",
         },
 
@@ -529,9 +563,9 @@
             // "scope": "support.type.property-name.css",
             "foreground": "var(foreg)",
             // "font_style": "italic stippled_underline",
-            // "font_style": "italic",
-            "font_style": "",
+            // "font_style": "",
             // "font_style": "bold",
+            "font_style": "italic",
         },
         {
             "nane": "CSS Property Value",
@@ -543,6 +577,7 @@
             "nane": "CSS Property Value Suffix",
             "scope": "constant.numeric.suffix.css",
             "foreground": "var(values_sufix)",
+            "font_style": "",
         },
 
 
@@ -683,7 +718,7 @@
             "name": "markup headings",
             // "scope": "markup.heading punctuation.definition.heading",
             "scope": "punctuation.definition.heading.begin.markdown",
-            "foreground": "black",
+            "foreground": "foreg",
         },
         {
             "name": "markup h1",
@@ -760,7 +795,7 @@
             "name": "markup numbered list bullet",
             "scope": "markup.list.numbered.bullet, markup.list punctuation.definition.list_item",
             // "foreground": "var(red)",
-            "foreground": "var(black)",
+            "foreground": "var(foreg)",
         },
         {
             "name": "markup blockquote",

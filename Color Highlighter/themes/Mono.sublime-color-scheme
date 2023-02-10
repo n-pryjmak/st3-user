@@ -3,89 +3,140 @@
     "author": "Nazar Pryjmak",
     "variables":
     {
-        // "backg": "#E5E5E5",
-        // "backg": "hsl(320, 25%, 80%)",     //   < pink
-        // "backg": "hsl(0, 25%, 80%)",       //   < red
-        // "backg": "hsl(280, 25%, 80%)",     //   < purple
-        // "backg": "hsl(240, 25%, 80%)",     //   < blue
-        // "backg": "hsl(120, 25%, 80%)",     //   < green
-        "backg": "#CCCCCC",     //   <--
-        "backg": "#BBBBBB",
-        "backg": "#F2F2F2",
-        "backg": "hsl(240, 50%, 15%)",
-        "backg": "black",
-        // "backg": "#404040",
-        "backg": "#eeffcc",
-        "backg": "#fff",
-        
-        "focus": "black",       // 0
-        "focus": "#F2F2F2",     // 1
-        "focus": "#E5E5E5",     // 2 <-- 0142
-        "focus": "#CCCCCC",     // 4
+        "foreg": "hsl(0, 0%, 85%)",
+        "backg": "hsl(0, 0%, 15%)",
+        "backg_dark": "color(var(backg) l(+ 5%))",
 
-        "focus_line": "hsl(240, 40%, 25%)",
-        "focus_line": "#FFFFFF",
+        // "punctuation": "var(foreg)",
+        // "punctuation": "hsl(183, 76%, 45%)",
+        "punctuation": "hsl(183, 76%, 50%)",
+        // "punctuation_blue": "hsl(246, 76%, 80%)",
+        "punctuation_blue": "hsl(246, 76%, 30%)",
+        "punctuation_gray": "hsl(0, 0%, 30%)",
+        // "punctuation_light": "var(foreg)",
+        // "punctuation_light": "color(var(punctuation_md) l(+ 30%))",
+        "punctuation_light": "color(var(punctuation) l(+ 10%))",
 
-        "comment": "blue",
-        "comment": "hsl(310, 100%, 50%)",
-        "comment": "red",
-        "comment": "white",
-        "comment": "#888888",
-        "comment": "#709070",
+        // "punctuation_md": "hsl(183, 76%, 45%)",
+        "punctuation_md": "hsl(183, 76%, 25%)",
+        "punctuation_light_md": "color(var(punctuation_md) l(+ 30%))",
 
-        "value": "white",
-        "value": "limegreen",
-        "value": "fuchsia",
-        "value": "deeppink",
-        "value": "#7F00FF",
-        "value": "blue",
-        "value": "yellow",
 
-        // "light": "#B7E5B2",
-        "min_light": "hsl(300, 40%, 80%)",
-        "light": "hsl(114, 50%, 80%)",
+        "focus_line": "#A0804026",
+        // "comment": "hsl(216, 76%, 50%)",
+        // "comment": "hsl(0, 30%, 70%)",
+        // "comment": "hsl(120, 30%, 80%)",
+        // "comment": "hsl(120, 13%, 50%)",
+        // "comment": "hsl(0, 0%, 65%)",
+        "comment": "hsl(240, 30%, 70%)",
+
+        // "value": "var(foreg)",
+        "value": "hsl(0, 100%, 75%)",
+        "value_md": "hsl(0, 100%, 75%)",
+        // "str_value": "var(foreg)",
+        "str_value": "hsl(261, 100%, 65%)",
+        "str_value": "hsl(0, 100%, 65%)",
+
+        "parameter": "var(foreg)",
+        // "const": "var(foreg)",
+        "const": "hsl(0, 100%, 75%)",
+        "const_md": "hsl(0, 100%, 75%)",
+        "green": "var(foreg)",
+
+        // "css_value": "hsl(300, 77%, 50%)",
+        "css_value": "hsl(300, 100%, 65%)",
+        // "values_sufix": "hsl(183, 76%, 34%)",
+        "values_sufix": "hsl(183, 100%, 34%)",
+
+        "class_name": "var(str_value)",
+        "pseudo_element_name": "hsl(183, 100%, 34%)",
+        "pseudo_class_name": "hsl(121, 100%, 34%)",
+
+        "url_path": "var(str_value)",
+        "url_path_md": "hsl(300, 100%, 65%)",
+
+        "secondary": "var(foreg)",
+        "secondary_md": "hsl(216, 76%, 50%)",
+
+        "light": "hsl(120, 100%, 85%)",
         "inside": "red",
 
-        "purple": "hsl(270, 100%, 50%)",
-        "white": "#FFFFFF",
-        "black": "#000000",
-        "yellow": "yellow",
-        "red": "red",
 
+        "black": "hsl(0, 0%, 0%)",
+        "white": "hsl(0, 0%, 97%)",
+        "red": "hsl(0, 100%, 50%)",
+
+        "red_md": "red",
+
+        // "blue": "var(foreg)",
+        // "blue": "hsl(246, 100%, 50%)",
+        // "blue": "hsl(0, 100%, 75%)",
+        // "blue": "hsl(0, 10%, 100%)",
+        // "blue": "hsl(0, 30%, 60%)",
+        // "blue": "hsl(246, 10%, 60%)",
+        "bluecon": "hsl(246, 100%, 90%)",
+        "blue":    "hsl(246, 100%, 75%)",
+        "blue2":   "hsl(246, 100%, 50%)",
+        "bluekey": "hsl(246, 100%, 40%)",
+
+        "blue_md": "hsl(246, 100%, 50%)",
+        // "plum": "hsl(300, 77%, 50%)",
+        "plum": "var(foreg)",
+        "pink": "pink",
+        "crimson": "var(foreg)",
     },
+
+
+
     "globals":
     {
-        "foreground": "black",
+        "foreground": "var(foreg)",
         "background": "var(backg)",
         // "background": "#969696",
         // "background": "#AAAAAA",
-        "line_highlight": "var(backg)",
-        // "line_highlight": "var(focus_line)",
-        "line_highlight": "color(var(focus_line) alpha(0.1))",
-        "caret": "red",
+        // "background": "#000000",
+
+        // "accent": "",
+
+        // "line_highlight": "var(backg)",
+        "line_highlight": "var(focus_line)",
+        "gutter": "var(backg)",
+        "gutter": "color(var(backg) l(- 3%)",
+        // "gutter": "hsl(0, 0%, 88%)",
+        // "caret": "#FFFF66",
+        "caret": "purple",
         "block_caret": "aqua",
-        // "invisibles": "",
-        "selection": "var(light)",
-        "selection_border": "limegreen",
-        "inactive_selection": "var(min_light)",
+
+        // "invisibles": "color(var(black) a(30%))",
+        "invisibles": "color(var(backg) l(+ 30%))",
+
+        "rulers": "color(var(backg) l(+ 12%))",
+
+        "selection": "color(var(light) alpha(0.7))",
+        // "selection_border": "color(var(light) l(- 20%))",
+        "selection_border": "color(var(light) alpha(0.7))",
+        "inactive_selection": "color(var(light) alpha(0.3))",
+
+
         "misspelling": "red",
-        // "shadow": "black",
-        // "shadow": "color(black alpha(0.2))",
+        // "shadow": "var(foreg)",
+        "shadow": "color(var(foreg) alpha(0.2))",
         "active_guide": "aqua",
         "stack_guide": "aqua",
         "highlight": "blue",
         "find_highlight_foreground": "blue",
-        "find_highlight": "var(light)",
+        "find_highlight": "yellow",
         // "brackets_options": "nothing",
         // "brackets_options": "bold underline",
         "brackets_options": "bold",
         "brackets_foreground": "var(inside)",
         "bracket_contents_options": "bold",
         "bracket_contents_foreground": "var(inside)",
-        // "tags_options": "nothing",
-        // "tags_options": "stippled_underline",
-        "tags_options": "bold stippled_underline",
-        "tags_foreground": "var(inside)",
+        // "tags_options": "",
+        // "tags_options": "italic",
+        "tags_options": "stippled_underline",
+        // "tags_options": "underline",
+        "tags_foreground": "#000",
 
         // "font_style": "italic",
     },
@@ -110,77 +161,6 @@
             "background": "",
             "font_style": "",
         },
-
-/*    
-Java Script
-*/
-
-        {    
-            "name": "Use strict",
-            "scope": "string.quoted.double.js",
-            "foreground": "var(white)",
-            "background": "",
-            "font_style": "",
-        },
-
-        {    
-            "name": "Sorce quotes (inc. ${})",
-            "scope": "string.quoted.single.js, string.quoted.other.js, meta.string.js, string.unquoted",
-            // "foreground": "var(value)",
-            "foreground": "khaki",
-            "background": "",
-            "font_style": "",
-        },
-
-        {
-            "name": "JSON String",
-            "scope": "meta.structure.dictionary.json, string.quoted.double.json",
-            "background": "var(backg)",
-        },
-        
-        {
-            "name": "Number",
-            "scope": "constant.numeric.value.js",
-            "foreground": "var(white)",
-            // "foreground": "var(yellow)",
-            // "font_style": "italic",
-            "font_style": "",
-        },
-        {
-            "name": "Comment",
-            "scope": "source.js comment, source.js punctuation.definition.comment",
-            "foreground": "var(comment)",
-            // "line_highlight": "var(backg)",
-            "font_style": "italic",
-            // "font_style": "bold",
-        },
-
-
-        {
-            // "name": "Function call",
-            // "scope": "variable.function, variable.annotation",
-            // "foreground": "var(yellow)"
-        },
-
-
-        {
-            "name": "Function declaration",
-            "scope": "keyword.declaration.function.js, keyword.declaration.js",
-            "foreground": "plum"
-        },
-
-        {
-            "name": "Logical operators",
-            "scope": "keyword.operator.logical.js",
-            "foreground": "red"
-        },
-
-
-
-
-
-
-
 
 
 

@@ -23,6 +23,9 @@
 
       // "smaller_screen_font_size": 14,
 
+      "foreg": "hsl(0, 0%, 85%)",
+      "backg": "hsl(0, 0%, 10%)",
+
 
       "pink": "hsl(300, 77%, 95%)",
 
@@ -32,7 +35,7 @@
       "theme_color": "hsl(71, 50%, 89%)",
       // hsl(71, 73%, 84%)
 
-      "backg": "hsl(0, 0%, 97%)",
+      // "backg": "hsl(0, 0%, 97%)",
       "gutter": "color(var(backg) l(- 3%)",
 
 
@@ -54,18 +57,21 @@
       {
          "class": "sidebar_container",
          "parents": [{"class": "window", "attributes": ["file_dark"]}],
+         // "layer0.tint": "var(backg)",
          // "layer0.tint": "var(dark_bg)",
          // "layer0.tint": "var(theme_color)",
       },
       {
          "class": "sidebar_container",
          "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
+         // "layer0.tint": "var(backg)",
          // "layer0.tint": "var(medium_dark_bg)",
          // "layer0.tint": "var(theme_color)",
       },
       {
          "class": "sidebar_container",
          "parents": [{"class": "window", "attributes": ["file_medium"]}],
+         // "layer0.tint": "var(backg)",
          // "layer0.tint": "var(medium_bg)",
          // "layer0.tint": "var(theme_color)",
       },
@@ -240,7 +246,21 @@
          // "fg": "hsl(122, 94%, 21%)",
          // "fg": "hsl(216, 76%, 50%)",
          // "fg": "hsl(0, 100%, 50%)",
-         "fg": "hsl(0, 0%, 0%)",
+         // "fg": "var(foreg)",
+
+         // "font.face": "var(font_face_file)",
+         "font.size": "var(font_size_file)",
+         // "font.italic": true,
+         // "font.bold": true,
+      },
+      {
+         "class": "sidebar_label",
+         "parents": [{"class": "tree_row", "attributes": ["!expandable", "file_medium"]}],
+         // "parents": [
+         //    {"class": "tree_row", "attributes": ["!expandable"]},
+         //    {"class": "tree_row", "attributes": ["file_dark"]}
+         // ],
+         "fg": "var(foreg)",
 
          // "font.face": "var(font_face_file)",
          "font.size": "var(font_size_file)",
@@ -254,14 +274,16 @@
          // "fg": "hsl(261, 100%, 50%)",
          // "fg": "hsl(121, 100%, 35%)",
          // "fg": "hsl(122, 94%, 21%)",
-         // "fg": "hsl(0, 100%, 50%)",
          // "fg": "hsl(216, 76%, 50%)",
          // "fg": "color(hsl(122, 94%, 21%) a(40%))",
          // "fg": "color(hsl(122, 94%, 21%) a(40%))",
          // "fg": "color(hsl(261, 100%, 50%) a(40%))",
          // "fg": "color(hsl(216, 76%, 50%) a(40%))",
+         // "fg": "color(hsl(121, 100%, 35%) a(60%))",
+         // "fg": "color(hsl(0, 100%, 70%) a(50%))",
+         "fg": "hsl(0, 100%, 70%)",
          "fg": "color(hsl(0, 100%, 50%) a(50%))",
-         "fg": "color(hsl(121, 100%, 35%) a(60%))",
+         "fg": "hsl(0, 100%, 20%)",
 
          "font.bold": true,
          // "font.italic": true,
@@ -276,8 +298,10 @@
          // "fg": "hsl(0, 100%, 50%)",
          // "fg": "hsl(122, 94%, 21%)",
          // "fg": "hsl(121, 100%, 35%)",
-         "fg": "hsl(216, 76%, 50%)",
+         // "fg": "hsl(246, 100%, 50%)",
          // "fg": "hsl(261, 100%, 50%)",
+         // "fg": "hsl(216, 76%, 50%)",
+         "fg": "hsl(216, 100%, 40%)",
 
          "font.size": "var(font_size_l)",
 
