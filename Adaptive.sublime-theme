@@ -3,23 +3,22 @@
     "variables":
     {
 
-        "font_face": "Roboto",
-        "font_face": "system",
-        "font_face": "Rajdhani",
-        "font_face": "Monospace",
+        "font_face": "Monaco",
+        "font_face_file": "Monaco",
 
-        "font_face_file": "Calibri",
-        "font_face_file": "Rajdhani",
-        "font_face_file": "Monospace",
-        "font_size_file": 13,
+        // "font_size_file": 13,
+        "font_size_file": 11,
 
 
-        "font_size_s": 11,
-        "font_size_m": 12,
-        "font_size_l": 13.5,
-        "font_size_xl": 14,
-        "font_size_xl": 14,
-        "font_size_title": 24,
+        "font_size_s": 10,
+        "font_size_m": 11,
+        // "font_size_l": 13.5,
+        "font_size_l": 11,
+        // "font_size_xl": 14,
+        "font_size_xl": 11,
+        // "font_size_title": 24,
+        "font_size_title": 20,  //?
+
         // "smaller_screen_font_size": 14,
 
 
@@ -43,9 +42,6 @@
         "white2": "hsl(0, 0%, 97%)",
         "white3": "hsl(219, 28%, 88%)",
 
-
-
-        // "backg": "hsl(0, 0%, 10%)",
 
         "foreg": "hsl(0, 0%, 15%)",
         "foreg_medium_dark": "var(white3)",
@@ -72,7 +68,7 @@
     [
 
 
-// Side Bar [no changes]
+// Side Bar
         {
             "class": "sidebar_container",
         },
@@ -111,6 +107,12 @@
             "class": "sidebar_tree",
             "platforms": ["windows"],
             "row_padding": [2, 2, 4, 2],
+        },
+        {
+            "class": "sidebar_tree",
+            "platforms": ["osx"],
+            // "row_padding": [2, 0.5, 4, 2],
+            "row_padding": [2, -5, 4, 2],
         },
 
 
@@ -231,9 +233,10 @@
             // "fg": "color(hsl(216, 76%, 50%) a(40%))",
             // "fg": "color(hsl(121, 100%, 35%) a(60%))",
             // "fg": "color(hsl(0, 100%, 70%) a(50%))",
-            "fg": "hsl(0, 100%, 70%)",
-            "fg": "color(hsl(0, 100%, 50%) a(50%))",
-            "fg": "hsl(0, 100%, 20%)",
+            // "fg": "hsl(0, 100%, 70%)",
+            // "fg": "color(hsl(0, 100%, 50%) a(50%))",
+            // "fg": "hsl(0, 100%, 20%)",
+            "fg": "hsla(0, 100%, 20%, 0.6)",
 
             "font.bold": true,
             // "font.italic": true,
@@ -247,7 +250,8 @@
             ],
             // "fg": "hsl(121,  70%, 34%)",
             // "fg": "hsl(114, 31%, 68%)",
-            "fg": "hsl(300, 30%, 68%)",
+            // "fg": "hsl(300, 30%, 68%)",
+            "fg": "hsla(300, 30%, 68%, 0.6)",
         },
 
         {
@@ -277,36 +281,6 @@
             "fg": "hsl(114, 31%, 68%)",
         },
 
-    // On blured_side_bar
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
-            "settings": ["blured_side_bar"],
-
-            // "fg": "color(black a(0%))",
-            "fg": "transparent",
-        },
-
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-            "settings": ["blured_side_bar"],
-
-            // "font.bold": true
-            // "fg": "color(hsl(122, 94%, 21%) a(0%))",
-            "fg": "transparent",
-        },
-
-
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-            "settings": ["blured_side_bar"],
-
-            // "font.bold": false,
-            // "fg": "color(hsl(216, 76%, 50%) a(0%))",
-            "fg": "transparent",
-        },
 
 
 // Open Files Icons
@@ -550,79 +524,6 @@
             "layer0.texture": "Theme - Default/common/status_unmerged.png",
             "layer0.tint": "var(vcs_unmerged)",
             "layer0.opacity": 1.0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
-            "content_margin": 0,
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
-            "color": "color(var(--background) blend(white 50%))"
-        },
-        {
-            "class": "sidebar_label",
-            "parents":
-            [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "file_system_entry", "attributes": ["ignored"]}
-            ],
-            "color": "color(var(--background) blend(black 50%))"
-        },
-
-    // On blured_side_bar
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents":
-            [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "file_system_entry", "attributes": ["untracked"]}
-            ],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-            "settings": ["blured_side_bar"],
-            "layer0.opacity": 0,
         },
         {
             "class": "vcs_status_badge",
