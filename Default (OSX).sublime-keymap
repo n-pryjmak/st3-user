@@ -1,0 +1,570 @@
+// view.settings().get('margin')
+// view.settings().set('margin', 0)
+
+// ??
+// highlight_modified_tabs // toggling this setting doesn't work
+// view.settings().set('highlight_modified_tabs', false) // doesn't work in st console
+
+[
+
+// ------------------------------------------ // NATIVE
+
+  // { "keys": ["alt+x"], "command": "wrap_lines" }, // ?
+  // { "keys": ["alt+e"], "command": "reindent" },
+
+
+// Toggle
+
+  { "keys": ["alt+'"], "command": "toggle_status_bar" },
+  { "keys": ["super+k", "super+m",], "command": "toggle_minimap" },
+  // { "keys": ["alt+;"], "command": "toggle_tabs" },
+
+
+
+// Toggle/Set Setting
+
+  { "keys": ["alt+w"], "command": "toggle_setting",
+    "args": {"setting": "word_wrap"},
+  },
+
+  // { "keys": ["super+fn+shift+w"], "command": "toggle_setting", //??
+  //   "args": {"setting": "draw_centered"},
+  // },
+
+  { "keys": ["super+k", "super+n"], "command": "toggle_setting",
+    "args": {"setting": "line_numbers"}
+  },
+  { "keys": ["super+k", "super+k", "super+n"], "command": "toggle_setting",
+    "args": {"setting": "gutter"},
+  },
+
+
+
+
+
+// Layout // File Groups // Tabs
+
+
+  { "keys": ["super+k", "super+up"], "command": "new_pane", "args": {"move": false} },
+  { "keys": ["super+k", "super+shift+up"], "command": "new_pane" },
+  { "keys": ["super+k", "super+down"], "command": "close_pane" },
+  { "keys": ["super+k", "super+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["super+k", "super+right"], "command": "focus_neighboring_group" },
+  // { "keys": ["super+k", "super+shift+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+  // { "keys": ["super+k", "super+shift+right"], "command": "move_to_neighboring_group" },
+
+
+
+
+  { "keys": ["alt+1"], "command": "select_by_index", "args": { "index": 0 } },
+  { "keys": ["alt+2"], "command": "select_by_index", "args": { "index": 1 } },
+  { "keys": ["alt+3"], "command": "select_by_index", "args": { "index": 2 } },
+  { "keys": ["alt+4"], "command": "select_by_index", "args": { "index": 3 } },
+  { "keys": ["alt+5"], "command": "select_by_index", "args": { "index": 4 } },
+  { "keys": ["alt+6"], "command": "select_by_index", "args": { "index": 5 } },
+  { "keys": ["alt+7"], "command": "select_by_index", "args": { "index": 6 } },
+  { "keys": ["alt+8"], "command": "select_by_index", "args": { "index": 7 } },
+  { "keys": ["alt+9"], "command": "select_by_index", "args": { "index": 8 } },
+  { "keys": ["alt+0"], "command": "select_by_index", "args": { "index": 9 } },
+
+// Layout change
+
+
+  // {
+  //    "keys": ["super+1"],
+  //    "command": "set_layout",
+  //    "args":
+  //    {
+  //       "cols": [0.0, 1.0, 1.0],
+  //       "rows": [0.0, 1.0, 1.0],
+  //       "cells":
+  //       [
+  //          [0, 0, 1, 1], [1, 0, 2, 1],
+  //          [0, 1, 1, 2], [1, 1, 2, 2]
+  //       ]
+  //    }
+  // },
+
+  {
+    "keys": ["super+1"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 1.0, 1.0 ],
+            "rows": [ 0.00,
+                      1.00,
+                      1.00,],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 1, 2], [1, 1, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 0}]
+      ]
+    }
+  },
+  {
+    "keys": ["super+1", "super+5"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 1.0, 1.0 ],
+            "rows": [ 0.00,
+                      0.50,
+                      1.00,],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 2, 2], [2, 2, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 0}]
+      ]
+    }
+  },
+  {
+    "keys": ["super+1", "super+8"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 1.0, 1.0 ],
+            "rows": [ 0.00,
+                      0.80,
+                      1.00,],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 2, 2], [2, 2, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 0}]
+      ]
+    }
+  },
+
+
+  // {
+  //    "keys": ["super+2"],
+  //    "command": "set_layout",
+  //    "args":
+  //    {
+  //       "cols": [0.0, 0.0, 1.0],
+  //       "rows": [0.0, 1.0, 1.0],
+  //       "cells":
+  //       [
+  //          [0, 0, 1, 1], [1, 0, 2, 1],
+  //          [0, 1, 1, 2], [1, 1, 2, 2]
+  //       ]
+  //    }
+  // },
+  {
+    "keys": ["super+2", "super+1"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 0.0, 1.0],
+            "rows": [ 0.00,
+                      1.00,
+                      1.00, ],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 1, 2], [1, 1, 2, 2],
+            ]
+          }
+        ],
+        ["focus_group", {"group": 1}]
+      ]
+    }
+  },
+  {
+    "keys": ["super+2", "super+5"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 0.0, 1.0],
+            "rows": [ 0.00,
+                      0.50,
+                      1.00, ],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 2, 2], [2, 2, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 1}]
+      ]
+    }
+  },
+  {
+    "keys": ["super+2", "super+8"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 0.0, 1.0],
+            "rows": [ 0.00,
+                      0.80,
+                      1.00, ],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 2, 2], [2, 2, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 1}]
+      ]
+    }
+  },
+
+
+
+
+  // 3 raws
+  {
+    "keys": ["super+3", "super+1"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 0.0, 1.0],
+            "rows": [ 0.00,
+                      0.00,
+                      1.00, ],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 2, 2], [2, 2, 2, 2]
+            ]
+          }
+        ],
+        ["focus_group", {"group": 2}]
+      ]
+    }
+  },
+
+  // 3 columns (1)
+  {
+    "keys": ["super+3", "super+3"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [ 0.00, 0.33, 0.66, 1.0],
+      "rows": [ 0.00,
+                1.00,],
+      "cells": [
+              [0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1],
+              [3, 1, 3, 1]
+            ]
+    }
+  },
+
+  // 3 columns (2)
+  {
+     "keys": ["super+alt+3"],
+     "command": "set_layout",
+     "args":
+     {
+        "cols": [0.0, 1.0],
+        "rows": [0.0, 0.33, 0.66, 1.0],
+        "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+     }
+  },
+
+
+
+  {
+    "keys": ["super+4", "super+1"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [ 0.00, 0.0, 1.0],
+            "rows": [ 0.00,
+                      0.00,
+                      1.00, ],
+            "cells":
+            [
+              [0, 0, 1, 1], [1, 0, 2, 1],
+              [0, 1, 1, 2], [1, 1, 2, 2],
+            ]
+          }
+        ],
+        ["focus_group", {"group": 3}]
+      ]
+    }
+  },
+  {
+    "keys": ["super+4", "super+4"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 1, 2], [1, 1, 2, 2]
+      ]
+    }
+  },
+
+
+  // {
+  //    "keys": ["super+0"],
+  //    "command": "set_layout",
+  //    "args":
+  //    {
+  //       "cols": [0.0, 1.0],
+  //       "rows": [0.0, 1.0],
+  //       "cells": [[0, 0, 1, 1]]
+  //    }
+  // },
+  {
+    "keys": ["super+alt+shift+0"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        [
+          "set_layout",
+          {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+          }
+        ],
+        ["focus_group", {"group": 0}]
+      ]
+    }
+  },
+
+
+
+
+// // Layout change
+//    {
+//       "keys": ["super+0"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 1.0],
+//          "rows": [0.0, 1.0],
+//          "cells": [[0, 0, 1, 1]]
+//       }
+//    },
+
+//    {
+//       "keys": ["super+1"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 1.0, 1.0],
+//          "rows": [0.0, 1.0, 1.0],
+//          "cells":
+//          [
+//             [0, 0, 1, 1], [1, 0, 2, 1],
+//             [0, 1, 1, 2], [1, 1, 2, 2]
+//          ]
+//       }
+//    },
+//    {
+//       "keys": ["super+2"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 0.0, 1.0],
+//          "rows": [0.0, 1.0, 1.0],
+//          "cells":
+//          [
+//             [0, 0, 1, 1], [1, 0, 2, 1],
+//             [0, 1, 1, 2], [1, 1, 2, 2]
+//          ]
+//       }
+//    },
+//    {
+//       "keys": ["super+4"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 0.5, 1.0],
+//          "rows": [0.0, 0.5, 1.0],
+//          "cells":
+//          [
+//             [0, 0, 1, 1], [1, 0, 2, 1],
+//             [0, 1, 1, 2], [1, 1, 2, 2]
+//          ]
+//       }
+//    },
+
+
+//    {
+//       "keys": ["super+3"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 0.33, 0.66, 1.0],
+//          "rows": [0.0, 1.0],
+//          "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+//       }
+//    },
+//    {
+//       "keys": ["super+shift+3"],
+//       "command": "set_layout",
+//       "args":
+//       {
+//          "cols": [0.0, 1.0],
+//          "rows": [0.0, 0.33, 0.66, 1.0],
+//          "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+//       }
+//    },
+
+
+
+
+
+
+// ------------------------------------------ // PACKAGES
+
+
+// Chain of Command
+
+
+// Reopen a file
+  {
+    "keys": ["super+r"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        ["close"],
+        ["reopen_last_file"],
+      ]
+    }
+  },
+
+// Duplicate and save as a file
+{
+   "keys": ["super+alt+d"],
+   "command": "chain",
+   "args": {
+      "commands": [
+         ["select_all"],
+         ["copy"],
+         ["new_file"],
+         ["paste"],
+         ["save"]
+      ]
+   }
+},
+
+
+
+// Gist
+  { "keys": ["super+k", "super+p"], "command": "gist_private" },
+  { "keys": ["super+k", "super+s"], "command": "gist_update_file" },
+  { "keys": ["super+k", "super+o"], "command": "gist_list" },
+  { "keys": ["super+k", "super+i"], "command": "insert_gist_list" },
+  { "keys": ["super+k", "super+["], "command": "gist" },
+  { "keys": ["super+k", "super+]"], "command": "gist_add_file" },
+  { "keys": ["super+k", "super+g"], "command": "gist_gitio" },
+
+
+// Wrap with abreviation
+  {
+    "keys": ["`super+shift+g"],
+    "command": "emmet_wrap_with_abbreviation",
+    "context": [{"key": "setting.is_widget",  "operand": false }]
+  },
+
+
+
+// Auto Save
+  { "keys": ["super+alt+shift+s"], "command": "auto_save" },
+
+
+
+
+// GoTo-CSS-Declaration
+  {
+    "keys": ["super+shift+."], "command": "goto_css_declaration",
+    "args": {"goto": "next"}
+  },
+  {
+    "keys": ["super+shift+,"],  "command": "goto_css_declaration",
+    "args": {"goto": "prev"}
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Distraction free MOD
+  // { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
+  // { "keys": ["f11"], "command": "toggle_full_screen" },
+
+
+
+// Markdown: automatic folding of inline references url
+  // {
+  //    "keys": ["super+l", "super+f"],
+  //    "command": "chain",
+  //    "args": {
+  //       "commands": [
+  //          ["toggle_setting", {"setting": "mde.auto_fold_link.enabled"}],
+  //          ["close"],
+  //          ["reopen_last_file"],
+  //       ]
+  //    }
+  // },
+
+
+
+
+// === CODMANDS WITH OWERWRITEN DEFOULT KEY-BINDINGS ===
+
+  // { "keys": ["super+k", "super+u"], "command": "upper_case" },
+  // { "keys": ["super+k", "super+l"], "command": "lower_case" },
+  // { "keys": ["super+k", "super+m"], "command": "set_mark" },
+  // { "keys": ["super+k", "super+a"], "command": "select_to_mark" },
+  // { "keys": ["super+k", "super+w"], "command": "delete_to_mark" },
+  // { "keys": ["super+k", "super+x"], "command": "swap_with_mark" },
+  // { "keys": ["super+k", "super+g"], "command": "clear_bookmarks", "args": {"name": "mark"} },
+
+
+]
