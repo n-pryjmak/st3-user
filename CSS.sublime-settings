@@ -1,15 +1,16 @@
 // These settings override both User and Default settings for the CSS syntax
 {
-	
-
-	// "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 
 
-	// "font_face": "Monospace",
-   // "font_face": "Fira Code",
-	// "font_face": "Courier Prime",
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  "dark_color_scheme": "Mariana.sublime-color-scheme",
 
-	// "font_size": 10,
+
+  // "font_face": "Monospace",
+  // "font_face": "Fira Code",
+  // "font_face": "Courier Prime",
+
+  // "font_size": 10,
 
 
 
@@ -17,16 +18,16 @@
 
 // LAYOUT
 "rulers": [
-   -0.2, 4, 20, 32, 88
-   ],
+  -0.2, 4, 20, 32, 88
+  ],
 
 // Layout components
-   // Gutter
-      "margin": 0,
+  // Gutter
+    "margin": 0,
 
 
 
 // Editinig
-    "tab_size": 2,
+   "tab_size": 2,
 }
 
