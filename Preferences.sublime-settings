@@ -38,8 +38,8 @@
   // "color_scheme": "Kristina_light.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
 
-  "color_scheme": "auto",
-  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "auto",
+  "color_scheme": "Mariana.sublime-color-scheme",
 
 
     "show_legacy_color_schemes": true,
