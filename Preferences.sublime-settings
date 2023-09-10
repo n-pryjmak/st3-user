@@ -61,7 +61,7 @@
   /*"font_face": "Fira Code",*/
 
 
-  "font_size": 9,
+  "font_size": 12,
   // "default_syntax": "Markdown",
 
 
@@ -216,6 +216,7 @@
     // "auto-save",
     "ActualVim",
     "AutoFileName",
+    "Chromeless",
     "LSP",
     "LSP-copilot",
     "MarkdownPreview",

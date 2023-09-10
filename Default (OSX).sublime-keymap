@@ -38,6 +38,7 @@
     "args": {"setting": "gutter"},
   },
 
+  { "keys": ["super+'"], "command": "toggle_side_bar" },
 
 
 
