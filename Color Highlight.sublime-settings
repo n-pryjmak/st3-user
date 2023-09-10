@@ -1,21 +1,23 @@
+/*
+  Color Highlight user settings in here override the default
+*/
 {
-	"user":
-	{
-		"gutter_icon": false,
-		"highlight": "load-save",
+  "user": {
+    "gutter_icon": "square",
+    "highlight": "load-save",
 
 
-		"highlight_values": true,
+    "highlight_values": true,
 
-		"0x_hex_values": true,
-		"hex_values": true,
-		"hsl_values": true,
-		"hsv_values": true,
-		"hwb_values": true,
-		"lab_values": true,
-		"lch_values": true,
-		"named_values": true,
-		"rgb_values": true,
-		"xterm_color_values": true,
-	},
+    "0x_hex_values": true,
+    "hex_values": true,
+    "hsl_values": true,
+    "hsv_values": true,
+    "hwb_values": true,
+    "lab_values": true,
+    "lch_values": true,
+    "named_values": true,
+    "rgb_values": true,
+    "xterm_color_values": true,
+  }
 }
