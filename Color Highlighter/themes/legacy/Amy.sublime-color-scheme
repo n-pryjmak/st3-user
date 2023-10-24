@@ -1,0 +1,153 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+    // "backg": "hsl(300, 100%, 6%)",
+    "backg": "hsl(300, 100%, 5%)",
+    // "foreg": "#D0D0FF",
+    // "foreg": "hsl(240, 100%, 98%)",
+    "foreg": "hsl(240, 100%, 91%)",
+
+    "backg_emb": "hsl(300, 100%, 10%)",
+
+    // "secondary": "hsl(0, 0%, 50%)",
+
+
+    // "comment": "hsl(0, 0%, 65%)",
+    // "comment": "hsl(0, 30%, 70%)",
+    // "comment": "hsl(216, 76%, 50%)",
+    // "comment": "hsl(120, 13%, 50%)",
+    // "comment": "hsl(120, 30%, 80%)",
+    // "comment": "hsl(240, 30%, 70%)",
+
+    // "comment": "#404080",
+    // "comment": "hsl(240, 33%, 50%)",
+    "comment": "hsl(216, 70%, 50%)",
+
+    // "value": "hsl(180, 100%, 40%)",
+    "value": "hsl(180, 100%, 35%)",
+
+    // "str_value": "hsl(0, 50%, 50%)",
+    // "str_value": "hsl(0, 80%, 50%)",
+    // "str_value": "hsl(261, 100%, 65%)",
+    // "str_value": "hsl(0, 0%, 60%)",
+    // "str_value": "#999999",
+    // "str_value": "hsl(0, 30%, 70%)",
+    // "str_value": "#008080",
+    // "str_value": "hsl(180, 100%, 25%)",
+    // "str_value": "hsl(0, 60%, 75%)",
+    // "str_value": "hsl(0, 40%, 75%)",
+    "str_value": "var(value)",
+
+
+    // "css_value": "hsl(216, 100%, 80%)",
+    // "css_value": "hsl(0, 40%, 75%)",
+    // "css_value": "hsl(180, 30%, 40%)",
+
+    "tag": "var(value)",
+
+    "class_name": "var(str_value)",
+    "url_path": "var(str_value)",
+
+  },
+  "globals":
+  {
+    "background": "var(backg)",
+    "foreground": "var(foreg)",
+    "caret": "hsl(120, 100%, 85%)"
+  },
+  "rules":
+[
+
+  {
+      "name": "Comment",
+      "scope": "comment.line, punctuation.definition.comment",
+      "foreground": "var(comment)",
+      "background": "",
+      "font_style": "",
+  },
+  {
+      // "name": "Comment",
+      // "scope": "comment, punctuation.definition.comment",
+      // "foreground": "var(comment)",
+      // "font_style": "italic",
+  },
+
+
+  {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(str_value)",
+  },
+
+// HTML
+
+  {
+      "name": "Tag Name",
+      "scope": "entity.name.tag",
+      "foreground": "var(tag)",
+  },
+  {
+      "name": "Tag's Attribute",
+      "scope": "entity.other.attribute-name",
+      // "foreground": "var(secondary)",
+      "font_style": "italic",
+  },
+
+  {
+      "name": "Class & Id Name HTML",
+      "scope": "meta.class-name.html string, meta.toc-list.id.html string",
+      // "scope": "(meta.class-name.html string, meta.toc-list.id.html string) | (punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css)",
+      "foreground": "var(class_name)",
+      "font_style": "stippled_underline",
+  },
+
+  {
+      "name": "URL Path",
+      "scope": "meta.path.url.html string",
+      "foreground": "var(url_path)",
+      "font_style": "underline",
+  },
+
+  {
+      "name": "Comment CSS",
+      "scope": "comment.block.css",
+      "foreground": "var(comment)",
+      "font_style": "italic",
+  },
+
+
+// CSS
+
+  {
+      "scope": "source.css.embedded.html",
+      "background": "var(backg_emb)",
+  },
+
+  {
+      "name": "Class & Id Name CSS",
+      "scope": "punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+      "foreground": "var(class_name)",
+      "font_style": "stippled_underline",
+  },
+
+  {
+      "nane": "CSS Property Name",
+      "scope": "support.type.property-name",
+      // "scope": "support.type.property-name.css",
+      "foreground": "var(foreg)",
+      // "font_style": "italic stippled_underline",
+      // "font_style": "bold",
+      "font_style": "italic",
+  },
+
+  {
+      "nane": "CSS Property Value",
+      "scope": "support.constant.property-value.css",
+      // "scope": "constant.numeric.value.css"
+      // "foreground": "var(css_value)",
+      "foreground": "var(foreg)",
+      "font_style": "bold",
+  },
+]
+}
