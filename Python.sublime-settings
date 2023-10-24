@@ -1,8 +1,16 @@
 // These settings override both User and Default settings for the Python syntax
 {
 
-        "dark_color_scheme": "Monokai.sublime-color-scheme",
+  "extensions":
+  [
+      "py"
+  ],
 
-      // "color_scheme": "Packages/User/Color Highlighter/themes/Mariana.sublime-color-scheme",
-      // "color_scheme": "Packages/User/Color Highlighter/themes/Monokai.sublime-color-scheme",
+  "dark_color_scheme": "Monokai.sublime-color-scheme",
+  // "light_color_scheme": "Monokai.sublime-color-scheme",
+  // "light_color_scheme": "Packages/Color Scheme - Legacy/Espresso Libre.tmTheme",
+  // "light_color_scheme": "Packages/Color Scheme - Legacy/Eiffel.tmTheme",
+  "light_color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  // "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 }

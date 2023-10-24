@@ -2,9 +2,7 @@
    "extensions":
    [
       "md",
-      "mdown",
-      // "txt",
-      // "own",
+      "mdown"
    ],
 
    // "color_scheme": "MarkdownEditor.sublime-color-scheme",
@@ -18,6 +16,7 @@
 
 
    // "color_scheme": "SimpleMarkdown.sublime-color-scheme",
+    "color_scheme": "Monokai.sublime-color-scheme",
 
 
    // "font_face": "Consolas",
