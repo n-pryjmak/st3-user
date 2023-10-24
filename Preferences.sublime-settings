@@ -27,19 +27,23 @@
     "c - default color scheme.md": "Monokai.sublime-color-scheme",
   },
 
+
+  // "dark_color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+  "dark_color_scheme": "Monokai.sublime-color-scheme",
+  "light_color_scheme": "Kristina_light.sublime-color-scheme",
+  // "light_color_scheme": "Packages/Color Scheme - Legacy/IDLE.tmTheme",
+
+
   // "color_scheme": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
   // "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-  // "color_scheme": "Monokai.sublime-color-scheme",
-
-  "dark_color_scheme": "Monokai.sublime-color-scheme",
-  "light_color_scheme": "Kristina_light.sublime-color-scheme",
-
-  // "color_scheme": "Kristina_light.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
-
-  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
   "color_scheme": "auto",
+
+
 
 
     "show_legacy_color_schemes": true,
@@ -57,8 +61,11 @@
   // "font_face": "Sans-seriff monospace",
   // "font_face": "Courier Prime",
   // "font_face": "Lucida Console",
+
+  // "font_face": "Menlo",
+  // "font_face": "PT Mono",
+  "font_face": "Monaco",
   "font_face": "Fira Code",
-  /*"font_face": "Fira Code",*/
 
 
   "font_size": 12,
@@ -92,11 +99,8 @@
     // "wrap_width_style": "min",
     "wrap_width_style": "min",
 
-
-  // "line_padding_top": 0,
-  // "line_padding_bottom": 0,
-  "line_padding_top": -1,
-  "line_padding_bottom": -1,
+  // "line_padding_top": -1,
+  // "line_padding_bottom": -1,
 
   // Layout components
     "reveal_menu": true,

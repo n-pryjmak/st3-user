@@ -1,6 +1,6 @@
 {
-    "name": "RGB Moonlight",
-    "author": "Nazar",
+    "name": "Kristina_light",
+    "author": "Nazar Primac",
     "variables":
     {
         "foreg": "hsl(0, 0%, 0%)",
@@ -167,7 +167,7 @@
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comment)",
-            "font_style": "italic",
+            // "font_style": "italic",
         },
 
         {
@@ -254,7 +254,7 @@
             "name": "on code block: ( '{' and  '}' ) and '<couse def>:'",
             // "scope": "punctuation.section",
             "scope": "punctuation.section.block | punctuation.section.function | punctuation.section.class", // ???
-            "foreground": "var(punctuation_gray)",
+            // "foreground": "var(punctuation_gray)",
         },
 
         {

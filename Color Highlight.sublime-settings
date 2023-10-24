@@ -3,7 +3,7 @@
 */
 {
   "user": {
-    "gutter_icon": "square",
+    "gutter_icon": false,
     "highlight": "load-save",
 
 
