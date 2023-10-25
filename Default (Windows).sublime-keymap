@@ -58,7 +58,7 @@
       }
    },
    {
-      "keys": ["ctrl+q"],
+      "keys": ["ctrl+'"],
       "command": "chain",
       "args": {
          "commands": [

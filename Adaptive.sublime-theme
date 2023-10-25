@@ -170,7 +170,7 @@
             "platforms": ["windows"],
 
             "parents": [{"class": "tree_row"}],
-            "font.face": "Courier Prime",
+            "font.face": "Monospace",
             "font.size": 13,
             "fg": "hsl(0, 0%, 10%)",
         },
