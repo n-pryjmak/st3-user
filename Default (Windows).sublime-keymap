@@ -90,8 +90,9 @@
       "args": {
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 100}],
-            ["set_setting", {"setting": "rulers", "value": [-0.2, 100]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+            ["set_setting", {"setting": "rulers", "value": [ 100 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
+            // ["set_setting", {"setting": "margin", "value": [ 100 ]}],
          ]
       }
    },
@@ -102,8 +103,8 @@
       "args": {
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 110}],
-            ["set_setting", {"setting": "rulers", "value": [-0.2, 110]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+            ["set_setting", {"setting": "rulers", "value": [ 110 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
          ]
       }
    },
@@ -114,8 +115,8 @@
       "args": {
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 120}],
-            ["set_setting", {"setting": "rulers", "value": [-0.2, 120]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+            ["set_setting", {"setting": "rulers", "value": [ 120 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
          ]
       }
    },
@@ -126,8 +127,8 @@
       "args": {
          "commands": [
             ["set_setting", {"setting": "wrap_width", "value": 150}],
-            ["set_setting", {"setting": "rulers", "value": [-0.2, 150]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+            ["set_setting", {"setting": "rulers", "value": [ 150 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
          ]
       }
    },

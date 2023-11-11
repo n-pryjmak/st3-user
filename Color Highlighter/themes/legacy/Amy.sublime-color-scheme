@@ -54,7 +54,10 @@
   {
     "background": "var(backg)",
     "foreground": "var(foreg)",
-    "caret": "hsl(120, 100%, 85%)"
+    "caret": "hsl(120, 100%, 85%)",
+
+    // "gutter": "color(var(backg) l(- 1%)",
+
   },
   "rules":
 [

@@ -28,8 +28,8 @@
   },
 
 
-  // "dark_color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
-  "dark_color_scheme": "Monokai.sublime-color-scheme",
+  "dark_color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+  // "dark_color_scheme": "Monokai.sublime-color-scheme",
   "light_color_scheme": "Kristina_light.sublime-color-scheme",
   // "light_color_scheme": "Packages/Color Scheme - Legacy/IDLE.tmTheme",
 
@@ -89,22 +89,24 @@
 
 // LAYOUT
 "rulers": [
-  -0.2, 120,
+  // -0.2, 100,
+  // 0, 100,
+  100,
   ],
-  // "draw_centered": true,
+  "draw_centered": true,
 
   // "word_wrap": "auto",
-  "word_wrap": false,
-    "wrap_width": 120, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+  "word_wrap": true,
+    "wrap_width": 100, // wraping borders width (wrap_width) + sets text's extrinsic size to #
     // "wrap_width_style": "min",
-    "wrap_width_style": "min",
+    "wrap_width_style": "constant",
 
   // "line_padding_top": -1,
   // "line_padding_bottom": -1,
 
   // Layout components
     "reveal_menu": true,
-    "themed_title_bar": false,
+    "themed_title_bar": true,
 
     "highlight_line": true,
 
@@ -138,7 +140,12 @@
       // "margin": 300,
       // "margin": -25,
       // "margin": -15,
-      "margin": -5,
+
+      // "margin": -5,
+      "margin": -35,
+      // "margin": -100,
+      // "margin": 300,
+      // "margin": 200,
 
 
     // Gutter
