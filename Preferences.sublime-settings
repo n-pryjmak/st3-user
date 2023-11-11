@@ -64,7 +64,7 @@
 
   // "font_face": "Menlo",
   // "font_face": "PT Mono",
-  // "font_face": "Monaco",
+  "font_face": "Monaco",
   "font_face": "Fira Code",
 
 
@@ -89,8 +89,8 @@
 
 // LAYOUT
 "rulers": [
-  // -0.2, 120,
-  // 0, 120,
+  // -0.2, 100,
+  // 0, 100,
   100,
   ],
   "draw_centered": true,
@@ -143,6 +143,9 @@
 
       // "margin": -5,
       "margin": -35,
+      // "margin": -100,
+      // "margin": 300,
+      // "margin": 200,
 
 
     // Gutter

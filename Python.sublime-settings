@@ -6,11 +6,12 @@
       "py"
   ],
 
-  "dark_color_scheme": "Monokai.sublime-color-scheme",
-  // "light_color_scheme": "Monokai.sublime-color-scheme",
+  // "dark_color_scheme": "Monokai.sublime-color-scheme",
+
   // "light_color_scheme": "Packages/Color Scheme - Legacy/Espresso Libre.tmTheme",
   // "light_color_scheme": "Packages/Color Scheme - Legacy/Eiffel.tmTheme",
   "light_color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 }
