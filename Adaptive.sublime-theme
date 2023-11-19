@@ -104,7 +104,8 @@
             "class": "sidebar_tree",
             "platforms": ["osx"],
             // "row_padding": [2, 0.5, 4, 2],
-            "row_padding": [2, -5, 4, 2],
+            // "row_padding": [2, -5, 4, 2],
+            "row_padding": [2, -2, 4, 2],
         },
 
 
@@ -275,7 +276,8 @@
                 {"class": "tree_row", "attributes": ["expandable"]}
             ],
 
-            "fg": "hsla(300, 30%, 68%, 0.6)",
+            // "fg": "hsla(300, 30%, 68%, 0.6)",
+            "fg": "hsl(300, 30%, 68%)",
         },
         {
             "class": "sidebar_label",
