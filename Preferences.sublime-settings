@@ -40,8 +40,11 @@
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+
+
+  // "color_scheme": "auto",
   // "color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
-  "color_scheme": "auto",
+  "color_scheme": "Kristina_light.sublime-color-scheme",
 
 
 
@@ -64,11 +67,24 @@
 
   // "font_face": "Menlo",
   // "font_face": "PT Mono",
-  "font_face": "Monaco",
+  // "font_face": "Monaco",
+
+  // "font_face": "Monospace",
+  // "font_face": "Courier New",
+  // "font_face": "Open Sans Condensed",
+  // "font_face": "Open Sans",
+  // "font_face": "Open Sans SemiCondensed",
+
+
+  // "font_face": "Verdana Pro",
   "font_face": "Fira Code",
+  // "font_face": "Roboto",
+  /*"font_face": "Comfortaa",*/
+
+  /*"font_face": "Fira Code",*/
 
 
-  "font_size": 12,
+  "font_size": 10,
   // "default_syntax": "Markdown",
 
 
@@ -141,8 +157,9 @@
       // "margin": -25,
       // "margin": -15,
 
-      // "margin": -5,
-      "margin": -35,
+      "margin": -5,
+      // "margin": -35,
+      // "margin": -33,
       // "margin": -100,
       // "margin": 300,
       // "margin": 200,
@@ -253,7 +270,7 @@
 
   // relative_line_numbers will draw each line number as the distance from
   // the current line. Useful in conjunction with Vintage.
-  "relative_line_numbers": true,
+  "relative_line_numbers": false,
 
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.

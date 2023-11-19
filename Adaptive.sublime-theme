@@ -3,7 +3,13 @@
     "variables":
     {
 
-        "font_face": "Monaco",
+        // "font_face": "Monaco",
+        // "font_face": "Monospace",
+        // "font_face": "Open Sans",
+        // "font_face": "Open Sans SemiCondensed",
+        // "font_face": "Open Sans Condensed",
+        // "font_face": "Fira Code",
+        // "font_face": "Courier New",
 
 
         "black": "hsl(0, 0%, 0%)",
@@ -63,7 +69,7 @@
         {
             "class": "sidebar_container",
             "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
-            "layer0.tint": "var(sidebar_container_color_medium_dark)",
+            // "layer0.tint": "var(sidebar_container_color_medium_dark)",
         },
         {
             "class": "sidebar_container",
@@ -80,18 +86,19 @@
 // Sidebar tree
         {
             "class": "sidebar_tree",
-            // "row_padding": [16, 3, 4, 3],
+            "row_padding": [16, 3, 4, 3],
             "indent": 20,
             "indent_offset": 10,
             "indent_top_level": false,
-            // "dark_content": true // ?
+            "dark_content": true, // ?
             "spacer_rows": true, // space betweene open files and hyerarhy
         },
         {
             "class": "sidebar_tree",
             "platforms": ["windows"],
             // "row_padding": [2, 2, 4, 2],
-            "row_padding": [2, -1, 4, 2],
+            // "row_padding": [2, -1, 4, 2],
+            "row_padding": [2, 1, 4, 2],
         },
         {
             "class": "sidebar_tree",
@@ -158,6 +165,7 @@
             "parents": [{"class": "tree_row"}],
             "font.face": "Monaco",
             "font.size": 11,
+
             // "font.size": "var(smaller_screen_font_size)",
             // "font.bold": true,
 
@@ -170,8 +178,16 @@
             "platforms": ["windows"],
 
             "parents": [{"class": "tree_row"}],
-            "font.face": "Monospace",
+            // "font.face": "Courier New",
+            // "font.face": "Monospace",
+            // "font.face": "Fira Code",
+            // "font.face": "Open Sans",
+            "font.face": "Comfortaa",
+
             "font.size": 13,
+
+            // "font.bold": true,
+
             "fg": "hsl(0, 0%, 10%)",
         },
         {
@@ -194,17 +210,15 @@
             // "fg": "black",
             // "fg": "white",
         },
+
+
+
+
         {
             "class": "sidebar_label",
             "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
-            // "fg": "hsl(261, 100%, 50%)",
-            // "fg": "hsl(121, 100%, 35%)",
-            // "fg": "hsl(122, 94%, 21%)",
-            // "fg": "hsl(216, 76%, 50%)",
-            // "fg": "hsl(0, 100%, 50%)",
-            "fg": "var(foreg)",
 
-            // "font.face": "var((font_face_file))",
+            // "font.face": "var(<font_face_file>)",
 
             // "font.italic": true,
             // "font.bold": true,
@@ -219,29 +233,21 @@
         },
         {
             "class": "sidebar_label",
-            "platforms": ["osx"],
-            "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
-
-            "font.size": 11,
-        },
-        {
-            "class": "sidebar_label",
-            "platforms": ["windows"],
-            "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
-
-            "font.size": 13,
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]},
+                {"class": "tree_row", "attributes": ["!expandable"]}
+            ],
+            "fg": "var(foreg)",
         },
 
 
 
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-            // "settings": ["bold_folder_labels"],
             // "fg": "hsl(261, 100%, 50%)",
             // "fg": "hsl(121, 100%, 35%)",
             // "fg": "hsl(122, 94%, 21%)",
             // "fg": "hsl(216, 76%, 50%)",
+            // "fg": "hsl(0, 100%, 50%)",
+
             // "fg": "color(hsl(122, 94%, 21%) a(40%))",
             // "fg": "color(hsl(122, 94%, 21%) a(40%))",
             // "fg": "color(hsl(261, 100%, 50%) a(40%))",
@@ -252,24 +258,49 @@
             // "fg": "color(hsl(0, 100%, 50%) a(50%))",
             // "fg": "hsl(0, 100%, 20%)",
 
-            "font.bold": false,
-            // "font.italic": true,
-        },
         {
             "class": "sidebar_label",
-            "parents": [
-                {"class": "tree_row", "attributes": ["expandable"]},
-                {"class": "window", "attributes": ["file_medium_dark"]},
-            ],
-            // "fg": "hsl(121,  70%, 34%)",
-            // "fg": "hsl(114, 31%, 68%)",
-            // "fg": "hsl(300, 30%, 68%)",
-            "fg": "hsla(300, 30%, 68%, 0.6)",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+            // "settings": ["bold_folder_labels"],
+
+            // "font.bold": true,
+            // "font.italic": true,
         },
+
         {
             "class": "sidebar_label",
             "platforms": ["osx"],
             "parents": [
+                {"class": "window", "attributes": ["file_medium_dark"]},
+                {"class": "tree_row", "attributes": ["expandable"]}
+            ],
+
+            "fg": "hsla(300, 30%, 68%, 0.6)",
+        },
+        {
+            "class": "sidebar_label",
+            "platforms": ["windows"],
+            "parents": [
+                {"class": "window", "attributes": ["file_medium_dark"]},
+                {"class": "tree_row", "attributes": ["expandable"]}
+                // {"class": "tree_row", "attributes": ["file_medium_dark"]},
+
+            ],
+
+            // "fg": "hsl(0, 100%, 35%)",
+            // "fg": "hsl(0, 100%, 45%)",
+
+            // "fg": "hsl(121, 70%, 34%)",
+            // "fg": "hsl(114, 31%, 68%)",
+            "fg": "hsl(300, 30%, 68%)",
+
+        },
+
+        {
+            "class": "sidebar_label",
+            "platforms": ["osx"],
+            "parents": [
+                {"class": "window", "attributes": ["file_light"]},
                 {"class": "tree_row", "attributes": ["expandable"]}
             ],
 
@@ -279,57 +310,51 @@
             "class": "sidebar_label",
             "platforms": ["windows"],
             "parents": [
+                {"class": "window", "attributes": ["file_light"]},
                 {"class": "tree_row", "attributes": ["expandable"]}
             ],
 
-            "fg": "hsl(0, 100%, 35%)",
+            // "fg": "hsl(0, 100%, 35%)",
+            "fg": "hsl(0, 100%, 40%)",
+
         },
 
 
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {"class": "tree_row", "attributes": ["expanded"]}
-            ],
+
+
             // "fg": "hsl(0, 100%, 50%)",
             // "fg": "hsl(122, 94%, 21%)",
             // "fg": "hsl(121, 100%, 35%)",
             // "fg": "hsl(246, 100%, 50%)",
             // "fg": "hsl(261, 100%, 50%)",
             // "fg": "hsl(216, 76%, 50%)",
-            "fg": "hsl(216, 100%, 40%)",
 
-            "font.bold": false,
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+
+            // "font.bold": false,
             // "font.italic": true,
         },
 
         {
             "class": "sidebar_label",
             "parents": [
-                {"class": "tree_row", "attributes": ["expanded"]},
                 {"class": "window", "attributes": ["file_medium_dark"]},
+                {"class": "tree_row", "attributes": ["expanded"]}
             ],
             // "fg": "hsl(216, 100%, 70%)",
             // "fg": "hsl(300, 30%, 68%)",
             "fg": "hsl(114, 31%, 68%)",
         },
+
         {
             "class": "sidebar_label",
-            "platforms": ["osx"],
             "parents": [
+                {"class": "window", "attributes": ["file_light"]},
                 {"class": "tree_row", "attributes": ["expanded"]}
             ],
-
-            "font.size": 11,
-        },
-        {
-            "class": "sidebar_label",
-            "platforms": ["windows"],
-            "parents": [
-                {"class": "tree_row", "attributes": ["expanded"]}
-            ],
-
-            "font.size": 13,
+            "fg": "hsl(216, 100%, 40%)",
         },
 
 
