@@ -68,6 +68,7 @@
         },
         {
             "class": "sidebar_container",
+            "platforms": ["osx"],
             "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
             "layer0.tint": "var(sidebar_container_color_medium_dark)",
         },
