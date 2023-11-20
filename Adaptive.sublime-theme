@@ -69,7 +69,7 @@
         {
             "class": "sidebar_container",
             "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
-            // "layer0.tint": "var(sidebar_container_color_medium_dark)",
+            "layer0.tint": "var(sidebar_container_color_medium_dark)",
         },
         {
             "class": "sidebar_container",
@@ -276,7 +276,7 @@
                 {"class": "tree_row", "attributes": ["expandable"]}
             ],
 
-            // "fg": "hsla(300, 30%, 68%, 0.6)",
+            "fg": "hsla(300, 30%, 68%, 0.6)",
             "fg": "hsl(300, 30%, 68%)",
         },
         {
@@ -345,7 +345,7 @@
                 {"class": "window", "attributes": ["file_medium_dark"]},
                 {"class": "tree_row", "attributes": ["expanded"]}
             ],
-            // "fg": "hsl(216, 100%, 70%)",
+            "fg": "hsl(216, 100%, 70%)",
             // "fg": "hsl(300, 30%, 68%)",
             "fg": "hsl(114, 31%, 68%)",
         },
