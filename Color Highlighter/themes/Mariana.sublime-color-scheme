@@ -4,11 +4,19 @@
     "variables":
     {
 
+// from Monokai
+        "black3": "hsl(70, 8%, 15%)",
+        "white4": "hsl(60, 30%, 96%)", // white3
+        "yellow5": "hsl(50, 11%, 41%)",
 
-        "foreg": "var(white3)",
-        "backg": "var(blue3)",
+
+
+        "foreg": "var(white4)",
+        // "backg": "var(blue3)",
+        "backg": "var(black3)",
         "backg_dark": "color(var(backg) l(- 3%))",
 
+        "green": "hsl(80, 76%, 53%)",
         "string": "var(green)",
 
         "focus_line": "#A0804026",
@@ -18,12 +26,20 @@
         // "comment": "hsl(120, 30%, 80%)",
         // "comment": "hsl(120, 13%, 50%)",
 
-        "comment2": "hsl(0, 0%, 50%)",
         "comment": "hsl(240, 30%, 40%)",
+        "comment2": "hsl(0, 0%, 50%)",
 
-        "tag": "hsl(240, 30%, 60%)",
-        "tag": "hsl(246, 100%, 50%)",
-        "tag": "hsl(240, 100%, 80%)",
+        // "tag": "hsl(240, 30%, 60%)",
+        // "tag": "hsl(246, 100%, 50%)",
+        // "tag": "hsl(240, 100%, 80%)",
+        "tag": "hsl(190, 81%, 67%)",
+        // "fg": "hsla(190, 81%, 67%, .8)",
+
+        // "fg": "hsla(338, 95%, 56%, .6)",
+        // "fg": "hsl(338, 95%, 56%)",
+
+        // "fg": "hsl(32, 98%, 56%)",
+
 
 
         "red_actual": "hsl(0, 100%, 50%)",
@@ -43,6 +59,9 @@
 
     "globals":
     {
+        "foreground": "var(foreg)",
+        "background": "var(backg)",
+
         // "gutter": "color(var(backg) l(- 3%)",
         "line_highlight": "var(focus_line)",
 
@@ -130,12 +149,12 @@
             "name": "Tag Name",
             "scope": "entity.name.tag",
             "foreground": "var(tag)",
-            "font_style": "bold"
+            // "font_style": "bold"
         },
         {
             "name": "Punctuation - Tag",
             "scope": "punctuation.definition.tag",
-            "foreground": "var(tag)",
+            "foreground": "var(comment2)",
         },
 
         {

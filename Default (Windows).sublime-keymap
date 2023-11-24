@@ -15,11 +15,11 @@
 
 
 // Bookmarks
-   { "keys": ["ctrl+="], "command": "next_bookmark" },
-   { "keys": ["shift+-"], "command": "prev_bookmark" },
-   { "keys": ["ctrl++"], "command": "toggle_bookmark" },
-   { "keys": ["ctrl+_"], "command": "clear_bookmarks" },
-   { "keys": ["alt+="], "command": "select_all_bookmarks" },
+   // { "keys": ["ctrl+="], "command": "next_bookmark" },
+   // { "keys": ["shift+-"], "command": "prev_bookmark" },
+   // { "keys": ["ctrl++"], "command": "toggle_bookmark" },
+   // { "keys": ["ctrl+_"], "command": "clear_bookmarks" },
+   // { "keys": ["alt+="], "command": "select_all_bookmarks" },
 
 
 // Toggle
@@ -110,7 +110,7 @@
    },
 
    {
-      "keys": ["ctrl+down"],
+      "keys": ["ctrl+pagedown"],
       "command": "chain",
       "args": {
          "commands": [

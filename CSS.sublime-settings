@@ -1,19 +1,14 @@
 // These settings override both User and Default settings for the CSS syntax
 {
 
-  // "color_scheme": "Mariana.sublime-color-scheme",
-  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
-
-
-  // "dark_color_scheme": "Mariana.sublime-color-scheme",
-  "dark_color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+  "dark_color_scheme": "Monokai.sublime-color-scheme",
   "light_color_scheme": "Kristina_light.sublime-color-scheme",
 
 
-
-
-  // "font_size": 10,
-
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  // "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  "color_scheme": "Mariana.sublime-color-scheme",
 
 
 
@@ -25,7 +20,7 @@
 
 // Layout components
   // Gutter
-    "margin": 0,
+    // "margin": 0,
 
 
 

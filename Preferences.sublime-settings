@@ -39,12 +39,20 @@
   // "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Monokai.sublime-color-scheme",
-  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 
 
   // "color_scheme": "auto",
-  "color_scheme": "Kristina_light.sublime-color-scheme",
-  "color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+
+
+  // "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Mariana.sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+
+
+
+  /*"color_scheme": "Mariana.sublime-color-scheme",*/
 
 
 
@@ -69,7 +77,6 @@
   // "font_face": "PT Mono",
   // "font_face": "Monaco",
 
-  // "font_face": "Monospace",
   // "font_face": "Courier New",
   // "font_face": "Open Sans Condensed",
   // "font_face": "Open Sans",
@@ -77,14 +84,17 @@
 
 
   // "font_face": "Verdana Pro",
+  // "font_face": "Comfortaa",
+
+  // "font_face": "Monospace",
+
+  // "font_face": "Cascadia Mono",
+  // "font_face": "Cascadia Code",
   "font_face": "Fira Code",
-  // "font_face": "Roboto",
-  /*"font_face": "Comfortaa",*/
-
-  /*"font_face": "Fira Code",*/
 
 
-  "font_size": 10,
+  "font_size": 10.5,
+
   // "default_syntax": "Markdown",
 
 
@@ -122,7 +132,24 @@
 
   // Layout components
     "reveal_menu": true,
-    "themed_title_bar": true,
+
+
+    // Adaptive theme only: controls if a custom or default title bar is used.
+    // Note that on Windows, the hamburger menu is used whenever this is
+    // enabled and the adaptive theme is in use.
+    "themed_title_bar": false,
+
+    // Controls the style of file tabs for the Default, Default Dark, and
+    // Adaptive themes.
+    // Options: "rounded", "square"
+    //   The value "angled" provides the tab style from Sublime Text 3, but is
+    //   only compatible with the Default and Adaptive themes, and will not
+    //   support new features like inactive pane dimming.
+    "file_tab_style": "square",
+
+    // If inactive sheets should have their background slightly modified to
+    // make input focus more obvious.
+    "inactive_sheet_dimming": false,
 
     "highlight_line": true,
 
@@ -382,4 +409,5 @@
 
   // Enable automatic folding of url parts of inline references or images
   "mde.auto_fold_link.enabled": true,
+  "color_scheme": "Mariana.sublime-color-scheme",
 }
