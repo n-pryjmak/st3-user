@@ -1,30 +1,7 @@
 {
 
   "tab_colors": {
-    // "Preferences.sublime-settings": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-    // "learnpython3.py": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
-    // "tutorial-py/*": "Packages/User/Color Highlighter/themes/Monokai - learnpython3.sublime-color-scheme",
-    // "_index.html": "Packages/Color Scheme - Legacy/Zenburnesque.tmTheme",
-    // "_index.html": "Packages/User/Color Highlighter/themes/Mac Classic.tmTheme",
-    // "learnpython3.py": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-    // "D:\\Google Drive\\FREE SPACE (MMD & CFL)\\CONSPECT (Prog) 1\\*": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-    // "index.html": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-    // "D:\\www\\temp\\out\\index.html": "Monokai.sublime-color-scheme",
-    // "TODO.txt": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
-    // "*.sublime-settings": "Packages/User/Color Highlighter/themes/RGB Moonlight - Red.sublime-color-scheme",
-    // "": ""
 
-    "_main.js": "Kristina_light.sublime-color-scheme",
-    "_common.css": "Kristina_light.sublime-color-scheme",
-
-    "Crawl budget. What it is and how to deal with it - Copy.md": "MarkdownEditor.sublime-color-scheme",
-    "example - MarkdownEditor.md": "MarkdownEditor.sublime-color-scheme",
-
-    "example - Default.md": "Mariana.sublime-color-scheme",
-    /*"example - Default.md": "Breakers.sublime-color-scheme",*/
-    /*"example - Default.md": "Mariana.sublime-color-scheme",*/
-
-    "c - default color scheme.md": "Monokai.sublime-color-scheme",
   },
 
 
