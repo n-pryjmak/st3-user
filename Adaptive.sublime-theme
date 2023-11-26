@@ -221,9 +221,9 @@
 
             // "font.face": "Monospace",
 
-            // "font.face": "Fira Code",
             // "font.face": "Cascadia Code",
-            "font.face": "Cascadia Mono",
+            // "font.face": "Cascadia Mono",
+            "font.face": "Fira Code",
 
             "font.size": 13,
 

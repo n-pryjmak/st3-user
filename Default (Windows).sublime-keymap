@@ -109,17 +109,18 @@
       }
    },
 
-   {
-      "keys": ["ctrl+pagedown"],
-      "command": "chain",
-      "args": {
-         "commands": [
-            ["set_setting", {"setting": "wrap_width", "value": 120}],
-            ["set_setting", {"setting": "rulers", "value": [ 120 ]}],
-            ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
-         ]
-      }
-   },
+   // {
+   //    "keys": ["ctrl+down"],
+   //    "keys": ["ctrl+pagedown"],
+   //    "command": "chain",
+   //    "args": {
+   //       "commands": [
+   //          ["set_setting", {"setting": "wrap_width", "value": 120}],
+   //          ["set_setting", {"setting": "rulers", "value": [ 120 ]}],
+   //          ["set_setting", {"setting": "wrap_width_style", "value": "constant"}],
+   //       ]
+   //    }
+   // },
 
    {
       "keys": ["ctrl+clear"],
