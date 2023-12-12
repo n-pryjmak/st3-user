@@ -150,6 +150,75 @@
 
 
 
+   {
+      "keys": ["ctrl+shift+insert"],
+      "command": "chain",
+      "args": {
+         "commands": [
+            ["set_setting", {"setting": "wrap_width", "value": 100}],
+            ["set_setting", {"setting": "rulers", "value": [ 100 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+            // ["set_setting", {"setting": "margin", "value": [ 100 ]}],
+         ]
+      }
+   },
+
+   {
+      "keys": ["ctrl+shift+end"],
+      "command": "chain",
+      "args": {
+         "commands": [
+            ["set_setting", {"setting": "wrap_width", "value": 110}],
+            ["set_setting", {"setting": "rulers", "value": [ 110 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+         ]
+      }
+   },
+   // REWRITING:
+   // { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
+
+   // {
+   //    "keys": ["ctrl+shift+down"],
+   //    "keys": ["ctrl+shift+pagedown"],
+   //    "command": "chain",
+   //    "args": {
+   //       "commands": [
+   //          ["set_setting", {"setting": "wrap_width", "value": 120}],
+   //          ["set_setting", {"setting": "rulers", "value": [ 120 ]}],
+   //          ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+   //       ]
+   //    }
+   // },
+
+   {
+      "keys": ["ctrl+shift+clear"],
+      "command": "chain",
+      "args": {
+         "commands": [
+            ["set_setting", {"setting": "wrap_width", "value": 150}],
+            ["set_setting", {"setting": "rulers", "value": [ 150 ]}],
+            ["set_setting", {"setting": "wrap_width_style", "value": "min"}],
+         ]
+      }
+   },
+
+
+// Markdown: automatic folding of inline references url
+   // {
+   //    "keys": ["ctrl+l", "ctrl+f"],
+   //    "command": "chain",
+   //    "args": {
+   //       "commands": [
+   //          ["toggle_setting", {"setting": "mde.auto_fold_link.enabled"}],
+   //          ["close"],
+   //          ["reopen_last_file"],
+   //       ]
+   //    }
+   // },
+
+
+
 
 // Toggle/Set Setting
 

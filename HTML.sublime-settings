@@ -7,8 +7,17 @@
 
   // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
   // "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Kristina_light.sublime-color-scheme",
-  "color_scheme": "Mariana.sublime-color-scheme",
 
+
+  // "font_size": 10,
+
+  // "font_face": "Consolas",
+  // "font_face": "Monospace",
+
+
+  // "font_face": "Cascadia Mono",
+  // "font_face": "Cascadia Code",
 
 }
