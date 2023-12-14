@@ -194,8 +194,10 @@
             "platforms": ["osx"],
 
             "parents": [{"class": "tree_row"}],
-            "font.face": "Monaco",
-            "font.size": 11,
+            // "font.face": "Monaco",
+            "font.face": "Fira Code",
+            // "font.size": 12.5,
+            "font.size": 12.5,
 
             // "font.size": "var(smaller_screen_font_size)",
             // "font.bold": true,
