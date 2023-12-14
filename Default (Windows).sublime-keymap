@@ -227,14 +227,15 @@
    //   "args": {"setting": "blured_side_bar"},
    // },
 
-   {
-     "keys": ["alt+s"], "command": "set_setting",
-     "args": {"setting": "margin", "value": 0,}
-   },
-   {
-     "keys": ["alt+a"], "command": "set_setting",
-     "args": {"setting": "margin", "value": 300,}
-   },
+   // {
+   //   "keys": ["alt+s"], "command": "set_setting",
+   //   "args": {"setting": "margin", "value": 0,}
+   // },
+   // {
+   //   "keys": ["alt+a"], "command": "set_setting",
+   //   "args": {"setting": "margin", "value": 300,}
+   // },
+
 
    { "keys": ["alt+w"], "command": "toggle_setting",
      "args": {"setting": "word_wrap"},

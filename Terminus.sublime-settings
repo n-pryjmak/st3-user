@@ -3,14 +3,14 @@
 	{
 		"linux": null,
 		"osx": null,
-		"windows": "MINGW64",
+		"windows": "WSL2",
 	},
 
 	// a list of available shells to execute
 	"shell_configs": [
 		{
 		   "name": "MINGW64",
-		   "cmd": ["D:\\System\\Program Files\\Git\\bin\\bash.exe", "-l", "-i"],
+		   "cmd": ["C:\\Program Files\\Git\\bin\\bash.exe", "-l", "-i"],
 		   "env": {},
 		   "enable": true,
 		   "platforms": ["windows"],
@@ -58,8 +58,11 @@
 		   "platforms": ["windows"],
 		},
 		{
-		   "name": "WSL Login Shell",
-		   "cmd": "wsl.exe",
+		   "name": "WSL2",
+		   // "cmd": "C:\\Windows\\system32\\ubuntu.exe",
+		   // "cmd": ["C:\\Windows\\system32\\ubuntu.exe", "-l", "-i"],
+       "cmd": "wsl.exe",
+
 		   "env": {},
 		   "enable": true,
 		   "platforms": ["windows"],
@@ -77,7 +80,7 @@
 
 
 
-	"theme": "solarized-dark-higher-contrast",
+	"theme": "molokai",
 	"unix_lang": "en_US.UTF-8",
 	"unix_term": "linux",
 	"user_theme_colors":
