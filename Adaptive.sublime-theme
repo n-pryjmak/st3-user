@@ -1092,7 +1092,7 @@
                 "highlight_modified_tabs": true
             },
             "layer2.opacity": 0.8,
-            "layer2.tint": "blue",
+            "layer2.tint": "white",
 
         },
         {
@@ -1100,7 +1100,7 @@
             "attributes": ["dirty", "selected", "file_medium_dark"],
             "settings": ["highlight_modified_tabs"],
             "layer2.opacity": 1.0,
-            "layer2.tint": "blue",
+            "layer2.tint": "white",
 
         },
         {
@@ -1112,7 +1112,7 @@
             },
             "layer2.texture": "Theme - Default/common/tab_rounded_pinstripe.png",
             "layer2.inner_margin": [12, 0, 12, 0],
-            "layer2.tint": "blue",
+            "layer2.tint": "white",
         },
         {
             "class": "tab_control",
@@ -1123,7 +1123,7 @@
             },
             "layer2.texture": "Theme - Default/common/tab_square_pinstripe.png",
             "layer2.inner_margin": [0, 0, 0, 0],
-            "layer2.tint": "blue",
+            "layer2.tint": "white",
         },
 
         {
