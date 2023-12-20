@@ -125,7 +125,7 @@
         },
         {
             "class": "sidebar_tree",
-            "platforms": ["windows"],
+            "platforms": ["windows", "linux"],
             // "row_padding": [2, 2, 4, 2],
             // "row_padding": [2, -1, 4, 2],
             "row_padding": [2, -2, 4, 2],
@@ -208,7 +208,7 @@
         },
         {
             "class": "sidebar_label",
-            "platforms": ["windows"],
+            "platforms": ["windows", "linux"],
 
             "parents": [{"class": "tree_row"}],
             // "font.face": "Courier New",
@@ -344,7 +344,7 @@
         {
             "class": "sidebar_label",
             // "platforms": ["osx"],
-            // "platforms": ["windows"],
+            // "platforms": ["windows", "linux"],
             "parents": [
                 {"class": "window", "attributes": ["file_medium_dark"]},
                 {"class": "tree_row", "attributes": ["expandable"]}
@@ -417,7 +417,7 @@
         },
         {
             "class": "sidebar_label",
-            "platforms": ["windows"],
+            "platforms": ["windows", "linux"],
             "parents": [
                 {"class": "window", "attributes": ["file_medium"]},
                 {"class": "tree_row", "attributes": ["expandable"]}
@@ -471,7 +471,7 @@
         },
         {
             "class": "sidebar_label",
-            "platforms": ["windows"],
+            "platforms": ["windows", "linux"],
             "parents": [
                 {"class": "window", "attributes": ["file_light"]},
                 {"class": "tree_row", "attributes": ["expandable"]}
@@ -1232,7 +1232,7 @@
         {
             "class": "popup_shadow",
             "settings": ["popup_shadows"],
-            "platforms": ["windows"],
+            "platforms": ["windows", "linux"],
             "layer0.texture": "Theme - Default/common/windows_shadow.png",
             "layer0.inner_margin": [15, 14, 15, 16],
             "layer0.draw_center": false,
