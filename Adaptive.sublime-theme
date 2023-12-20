@@ -17,10 +17,10 @@
 
 
 
-        "font_size_sm": 11,
-        "font_size": 12,
-        "font_size_lg": 13,
-        "font_size_title": 24,
+        "font_size_sm": 14,
+        "font_size": 15,
+        "font_size_lg": 16,
+        "font_size_title": 27,
 
 
         "black": "hsl(0, 0%, 0%)",
@@ -233,6 +233,15 @@
 
             "fg": "hsl(0, 0%, 10%)",
         },
+        {
+            "class": "sidebar_label",
+            "platforms": ["linux"],
+
+            "parents": [{"class": "tree_row"}],
+
+            "font.size": 16,
+        },
+
         {
             "class": "sidebar_label",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
