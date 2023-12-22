@@ -15,8 +15,28 @@
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
 
 
+
+
+  // "color_scheme": "Packages/Color Scheme - Legacy/Espresso Libre.tmTheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+  // "color_scheme": "Mariana.sublime-color-scheme",
+
+  // "dark_color_scheme": "Packages/Color Scheme - Legacy/Amy.tmTheme",
+
+
+  // "color_scheme": "Monokai.sublime-color-scheme",
+
+  // "color_scheme": "Mariana.sublime-color-scheme",
+  // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "SimpleMarkdown.sublime-color-scheme",
-  "color_scheme": "Monokai.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Cobalt.tmTheme",
+  
+  // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor.sublime-color-scheme",
+
+
 
 
   // "font_face": "Consolas",
