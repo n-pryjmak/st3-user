@@ -1,4 +1,9 @@
 // These settings override both User and Default settings for the JavaScript syntax
 {
-  
+
+
+  // "color_scheme": "MarkdownEditor-Plain.sublime-color-scheme",
+  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
+
+
 }

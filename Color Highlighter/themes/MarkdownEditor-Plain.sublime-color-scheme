@@ -1,0 +1,64 @@
+{
+    "name": "Plain",
+    "author": "Nazar Pryjmak",
+    "variables":
+    {},
+
+    "globals":
+    {
+        "foreground": "#555555",
+        "background": "#ECECEC",
+        "caret": "#00bbff",
+        "invisibles": "#E0E0E0",
+        "line_highlight": "#D3D3D3",
+        "selection": "#C2E8FF",
+        "selection_border": "#AACBDF",
+        "inactive_selection": "#B5D3E5",
+        "shadow": "#808080",
+        "shadow_width": "6",
+        "find_highlight_foreground": "#000000",
+        "find_highlight": "#FFE792"
+    },
+
+    "rules":
+    [
+
+        {
+            "background": "#CCCCCCFF",
+            "foreground": "#4C4C4CFF",
+            "scope": "col_CCCCCCFF"
+        },
+        {
+            "background": "#88220022",
+            "foreground": "#545454FF",
+            "scope": "col_88220022"
+        },
+        {
+            "background": "#88222299",
+            "foreground": "#050505FF",
+            "scope": "col_88222299"
+        },
+        {
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "scope": "col_gutter"
+        },
+        {
+            "background": "#000000FF",
+            "foreground": "#808080FF",
+            "scope": "col_000000FF"
+        },
+        {
+            "background": "#4C4C4CFF",
+            "foreground": "#CCCCCCFF",
+            "scope": "col_4C4C4CFF"
+        },
+        {
+            "name": "Comments",
+            "scope": "comment, comment punctuation",
+            "foreground": "#ADADAD"
+        },
+
+
+    ]
+}

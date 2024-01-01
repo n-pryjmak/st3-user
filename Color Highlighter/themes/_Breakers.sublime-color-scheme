@@ -1,0 +1,235 @@
+{
+    "name": "Mariana (custom configuration)",
+    "author": "Nazar Pryjmak",
+    "variables":
+    {
+
+
+        "foreg": "var(white4)",
+        // "backg": "var(blue3)",
+        "backg": "var(black3)",
+        "backg_dark": "color(var(backg) l(- 3%))",
+
+        "focus_line": "#A0804026",
+
+        // "comment": "hsl(216, 76%, 50%)",
+        // "comment": "hsl(0, 30%, 70%)",
+        // "comment": "hsl(120, 30%, 80%)",
+        // "comment": "hsl(120, 13%, 50%)",
+
+        "comment": "hsl(240, 30%, 40%)",
+        "comment2": "hsl(0, 0%, 50%)",
+
+        // "tag": "hsl(240, 30%, 60%)",
+        // "tag": "hsl(246, 100%, 50%)",
+        // "tag": "hsl(240, 100%, 80%)",
+        // "fg": "hsla(190, 81%, 67%, .8)",
+
+        // "fg": "hsla(338, 95%, 56%, .6)",
+        // "fg": "hsl(338, 95%, 56%)",
+
+        // "fg": "hsl(32, 98%, 56%)",
+
+        "string": "var(yellow2)",
+
+
+        "red_actual": "hsl(0, 100%, 50%)",
+
+        // "blue0": "hsl(246, 100%, 50%)",
+        // "red0": "hsl(357, 79%, 65%)",
+        // "red0": "hsl(0, 79%, 65%)",
+        // "red0": "hsl(0, 100%, 65%)",
+        // "red0": "hsl(0, 100%, 50%)",
+        // "red0": "hsl(0, 100%, 80%)",
+        // "red0": "hsl(0, 100%, 75%)",
+        // "red0": "hsl(0, 100%, 85%)",
+        "red0": "hsl(0, 0%, 85%)",
+
+// Monokai Colors
+
+        "purple": "hsl(261, 100%, 75%)",
+
+        "red3": "hsl(338, 95%, 56%)",
+
+        "blue0": "hsl(190, 81%, 67%)",
+
+        "yellow": "hsl(54, 70%, 68%)",
+        "yellow2": "hsl(80, 76%, 53%)",
+        "black3": "hsl(70, 8%, 15%)",
+        "white4": "hsl(60, 30%, 96%)", // white3
+        "yellow5": "hsl(50, 11%, 41%)",
+    },
+
+    "globals":
+    {
+        // "foreground": "var(foreg)",
+        "background": "var(backg)",
+
+        // "gutter": "color(var(backg) l(- 3%)",
+        "line_highlight": "var(focus_line)",
+
+        // "invisibles": "color(var(backg) l(70%))",
+        "rulers": "color(var(backg) l(+ 5%))",
+
+        "active_guide": "lime",
+        "stack_guide": "lime",
+
+        "highlight": "var(red)",
+        "find_highlight": "var(red2)",
+
+        "brackets_options": "bold",
+        "brackets_foreground": "var(red)",
+        "bracket_contents_options": "bold",
+        "bracket_contents_foreground": "var(red)",
+
+        "tags_options": "underline",
+        "tags_foreground": "var(red_actual)",
+    },
+
+    "rules":
+    [
+
+        {
+            // "name": "",
+            // "scope": "",
+
+            // "foreground": "",
+            // "foreground_adjust": "l(+ 10%)"
+
+            // "background": "",
+            // "font_style": "bold italic underline stippled_underline",
+            //
+        },
+
+        {
+            "name": "Plain Text",
+            "scope": "text.plain",
+            // "background": "hsl(70, 8%, 15%)",
+            // "background": "hsl(45, 100%, 95%)",
+
+            // "foreground": "hsl(60, 30%, 96%)",
+            // "foreground": "hsl(54, 70%, 68%)",
+            "foreground": "var(red0)",
+        },
+
+
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comment2)",
+            // "font_style": "italic",
+        },
+
+
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(string)",
+        },
+
+
+// General Purpouse Programing Languages
+
+        {
+            "name": "Member Variable",
+            "scope": "variable.member",
+            "foreground": "aqua",
+        },
+
+
+// EMBEDDED
+
+        {
+            "scope": "source.css.embedded.html, source.js.embedded.html",
+            "background": "var(backg_dark)",
+        },
+
+
+// HTML
+
+        {
+            "name": "'DOCTYPE html'",
+            "scope": "keyword.declaration.doctype.html, constant.language.doctype.html",
+            "foreground": "var(foreg)",
+            "font_style": "",
+        },
+        {
+            "name": "Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red3)",
+            // "font_style": "bold"
+        },
+        {
+            "name": "Punctuation - Tag",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(comment2)",
+        },
+
+        {
+            "name": "Tag's Attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "color(var(red3) alpha(.65))",
+            // "foreground": "var(red3)",
+            "font_style": "italic",
+        },
+        {
+            "name": "Punctuation of atribute's value (html & css)",
+            "scope": "(meta.attribute-with-value punctuation.definition.string, meta.attribute-with-value punctuation.separator.key-value) | (meta.attribute-selector punctuation.definition.string, meta.attribute-selector keyword.operator.logical)",
+            "foreground": "var(comment2)",
+        },
+
+        {
+            "name": "Class & Id Name HTML",
+            "scope": "meta.class-name.html string, meta.toc-list.id.html string",
+            "font_style": "stippled_underline",
+        },
+
+        {
+            "name": "URL Path",
+            "scope": "meta.path.url.html string",
+            "font_style": "underline",
+        },
+
+
+// CSS
+
+        {
+            "name": "RESET",
+            "scope": "keyword.operator.combinator.css | (punctuation.definition.pseudo-class.css, punctuation.definition.pseudo-element.css)",
+            // "scope": "punctuation.definition.pseudo-class.css, punctuation.definition.keyword | meta.interpolation source, constant.other.placeholder | storage.modifier.debug",
+
+            "foreground": "var(foreg)",
+        },
+
+        {
+            "name": "Class & Id Name CSS",
+            "scope": "punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+            "foreground": "var(string)",
+            "font_style": "",
+        },
+
+        {
+            "nane": "CSS Property Name",
+            "scope": "support.type.property-name",
+            // "foreground": "var(foreg)",
+            // "font_style": "italic stippled_underline",
+            // "font_style": "bold",
+            "font_style": "italic",
+            // "font_style": "stippled_underline",
+            // "font_style": "",
+        },
+        {
+            "nane": "CSS Property Value",
+            "scope": "constant.numeric.value.css, support.constant.property-value.css",
+            // "foreground": "var(css_value)",
+            "font_style": "",
+        },
+        {
+            "nane": "CSS Property Value Suffix",
+            "scope": "constant.numeric.suffix.css",
+            // "foreground": "var(values_sufix)",
+            "font_style": "",
+        },
+
+    ]
+}

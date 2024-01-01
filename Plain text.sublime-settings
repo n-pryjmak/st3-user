@@ -35,9 +35,12 @@
 
 
 // LAYOUT
-// "rulers": [
-//    100,
-// ],
+"rulers": [
+    // -0.2, 100,
+    // 0, 100,
+    31,
+    100,
+  ],
 //   "draw_centered": true,
 
 //   "word_wrap": true,

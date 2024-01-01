@@ -25,7 +25,9 @@
 
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
-  "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Light).tmTheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Light).tmTheme",
+
+  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
 
 
 }
