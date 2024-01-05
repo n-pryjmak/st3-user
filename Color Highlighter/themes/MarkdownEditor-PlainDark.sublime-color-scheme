@@ -1,0 +1,32 @@
+{
+    "name": "PlainDark",
+    "author": "Nazar Pryjmak",
+    "variables":
+    {},
+
+    "globals":
+    {
+        "foreground": "#aaaaaa",
+        "background": "#131313",
+        "caret": "#00bbff",
+        "invisibles": "#1f1f1f",
+        "line_highlight": "#191919",
+        "selection": "#3d1700",
+        "selection_border": "#553420",
+        "inactive_selection": "#4a2c1a",
+        "shadow": "#7f7f7f",
+        "shadow_width": "6",
+        "find_highlight_foreground": "#ffffff",
+        "find_highlight": "#00186d"
+    },
+
+    "rules":
+    [
+
+        {
+            "name": "Comments",
+            "scope": "comment, comment punctuation",
+            "foreground": "#525252"
+        },
+    ]
+}
