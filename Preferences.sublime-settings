@@ -74,12 +74,11 @@
   "font_face": "Fira Code",
 
   // osx
-  // "font_size": 12.4,
-  // "font_size": 13,
+  // "font_size": 13.2
   // Linux
   // "font_size": 13,
   // Windows
-  // "font_size": 9.5,
+  // "font_size": 10.5,
 
   "font_size": 9.5,
 
