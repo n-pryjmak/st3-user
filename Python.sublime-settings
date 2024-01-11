@@ -31,5 +31,33 @@
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
+  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
+
+
+
+  // LAYOUT
+  "rulers": [
+    // -0.2, 100,
+    // 0, 100,
+    31,
+    90,
+    100,
+  ],
+  //   "draw_centered": true,
+
+  //   "word_wrap": true,
+      "wrap_width": 90,
+  //     "wrap_width_style": "constant",
+
+  "line_padding_top": -1,
+  "line_padding_bottom": -1,
+
+
+
+  // Editinig
+  "tab_size": 4,
+
 
 }
