@@ -6,7 +6,10 @@
 
     "globals":
     {
-        "foreground": "#aaaaaa",
+        // "foreground": "#aaaaaa",
+        // "foreground": "#bbbbbb",
+        "foreground": "hsl(0, 0%, 77%)",
+        // "foreground": "#cccccc",
         "background": "#131313",
         "caret": "#00bbff",
         "invisibles": "#1f1f1f",

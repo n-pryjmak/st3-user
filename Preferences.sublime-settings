@@ -114,8 +114,8 @@
     // "wrap_width_style": "min",
     "wrap_width_style": "constant",
 
-  "line_padding_top": -1,
-  "line_padding_bottom": -1,
+  // "line_padding_top": -1,
+  // "line_padding_bottom": -1,
 
   // Layout components
     "reveal_menu": true,
@@ -124,7 +124,7 @@
     // Adaptive theme only: controls if a custom or default title bar is used.
     // Note that on Windows, the hamburger menu is used whenever this is
     // enabled and the adaptive theme is in use.
-    "themed_title_bar": false,
+    "themed_title_bar": true,
 
     // Controls the style of file tabs for the Default, Default Dark, and
     // Adaptive themes.
