@@ -102,8 +102,6 @@
 
 // LAYOUT
 "rulers": [
-    // -0.2, 100,
-    // 0, 100,
     100,
   ],
   "draw_centered": true,

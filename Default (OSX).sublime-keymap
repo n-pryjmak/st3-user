@@ -16,8 +16,9 @@
 // Toggle
 
   { "keys": ["alt+'"], "command": "toggle_status_bar" },
+  { "keys": ["alt+;"], "command": "toggle_tabs" },
+
   { "keys": ["super+k", "super+m",], "command": "toggle_minimap" },
-  // { "keys": ["alt+;"], "command": "toggle_tabs" },
 
 
 

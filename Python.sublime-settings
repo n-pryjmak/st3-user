@@ -17,19 +17,17 @@
   // "color_scheme": "Packages/Color Scheme - Legacy/Eiffel.tmTheme",
   // "color_scheme": "Kristina_light.sublime-color-scheme",
 
-
-  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Breakers.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Mac Classic.tmTheme",
 
-  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Light).tmTheme",
 
+
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
-  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
-  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
+  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",

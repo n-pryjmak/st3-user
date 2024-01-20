@@ -13,14 +13,16 @@
 
 
 // LAYOUT
-// "rulers": [
-//    -0.2, 120,
-// ],
-//     "draw_centered": true,
+"rulers": [
+    100,
+    150,
+  ],
+  "draw_centered": true,
 
-//     "word_wrap": true,
-//         "wrap_width": 120,
-//         "wrap_width_style": "min",
+  "word_wrap": false,
+    "wrap_width": 150,
+    // "wrap_width_style": "min",
+    "wrap_width_style": "constant",
 
 
 // Layout components
