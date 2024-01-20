@@ -2,9 +2,21 @@
     "name": "Kristina_light",
     "author": "Nazar Primac",
     "variables":
+
     {
-        "foreg": "hsl(0, 0%, 0%)",
-        "backg": "hsl(0, 0%, 100%)",
+        // "foreg": "hsl(0, 0%, 0%)",
+        // "backg": "hsl(0, 0%, 100%)",
+
+        // "foreg": "#aaaaaa",
+        // "foreg": "#bbbbbb",
+        // "foreg": "hsl(0, 0%, 77%)",
+        // "foreg": "#cccccc",
+        // "backg": "#131313",
+
+        "foreg": "#555555",
+        "backg": "#ECECEC",
+
+
         "backg_dark": "color(var(backg) l(- 3%))",
 
         // "punctuation": "var(foreg)",
@@ -20,8 +32,6 @@
         "punctuation_md": "hsl(183, 76%, 45%)",
         "punctuation_light_md": "color(var(punctuation_md) l(+ 30%))",
 
-
-        "focus_line": "#A0804026",
         // "comment": "hsl(0, 0%, 65%)",
         // "comment": "hsl(216, 76%, 50%)",
         // "comment": "hsl(0, 30%, 70%)",
@@ -85,21 +95,24 @@
 
     "globals":
     {
-        "foreground": "var(foreg)",
-        "background": "var(backg)",
         // "background": "#969696",
         // "background": "#AAAAAA",
         // "background": "#000000",
 
+
+        "foreground": "var(foreg)",
+        "background": "var(backg)",
+
         // "accent": "",
 
         // "line_highlight": "var(backg)",
-        "line_highlight": "var(focus_line)",
+        "line_highlight": "#A0804026",
         "gutter": "color(var(backg) l(- 3%)",
         // "gutter": "hsl(0, 0%, 88%)",
         // "caret": "#FFFF66",
-        "caret": "purple",
-        "block_caret": "aqua",
+        // "caret": "purple",
+        "caret": "#00bbff",
+        "block_caret": "#00bbff",
 
         // "invisibles": "color(var(black) a(30%))",
         "invisibles": "color(var(backg) l(70%))",
@@ -461,7 +474,7 @@
             "name": "Tag Name",
             "scope": "entity.name.tag",
             "foreground": "var(foreg)",
-            // "font_style": "bold"
+            "font_style": "bold"
         },
         {
             "name": "Punctuation - Tag",
