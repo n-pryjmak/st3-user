@@ -43,9 +43,9 @@
         "value": "hsl(0, 100%, 75%)",
         "value_md": "hsl(0, 100%, 75%)",
         // "str_value": "var(foreg)",
-        "str_value": "hsl(261, 100%, 65%)",
+        // "str_value": "hsl(261, 100%, 65%)",
         "str_value": "hsl(0, 100%, 50%)",
-        
+
         // "parameter": "hsl(120, 76%, 50%)",
         "parameter": "var(foreg)",
 
@@ -148,8 +148,7 @@
         // "font_style": "italic",
     },
 
-    "rules":
-    [
+    "rules": [
 
         {
             // "name": "",
@@ -201,7 +200,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(value)",
+            // "foreground": "var(value)",
             "foreground": "var(str_value)",
         },
 
@@ -217,6 +216,35 @@
             "name": "Mapping key String",
             "scope": "meta.mapping.key string | meta.mapping.key punctuation.definition.string",
             "foreground": "var(foreg)",
+        },
+
+        {
+            "name": "Strings",
+            "scope": "string, constant.character",
+            "foreground": "#BC670F",
+            "background": "#FBE9AD1A"
+        },
+        {
+            "name": "Strings: Punctuation",
+            "scope": "string punctuation",
+            "foreground": "#E69A4C"
+        },
+        {
+            "name": "Strings: Escape Sequences",
+            "scope": "constant.character.escape",
+            "background": "#FBE9ADCC",
+            "font_style": "bold"
+        },
+        {
+            "name": "Strings: Symbols",
+            "scope": "constant.other.symbol",
+            "background": "#E8FFD5",
+            "font_style": "bold"
+        },
+        {
+            "name": "Embedded Source",
+            "scope": "string source, text source",
+            "foreground": "#434343"
         },
 
 
@@ -500,14 +528,18 @@
             "name": "Class & Id Name HTML",
             "scope": "meta.class-name.html string, meta.toc-list.id.html string",
             // "scope": "(meta.class-name.html string, meta.toc-list.id.html string) | (punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css)",
-            "foreground": "var(class_name)",
+            // "foreground": "var(class_name)",
+            "foreground": "#BC670F",
+            "background": "#FBE9AD1A",
             "font_style": "stippled_underline",
         },
 
         {
             "name": "URL Path",
             "scope": "meta.path.url.html string",
-            "foreground": "var(url_path)",
+            // "foreground": "var(url_path)",
+            "foreground": "#BC670F",
+            "background": "#FBE9AD1A",
             "font_style": "underline",
         },
 
@@ -520,23 +552,30 @@
             "background": "var(backg_dark)",
         },
 
+        {
+            "scope": "keyword.other.important.css",
+            "font_style": "",
+        },
+
 
         {
             "name": "Class & Id Name CSS",
             "scope": "punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
-            "foreground": "var(class_name)",
+            // "foreground": "var(class_name)",
+            "foreground": "#BC670F",
+            "background": "#FBE9AD1A",
             "font_style": "",
         },
         {
             "name": "Pseudo Class",
             "scope": "entity.other.pseudo-class.css | punctuation.definition.pseudo-class.css",
-            "foreground": "var(pseudo_class_name)",
+            // "foreground": "var(pseudo_class_name)",
             // "font_style": "",
         },
         {
             "name": "Pseudo Element",
             "scope": "entity.other.pseudo-element.css | punctuation.definition.pseudo-element.css",
-            "foreground": "var(pseudo_element_name)",
+            // "foreground": "var(pseudo_element_name)",
             // "font_style": "",
         },
 
@@ -545,7 +584,8 @@
             "nane": "CSS Property Name",
             "scope": "support.type.property-name",
             // "scope": "support.type.property-name.css",
-            "foreground": "var(foreg)",
+            // "foreground": "var(foreg)",
+            "foreground": "#6700B9",
             // "font_style": "italic stippled_underline",
             // "font_style": "bold",
             // "font_style": "italic",
