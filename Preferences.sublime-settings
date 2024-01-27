@@ -31,6 +31,17 @@
   // "color_scheme": "Packages/Color Scheme - Legacy/Sunburst.tmTheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
 
+
+
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/markdown_extensionwnEditor-Plain.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
+
+  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
+
   "color_scheme": "Mariana.sublime-color-scheme",
 
 
@@ -78,9 +89,10 @@
   // Linux
   // "font_size": 13,
   // Windows
-  // "font_size": 10.5,
+  "font_size": 10.5,
+  // "font_size": 10.8,
 
-  "font_size": 9.5,
+
 
   // "default_syntax": "Markdown",
 
