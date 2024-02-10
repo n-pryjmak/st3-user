@@ -1,0 +1,48 @@
+{
+  "name": "MarkdownEditing",
+  "author": "Nazar Primac",
+  "variables":
+  {},
+
+  "globals":
+  {},
+
+  "rules":
+  [
+    //
+    // Frontmatter
+    //
+
+    {
+      "name": "Frontmatter: Mapping Key Names",
+      "scope": "meta.mapping.key string, meta.mapping.key constant.language, meta.mapping.key constant.numeric",
+      // "foreground": "#98ff46",
+      // "foreground": "hsl(93, 100%, 64%)",
+      // "foreground": "hsl(93, 100%, 40%)",
+      "foreground": "hsl(93, 100%, 44%)",
+    },
+
+
+    {
+      "name": "Types",
+      "scope": "keyword.declaration, storage.type, support.type",
+      // "foreground": "hsl(93, 100%, 40%)",
+      "foreground": "hsl(93, 100%, 44%)",
+    },
+
+    {
+      "name": "Class & Id Name HTML",
+      "scope": "meta.class-name.html string, meta.toc-list.id.html string",
+      // "scope": "(meta.class-name.html string, meta.toc-list.id.html string) | (punctuation.definition.entity.css | entity.other.attribute-name.class.css, entity.other.attribute-name.id.css)",
+
+      "font_style": "stippled_underline",
+    },
+
+    {
+      "name": "URL Path",
+      "scope": "meta.path.url.html string",
+
+      "font_style": "underline",
+    }
+  ]
+}

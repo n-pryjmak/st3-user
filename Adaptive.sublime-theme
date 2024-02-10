@@ -62,7 +62,10 @@
         // "sidebar_container_color_medium_dark": "color(var(blue3) l(- 3%))",
         // "sidebar_container_color_medium_dark": "hsl(74, 8%, 9%)",
         // "sidebar_container_color_medium_dark": "hsl(0, 0%, 47%)",
-        "sidebar_container_color_medium_dark": "hsl(0, 0%, 30%)",
+        "sidebar_container_medium_dark": "hsl(0, 0%, 30%)",
+
+        // "sidebar_container_dark": "#363636",
+        "sidebar_container_dark": "hsl(0, 0%, 21%)",
 
 
         "gutter": "color(var(backg) l(- 3%)",
@@ -97,7 +100,7 @@
             "class": "sidebar_container",
             // "platforms": ["osx"],
             "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
-            "layer0.tint": "var(sidebar_container_color_medium_dark)",
+            "layer0.tint": "var(sidebar_container_dark)",
         },
         {
             "class": "sidebar_container",
@@ -106,6 +109,7 @@
         {
             "class": "sidebar_container",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.tint": "var(sidebar_container_medium_dark)",
             // "layer0.tint": "var(pink)",
         },
 
@@ -267,32 +271,6 @@
 
 
 
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
-
-            // "font.face": "var(<font_face_file>)",
-
-            // "font.italic": true,
-            // "font.bold": true,
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-            // "settings": ["bold_folder_labels"],
-
-            // "font.bold": true,
-            // "font.italic": true,
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-
-            // "font.bold": false,
-            // "font.italic": true,
-        },
-
-
 
             // "fg": "hsl(261, 100%, 50%)",
             // "fg": "hsl(121, 100%, 35%)",
@@ -340,169 +318,228 @@
         // "yellow4": "hsl(55, 11%, 22%)",
         // "yellow5": "hsl(50, 11%, 41%)"
 
+
+
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_dark"]},
+        //         {"class": "tree_row", "attributes": ["!expandable"]}
+        //     ],
+        //     "fg": "var(foreg_medium_dark)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     // "platforms": ["osx"],
+        //     // "platforms": ["windows", "linux"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_dark"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+
+        //     // "fg": "hsla(300, 30%, 68%, 0.6)",,
+        //     // "fg": "hsl(300, 30%, 68%)",
+
+        //     // "fg": "hsl(32, 98%, 56%)",
+
+        //     // "fg": "hsla(190, 81%, 67%, .8)",
+        //     // "fg": "hsl(190, 81%, 67%)",
+
+
+        //     // "fg": "hsl(300, 100%, 61%)",
+        //     // "fg": "hsl(11, 100%, 79%)",
+        //     // "fg": "hsl(31, 100%, 79%)",
+        //     "fg": "hsl(0, 100%, 75%)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_dark"]},
+        //         {"class": "tree_row", "attributes": ["expanded"]}
+        //     ],
+        //     // "fg": "hsl(216, 100%, 70%)",
+        //     // "fg": "hsl(300, 30%, 68%)",
+        //     // "fg": "hsl(114, 31%, 68%)",
+
+        //     // "fg": "hsl(47, 100%, 79%)",
+        //     // "fg": "hsl(54, 70%, 68%)",
+        //     // "fg": "hsl(190, 81%, 67%)",
+
+        //     // "fg": "hsl(32, 98%, 56%)",
+        //     // "fg": "hsl(0, 93%, 59%)",
+
+        //     // "fg": "hsla(338, 95%, 56%, .6)",
+        //     // "fg": "hsl(338, 95%, 56%)",
+
+
+        //     // "fg": "hsl(300, 100%, 61%)",
+        //     // "fg": "hsl(0, 100%, 75%)",
+        //     // "fg": "hsl(11, 100%, 79%)",
+        //     "fg": "hsl(31, 100%, 79%)",
+        // },
+
+
+
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium_dark"]},
+        //         {"class": "tree_row", "attributes": ["!expandable"]}
+        //     ],
+        //     "fg": "var(foreg_medium_dark)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     // "platforms": ["osx"],
+        //     // "platforms": ["windows", "linux"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium_dark"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+
+        //     "fg": "hsl(0, 100%, 75%)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium_dark"]},
+        //         {"class": "tree_row", "attributes": ["expanded"]}
+        //     ],
+
+        //     "fg": "hsl(31, 100%, 79%)",
+        // },
+
+
+
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium"]},
+        //         {"class": "tree_row", "attributes": ["!expandable"]}
+        //     ],
+        //     "fg": "var(foreg_medium)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "platforms": ["osx"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+        //     // ...
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "platforms": ["windows", "linux"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+
+        //     // "fg": "hsl(300, 100%, 61%)",
+        //     // "fg": "hsl(11, 100%, 79%)",
+        //     // "fg": "hsl(31, 100%, 79%)",
+        //     "fg": "hsl(0, 100%, 75%)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_medium"]},
+        //         {"class": "tree_row", "attributes": ["expanded"]}
+        //     ],
+
+        //     // "fg": "#FF38FF",
+        //     // "fg": "#FFA995",
+        //     // "fg": "hsl(300, 100%, 61%)",
+        //     // "fg": "hsl(0, 100%, 75%)",
+        //     // "fg": "hsl(11, 100%, 79%)",
+        //     "fg": "hsl(31, 100%, 79%)",
+        // },
+
+
+
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_light"]},
+        //         {"class": "tree_row", "attributes": ["!expandable"]}
+        //     ],
+        //     "fg": "var(foreg_light)",
+        // },
+
+
+        // {
+        //     "class": "sidebar_label",
+        //     "platforms": ["osx"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_light"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+
+        //     "fg": "hsla(0, 100%, 20%, 0.6)",
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "platforms": ["windows", "linux"],
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_light"]},
+        //         {"class": "tree_row", "attributes": ["expandable"]}
+        //     ],
+
+        //     // "fg": "hsl(0, 100%, 40%)",
+        //     "fg": "hsl(0, 100%, 30%)",
+
+
+        // },
+        // {
+        //     "class": "sidebar_label",
+        //     "parents": [
+        //         {"class": "window", "attributes": ["file_light"]},
+        //         {"class": "tree_row", "attributes": ["expanded"]}
+        //     ],
+
+        //     // "fg": "hsl(216, 100%, 40%)",
+        //     "fg": "hsl(216, 100%, 50%)",
+
+        // },
+
+
+
         {
             "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_medium_dark"]},
-                {"class": "tree_row", "attributes": ["!expandable"]}
-            ],
+            "parents": [{"class": "tree_row", "attributes": ["!expandable"]}],
+
+            // "font.face": "var(<font_face_file>)",
+
+            // "font.italic": true,
+            // "font.bold": true,
+
             "fg": "var(foreg_medium_dark)",
+            // "fg": "var(foreg_medium)",
+            // "fg": "var(foreg_light)",
+
         },
-
-
         {
             "class": "sidebar_label",
-            // "platforms": ["osx"],
-            // "platforms": ["windows", "linux"],
-            "parents": [
-                {"class": "window", "attributes": ["file_medium_dark"]},
-                {"class": "tree_row", "attributes": ["expandable"]}
-            ],
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+            // "settings": ["bold_folder_labels"],
 
-            // "fg": "hsla(300, 30%, 68%, 0.6)",,
-            // "fg": "hsl(300, 30%, 68%)",
+            // "font.bold": true,
+            // "font.italic": true,
 
-            // "fg": "hsl(32, 98%, 56%)",
-
-            // "fg": "hsla(190, 81%, 67%, .8)",
-            // "fg": "hsl(190, 81%, 67%)",
-
-
-            // "fg": "hsl(300, 100%, 61%)",
-            // "fg": "hsl(11, 100%, 79%)",
-            // "fg": "hsl(31, 100%, 79%)",
             "fg": "hsl(0, 100%, 75%)",
         },
-
         {
             "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_medium_dark"]},
-                {"class": "tree_row", "attributes": ["expanded"]}
-            ],
-            // "fg": "hsl(216, 100%, 70%)",
-            // "fg": "hsl(300, 30%, 68%)",
-            // "fg": "hsl(114, 31%, 68%)",
+            "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
 
-            // "fg": "hsl(47, 100%, 79%)",
-            // "fg": "hsl(54, 70%, 68%)",
-            // "fg": "hsl(190, 81%, 67%)",
+            // "font.bold": false,
+            // "font.italic": true,
 
-            // "fg": "hsl(32, 98%, 56%)",
-            // "fg": "hsl(0, 93%, 59%)",
-
-            // "fg": "hsla(338, 95%, 56%, .6)",
-            // "fg": "hsl(338, 95%, 56%)",
-
-
-            // "fg": "hsl(300, 100%, 61%)",
-            // "fg": "hsl(0, 100%, 75%)",
-            // "fg": "hsl(11, 100%, 79%)",
             "fg": "hsl(31, 100%, 79%)",
         },
 
 
-
-
-
-
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_medium"]},
-                {"class": "tree_row", "attributes": ["!expandable"]}
-            ],
-            "fg": "var(foreg_medium)",
-        },
-
-        {
-            "class": "sidebar_label",
-            "platforms": ["osx"],
-            "parents": [
-                {"class": "window", "attributes": ["file_medium"]},
-                {"class": "tree_row", "attributes": ["expandable"]}
-            ],
-            // ...
-        },
-        {
-            "class": "sidebar_label",
-            "platforms": ["windows", "linux"],
-            "parents": [
-                {"class": "window", "attributes": ["file_medium"]},
-                {"class": "tree_row", "attributes": ["expandable"]}
-            ],
-
-            // "fg": "hsl(300, 100%, 61%)",
-            // "fg": "hsl(11, 100%, 79%)",
-            // "fg": "hsl(31, 100%, 79%)",
-            "fg": "hsl(0, 100%, 75%)",
-        },
-
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_medium"]},
-                {"class": "tree_row", "attributes": ["expanded"]}
-            ],
-
-            // "fg": "#FF38FF",
-            // "fg": "#FFA995",
-            // "fg": "hsl(300, 100%, 61%)",
-            // "fg": "hsl(0, 100%, 75%)",
-            // "fg": "hsl(11, 100%, 79%)",
-            "fg": "hsl(31, 100%, 79%)",
-        },
-
-
-
-
-
-
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "tree_row", "attributes": ["!expandable"]}
-            ],
-            "fg": "var(foreg_light)",
-        },
-
-
-        {
-            "class": "sidebar_label",
-            "platforms": ["osx"],
-            "parents": [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "tree_row", "attributes": ["expandable"]}
-            ],
-
-            "fg": "hsla(0, 100%, 20%, 0.6)",
-        },
-        {
-            "class": "sidebar_label",
-            "platforms": ["windows", "linux"],
-            "parents": [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "tree_row", "attributes": ["expandable"]}
-            ],
-
-            "fg": "hsl(0, 100%, 40%)",
-            "fg": "hsl(0, 100%, 30%)",
-
-
-        },
-
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {"class": "window", "attributes": ["file_light"]},
-                {"class": "tree_row", "attributes": ["expanded"]}
-            ],
-
-            "fg": "hsl(216, 100%, 40%)",
-            "fg": "hsl(216, 100%, 50%)",
-
-        },
 
 
 

@@ -9,7 +9,7 @@
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
 
-  "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
 
 
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
@@ -32,6 +32,10 @@
   // "font_face": "Cascadia Code",
 
 
-  "word_wrap": false,
+  // "word_wrap": false,
+
+
+  "line_padding_top": 1,
+  "line_padding_bottom": 1,
 
 }

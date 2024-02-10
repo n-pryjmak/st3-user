@@ -9,6 +9,16 @@
 
     "rules":
     [        {
+            "background": "#88220022",
+            "scope": "col_88220022",
+            "foreground": "#545454FF"
+        },
+        {
+            "background": "#88222299",
+            "scope": "col_88222299",
+            "foreground": "#050505FF"
+        },
+        {
             "background": "#000000",
             "scope": "col_gutter",
             "foreground": "#ffffff"
