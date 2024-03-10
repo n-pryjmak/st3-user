@@ -37,9 +37,9 @@
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
-  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
-  "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
 
   // "color_scheme": "Mariana.sublime-color-scheme",
@@ -283,7 +283,7 @@
     "LSP",
     "LSP-copilot",
     "MarkdownPreview",
-    "Vintage",
+    // "Vintage",
   ],
 
 
