@@ -19,7 +19,7 @@
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Kristina_light.sublime-color-scheme",
 
-  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
 
@@ -38,19 +38,18 @@
 
   // LAYOUT
   "rulers": [
-    // -0.2, 100,
-    // 0, 100,
     31,
     100,
   ],
-  //   "draw_centered": true,
+  // "draw_centered": false,
 
-  //   "word_wrap": true,
-  //     "wrap_width": 100,
-  //     "wrap_width_style": "constant",
 
-  // "line_padding_top": -1,
-  // "line_padding_bottom": -1,
+    // "wrap_width_style": "min",
+
+
+
+  "line_padding_top": -1,
+  "line_padding_bottom": -1,
 
 
 

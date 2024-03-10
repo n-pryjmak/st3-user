@@ -25,12 +25,10 @@
     100,
     150,
   ],
-  "draw_centered": true,
 
-  "word_wrap": false,
+  // "word_wrap": false,
     "wrap_width": 150,
     // "wrap_width_style": "min",
-    "wrap_width_style": "constant",
 
 
 // Layout components

@@ -85,14 +85,22 @@
   "font_face": "Fira Code",
 
   // osx
-  // "font_size": 13.2
+  "font_size": 13.8,
   // Linux
   // "font_size": 13,
   // Windows
-  "font_size": 10.5,
   // "font_size": 10.8,
+  // "font_size": 10.5,
 
+  // "font_face": "Monaco",
+  // "font_size": 13.0,
+  // "font_size": 13.1,
 
+  // "font_size": 13.5,
+
+  // "font_size": 14.0,
+  // "font_size": 14.1,
+  // "font_size": 14.2,
 
   // "default_syntax": "Markdown",
 
@@ -114,18 +122,18 @@
 
 // LAYOUT
 "rulers": [
-    100,
+    100
   ],
   "draw_centered": true,
 
   // "word_wrap": "auto",
   "word_wrap": true,
     "wrap_width": 100, // wraping borders width (wrap_width) + sets text's extrinsic size to #
-    // "wrap_width_style": "min",
     "wrap_width_style": "constant",
+    // "wrap_width_style": "min",
 
-  // "line_padding_top": -1,
-  // "line_padding_bottom": -1,
+  // "line_padding_top": 1,
+  // "line_padding_bottom": 1,
 
   // Layout components
     "reveal_menu": true,
