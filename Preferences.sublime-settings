@@ -206,7 +206,7 @@
 
       "mini_diff": true,
 
-      "line_numbers": false,
+      "line_numbers": true,
 
       "fold_buttons": true,
       "fade_fold_buttons": true,
@@ -306,7 +306,7 @@
 
   // relative_line_numbers will draw each line number as the distance from
   // the current line. Useful in conjunction with Vintage.
-  "relative_line_numbers": false,
+  "relative_line_numbers": true,
 
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.
