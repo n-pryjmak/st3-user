@@ -177,7 +177,10 @@
         {
             "name": "Comments",
             "scope": "comment, comment punctuation",
-            "foreground": "#ADADAD"
+            // "foreground": "#ADADAD",
+            "foreground": "hsl(0, 0%, 68%)",
+            // "foreground": "hsl(0, 0%, 60%)",
+            // "foreground": "#3F94BFFF"
         },
 
 

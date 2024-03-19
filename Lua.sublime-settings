@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Lua syntax
+{
+  "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
+
+}

@@ -3,7 +3,8 @@
 
   "extensions":
   [
-      "py"
+      "py",
+      // "lua"
   ],
 
   // "dark_color_scheme": "Monokai.sublime-color-scheme",

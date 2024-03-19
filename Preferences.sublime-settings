@@ -41,7 +41,7 @@
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
-  "color_scheme": "Solarized (dark).sublime-color-scheme",
+  "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
 
   // "color_scheme": "Mariana.sublime-color-scheme",
 
@@ -87,7 +87,8 @@
 
   // osx
   // "font_size": 13.8,
-  "font_size": 13.8,
+  "font_size": 13.0,
+  /*"font_size": 13.0,*/
   // Linux
   // "font_size": 13,
   // Windows

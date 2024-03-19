@@ -526,16 +526,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 // Distraction free MOD
   // { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
   // { "keys": ["f11"], "command": "toggle_full_screen" },
