@@ -37,13 +37,14 @@
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
-  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
-  "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
+  // "color_scheme": "Solarized (dark).sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
 
-  // "color_scheme": "Mariana.sublime-color-scheme",
+  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
 
 
 
@@ -130,7 +131,7 @@
   "draw_centered": true,
 
   // "word_wrap": "auto",
-  "word_wrap": true,
+  "word_wrap": false,
     "wrap_width": 101, // wraping borders width (wrap_width) + sets text's extrinsic size to #
     "wrap_width_style": "constant",
     // "wrap_width_style": "min",

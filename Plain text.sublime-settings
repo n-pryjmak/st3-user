@@ -19,9 +19,17 @@
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Kristina_light.sublime-color-scheme",
 
-  "color_scheme": "MarkdownEditor.sublime-color-scheme",
+  // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
+  // "color_scheme": "Solarized (dark).sublime-color-scheme",
+
+  // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
+
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
+  // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainSolarized.sublime-color-scheme",
 
 
 
@@ -39,7 +47,7 @@
   // LAYOUT
   "rulers": [
     31,
-    100,
+    101,
   ],
   // "draw_centered": false,
 

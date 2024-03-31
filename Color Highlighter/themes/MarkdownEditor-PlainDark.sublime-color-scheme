@@ -7,8 +7,9 @@
     "globals":
     {
         // "foreground": "#aaaaaa",
+        "foreground": "hsl(0, 0%, 67%)",
         // "foreground": "#bbbbbb",
-        "foreground": "hsl(0, 0%, 77%)",
+        // "foreground": "hsl(0, 0%, 77%)",
         // "foreground": "#cccccc",
         "background": "#131313",
         "caret": "#00bbff",

@@ -501,8 +501,8 @@
         {
             "name": "Tag Name",
             "scope": "entity.name.tag",
-            "foreground": "var(foreg)",
-            "font_style": "bold"
+            "foreground": "var(blue)",
+            // "font_style": "bold"
         },
         {
             "name": "Punctuation - Tag",

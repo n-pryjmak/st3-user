@@ -60,11 +60,11 @@
 
 
 // LAYOUT
-"rulers": [
-    73, 100
-  ],
+// "rulers": [
+//     73, 100
+//   ],
   // "draw_centered": false,
-
+  // "word_wrap": true,
     // "wrap_width": 73,
     // "wrap_width_style": "min",
 
