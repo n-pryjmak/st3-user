@@ -45,10 +45,10 @@
 
 
   // LAYOUT
-  "rulers": [
-    31,
-    101,
-  ],
+  // "rulers": [
+  //   31,
+  //   101,
+  // ],
   // "draw_centered": false,
 
 
