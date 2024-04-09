@@ -66,7 +66,6 @@
   // "font_face": "Lucida Console",
 
   // "font_face": "Menlo",
-  // "font_face": "PT Mono",
   // "font_face": "Monaco",
 
   // "font_face": "Courier New",
@@ -85,11 +84,13 @@
 
   // "font_face": "Fira Mono",
   "font_face": "Fira Code",
+  "font_face": "PT Mono",
 
   // osx
   // "font_size": 13.8,
-  "font_size": 13.0,
-  /*"font_size": 13.0,*/
+  "font_size": 13.5,
+  // "font_size": 14.5,
+  // "font_size": 14,
   // Linux
   // "font_size": 13,
   // Windows
@@ -126,6 +127,7 @@
 
 // LAYOUT
 "rulers": [
+    81,
     101
   ],
   "draw_centered": true,
