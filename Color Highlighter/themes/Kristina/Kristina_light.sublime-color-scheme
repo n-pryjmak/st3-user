@@ -55,10 +55,10 @@
 
         "func_name": "hsl(246, 100%, 50%)",
 
-        // "css_value": "var(foreg)",
-        "css_value": "hsl(300, 77%, 50%)",
+        // "css_value": "hsl(300, 77%, 50%)",
         // "values_sufix": "var(foreg)",
         // "values_sufix": "hsl(300, 77%, 50%)",
+        "css_value": "hsl(183, 76%, 34%)",
         "values_sufix": "hsl(183, 76%, 34%)",
 
         // "class_name": "hsl(121, 70%, 34%)",
@@ -585,7 +585,7 @@
             "scope": "support.type.property-name",
             // "scope": "support.type.property-name.css",
             // "foreground": "var(foreg)",
-            "foreground": "#6700B9",
+            // "foreground": "#6700B9",
             // "font_style": "italic stippled_underline",
             // "font_style": "bold",
             // "font_style": "italic",
