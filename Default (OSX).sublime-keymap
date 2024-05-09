@@ -38,6 +38,7 @@
   { "keys": ["super+k", "super+k", "super+n"], "command": "toggle_setting",
     "args": {"setting": "gutter"},
   },
+  { "keys": ["f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
 
   { "keys": ["super+'"], "command": "toggle_side_bar" },
 

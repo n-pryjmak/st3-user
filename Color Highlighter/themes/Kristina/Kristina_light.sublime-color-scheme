@@ -67,6 +67,10 @@
         "pseudo_element_name": "hsl(183, 76%, 34%)",
         "pseudo_class_name": "hsl(121, 70%, 34%)",
 
+        // "tag_name": "hsl(183, 76%, 34%)",
+        // "tag_name": "hsl(121, 70%, 34%)",
+        // "tag_name": "hsl(121, 70%, 34%)",
+
         // "url_path": "hsl(300, 77%, 50%)",
         "url_path": "var(str_value)",
         "url_path_md": "hsl(300, 77%, 50%)",
@@ -501,7 +505,10 @@
         {
             "name": "Tag Name",
             "scope": "entity.name.tag",
+            // "foreground": "var(black)",
+            // "foreground": "var(green)",
             "foreground": "var(blue)",
+            // "background": "var(white)",
             // "font_style": "bold"
         },
         {

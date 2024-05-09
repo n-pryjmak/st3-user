@@ -31,7 +31,7 @@
   // "font_face": "Cascadia Mono",
   // "font_face": "Cascadia Code",
 
-
+  "draw_centered": false,
   "word_wrap": false,
 
 

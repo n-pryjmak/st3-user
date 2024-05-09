@@ -23,7 +23,6 @@
 
 
   // "color_scheme": "Monokai.sublime-color-scheme",
-  "color_scheme": "Kristina_light.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 
@@ -37,6 +36,7 @@
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
+  "color_scheme": "Kristina_light.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
@@ -83,8 +83,8 @@
   // "font_face": "Cascadia Code",
 
   // "font_face": "Fira Mono",
-  "font_face": "Fira Code",
   "font_face": "PT Mono",
+  /*"font_face": "PT Mono",*/
 
   // osx
   // "font_size": 13.8,
@@ -134,12 +134,12 @@
 
   // "word_wrap": "auto",
   "word_wrap": true,
-    "wrap_width": 101, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+    "wrap_width": 81, // wraping borders width (wrap_width) + sets text's extrinsic size to #
     "wrap_width_style": "constant",
     // "wrap_width_style": "min",
 
-  // "line_padding_top": 1,
-  // "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "line_padding_bottom": 1,
 
   // Layout components
     "reveal_menu": true,
