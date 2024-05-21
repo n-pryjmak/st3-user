@@ -201,7 +201,7 @@
       // "margin": 300,
       // "margin": 200,
 
-      // "margin": -5,
+      "margin": -10,
 
 
     // Gutter
@@ -409,7 +409,9 @@
 
 
 
-
+  // File indexing parses all files in the sidebar, and builds an index of
+  // their symbols. This is required for Goto Definition to work.
+  "index_files": true,
 
 
 
@@ -425,5 +427,5 @@
   "mde.auto_fold_link.enabled": true,
 
   
-  "index_files": true,
+  /*"index_files": true,*/
 }
