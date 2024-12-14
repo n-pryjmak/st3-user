@@ -12,9 +12,13 @@
         // "foreg": "hsl(0, 0%, 77%)",
         // "foreg": "#cccccc",
         // "backg": "#131313",
+        // "backg": "hsl(0, 0%, 93%)",
+        // "foreg": "hsl(0, 0%, 33%)",
 
-        "foreg": "#555555",
-        "backg": "#ECECEC",
+        // "backg": "#ECECEC",
+        // "foreg": "#555555",
+        "backg": "hsl(0, 0%, 90%)",
+        "foreg": "hsl(0, 0%, 30%)",
 
 
         "backg_dark": "color(var(backg) l(- 3%))",
