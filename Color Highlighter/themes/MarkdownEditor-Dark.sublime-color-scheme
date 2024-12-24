@@ -19,15 +19,16 @@
       // "foreground": "#98ff46",
       // "foreground": "hsl(93, 100%, 64%)",
       // "foreground": "hsl(93, 100%, 40%)",
-      "foreground": "hsl(93, 100%, 44%)",
+      // "foreground": "hsl(93, 100%, 35%)",
+      "foreground": "hsl(93, 100%, 30%)",
     },
 
 
     {
       "name": "Types",
       "scope": "keyword.declaration, storage.type, support.type",
-      // "foreground": "hsl(93, 100%, 40%)",
-      "foreground": "hsl(93, 100%, 44%)",
+      // "foreground": "hsl(93, 100%, 35%)",
+      "foreground": "hsl(93, 100%, 30%)",
     },
 
     {
