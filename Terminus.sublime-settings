@@ -1,8 +1,8 @@
 {
 	"default_config":
 	{
-		"linux": null,
-		"osx": null,
+		"linux": "Bash",
+		"osx": "Zsh",
 		"windows": "WSL2",
 	},
 
@@ -26,7 +26,7 @@
 		   "name": "Zsh",
 		   "cmd": ["zsh", "-i", "-l"],
 		   "env": {},
-		   "enable": false,
+		   "enable": true,
 		   "platforms": ["linux", "osx"],
 		},
 		{
@@ -62,6 +62,7 @@
 		   // "cmd": "C:\\Windows\\system32\\ubuntu.exe",
 		   // "cmd": ["C:\\Windows\\system32\\ubuntu.exe", "-l", "-i"],
        "cmd": "wsl.exe",
+       // "cmd": "ubuntu.exe",
 
 		   "env": {},
 		   "enable": true,
@@ -73,26 +74,54 @@
 	// "max_columns": 500,
 	// "min_columns": 20,
 	// "natural_keyboard": true,
-	"preserve_keys":
-	[
-	],
-	// "scrollback_history_size": 10000,
+    "preserve_keys" : [
+        // "ctrl+k"   // there are a number of shortcuts with "ctrl+k" prefix.
+        // "ctrl+p"   // to show Go to Anything
+    ],
 
 
 
-	"theme": "solarized-dark-higher-contrast",
+	// "theme": "solarized-dark-higher-contrast",
 	"unix_lang": "en_US.UTF-8",
-	"unix_term": "linux",
-	"user_theme_colors":
-	{
-		"background": "#262626",
-	},
+	// "unix_term": "linux",
+	// "user_theme_colors":
+	// {
+	// 	"background": "#262626",
+	// },
 
 
 	"view_settings":
 	{
-		// "font_face": "Courier Prime",
-
-		// "scroll_past_end": false,
+		"font_face": "Cascadia Code",
+  	"font_size": 10.5,
+  	// "padding_top": 200,
 	},
+
+
+  "theme": "user",
+
+  // "user_theme_colors": {
+  //     // "background": "#262626",
+  //     // "foreground": "#ffffff",
+  //     // "caret": "white",
+  //     // "block_caret": "white",
+  //     // "selection": "#444444",
+  //     // "selection_foreground": "#ffffff"
+  //     // "black": "#000000",
+  //     // "red": "#cd0000",
+  //     // "green": "#00cd00",
+  //     // "brown": "#cdcd00",
+  //     // "blue": "#0000ee",
+  //     // "magenta": "#cd00cd",
+  //     // "cyan": "#00cdcd",
+  //     // "white": "#e5e5e5",
+  //     // "light_black": "#7f7f7f",
+  //     // "light_red": "#ff0000",
+  //     // "light_green": "#00ff00",
+  //     // "light_brown": "#ffff00",
+  //     // "light_blue": "#5c5cff",
+  //     // "light_magenta": "#ff00ff",
+  //     // "light_cyan": "#00ffff",
+  //     // "light_white": "#ffffff"
+  // },
 }

@@ -3,7 +3,7 @@
 {
 
    "settings": {
-      "auto_ask_completions": false,
+      // "auto_ask_completions": false,
       // "completion_style": "default",
 
    },

@@ -24,7 +24,9 @@
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
+		"Pieces",
 		"SideBarEnhancements",
 		"Terminus",
+		"Visual Studio Code Plus Scheme",
 	],
 }

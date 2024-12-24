@@ -43,6 +43,7 @@
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
   // "color_scheme": "Solarized (dark).sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
+  // "color_scheme": "Dark+.sublime-color-scheme",
 
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
 
@@ -148,7 +149,7 @@
     // Adaptive theme only: controls if a custom or default title bar is used.
     // Note that on Windows, the hamburger menu is used whenever this is
     // enabled and the adaptive theme is in use.
-    "themed_title_bar": true,
+    "themed_title_bar": false,
 
     // Controls the style of file tabs for the Default, Default Dark, and
     // Adaptive themes.
@@ -282,14 +283,15 @@
 
   "ignored_packages":
   [
-    // "auto-save",
+    "auto-save",
     "ActualVim",
     "AutoFileName",
     "Chromeless",
+    "LiveReload",
     "LSP",
     "LSP-copilot",
+    "Vintage",
     "MarkdownPreview",
-    // "Vintage",
   ],
 
 

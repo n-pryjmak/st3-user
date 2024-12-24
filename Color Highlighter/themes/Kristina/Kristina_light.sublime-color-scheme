@@ -5,7 +5,7 @@
 
     {
         // "foreg": "hsl(0, 0%, 0%)",
-        // "backg": "hsl(0, 0%, 100%)",
+        "backg": "hsl(0, 0%, 100%)",
 
         // "foreg": "#aaaaaa",
         // "foreg": "#bbbbbb",
@@ -17,7 +17,7 @@
 
         // "backg": "#ECECEC",
         // "foreg": "#555555",
-        "backg": "hsl(0, 0%, 90%)",
+        // "backg": "hsl(0, 0%, 90%)",
         "foreg": "hsl(0, 0%, 30%)",
 
 
@@ -513,7 +513,7 @@
             // "foreground": "var(green)",
             "foreground": "var(blue)",
             // "background": "var(white)",
-            // "font_style": "bold"
+            "font_style": "bold"
         },
         {
             "name": "Punctuation - Tag",
