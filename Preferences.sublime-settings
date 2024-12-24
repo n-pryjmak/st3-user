@@ -201,7 +201,7 @@
       // "margin": 300,
       // "margin": 200,
 
-      "margin": -10,
+      "margin": -5,
 
 
     // Gutter
@@ -210,7 +210,7 @@
 
       "mini_diff": true,
 
-      "line_numbers": true,
+      "line_numbers": false,
 
       "fold_buttons": true,
       "fade_fold_buttons": true,
@@ -310,7 +310,7 @@
 
   // relative_line_numbers will draw each line number as the distance from
   // the current line. Useful in conjunction with Vintage.
-  "relative_line_numbers": true,
+  "relative_line_numbers": false,
 
   // List any packages to ignore here. When removing entries from this list,
   // a restart may be required if the package contains plugins.
@@ -411,7 +411,7 @@
 
   // File indexing parses all files in the sidebar, and builds an index of
   // their symbols. This is required for Goto Definition to work.
-  "index_files": true,
+  "index_files": false,
 
 
 
