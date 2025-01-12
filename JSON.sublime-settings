@@ -12,7 +12,7 @@
 
 
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
-  // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
 
 

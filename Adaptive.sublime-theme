@@ -4,7 +4,6 @@
     {
 
         // "font_face": "Monaco",
-        // "font_face": "Monospace",
         // "font_face": "Open Sans SemiCondensed",
         // "font_face": "Open Sans Condensed",
 
@@ -12,8 +11,10 @@
         // "font_face": "Courier New",
         // "font_face": "Open Sans",
 
+        // "font_face": "Consolas",
+        // "font_face": "Monospace",
         "font_face": "Cascadia Code",
-        "font_face": "Fira Code",
+        // "font_face": "Fira Code",
 
 
 

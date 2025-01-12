@@ -36,10 +36,10 @@
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Plain.sublime-color-scheme",
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-PlainDark.sublime-color-scheme",
 
-  "color_scheme": "Kristina_light.sublime-color-scheme",
+  // "color_scheme": "Kristina_light.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-Focus.sublime-color-scheme",
-  // "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+  "color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
   // "color_scheme": "MarkdownEditor-ArcDark.sublime-color-scheme",
   // "color_scheme": "Solarized (dark).sublime-color-scheme",
   // "color_scheme": "Packages/Color Scheme - Legacy/Solarized (Dark).tmTheme",
@@ -83,32 +83,13 @@
   // "font_face": "Cascadia Mono",
   // "font_face": "Cascadia Code",
 
+  "font_face": "Fira Code",
   // "font_face": "Fira Mono",
-  "font_face": "PT Mono",
-  /*"font_face": "PT Mono",*/
+  // "font_face": "PT Mono",
 
-  // osx
-  // "font_size": 13.8,
-  "font_size": 13.5,
-  // "font_size": 14.5,
-  // "font_size": 14,
-  // Linux
-  // "font_size": 13,
-  // Windows
-  // "font_size": 10.8,
-  // "font_size": 10.5,
 
-  // "font_face": "Monaco",
-  // "font_size": 13.0,
-  // "font_size": 13.1,
+  "font_size": 11,
 
-  // "font_size": 13.5,
-
-  // "font_size": 14.0,
-  // "font_size": 14.1,
-  // "font_size": 14.2,
-
-  // "default_syntax": "Markdown",
 
 
 
@@ -128,14 +109,17 @@
 
 // LAYOUT
 "rulers": [
-    81,
-    101
+    // 81,
+    91,
+    101,
+    111,
+    121,
   ],
-  "draw_centered": true,
+  // "draw_centered": true,
 
   // "word_wrap": "auto",
   "word_wrap": true,
-    "wrap_width": 81, // wraping borders width (wrap_width) + sets text's extrinsic size to #
+    "wrap_width": 121, // wraping borders width (wrap_width) + sets text's extrinsic size to #
     "wrap_width_style": "constant",
     // "wrap_width_style": "min",
 
@@ -183,6 +167,7 @@
       "hide_new_tab_button": true,
       // "show_tab_close_buttons_on_left": false,
 
+      "auto_hide_menu": false,
       // "auto_hide_tabs": true,
       // "reveal_tabs_with_timeout": true,
 
@@ -211,7 +196,7 @@
 
       "mini_diff": true,
 
-      "line_numbers": false,
+      "line_numbers": true,
 
       "fold_buttons": true,
       "fade_fold_buttons": true,
@@ -283,15 +268,16 @@
 
   "ignored_packages":
   [
-    "auto-save",
     "ActualVim",
+    "auto-save",
     "AutoFileName",
     "Chromeless",
     "LiveReload",
     "LSP",
     "LSP-copilot",
-    "Vintage",
     "MarkdownPreview",
+    "Pieces",
+    "Vintage",
   ],
 
 

@@ -9,7 +9,7 @@
   // "color_scheme": "Monokai.sublime-color-scheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
 
-  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  "color_scheme": "Kristina_light.sublime-color-scheme",
 
 
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
@@ -22,22 +22,18 @@
 
 
 
-  "font_size": 11,
-
   // "font_face": "Consolas",
   // "font_face": "Monospace",
-
-
   // "font_face": "Cascadia Mono",
   // "font_face": "Cascadia Code",
 
-  "font_face": "Fira Code",
+  // "font_face": "Fira Code",
 
   "draw_centered": false,
   "word_wrap": false,
 
 
-  "line_padding_top": 0,
-  "line_padding_bottom": 0,
+  // "line_padding_top": 0,
+  // "line_padding_bottom": 0,
 
 }

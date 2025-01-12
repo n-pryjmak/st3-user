@@ -10,7 +10,7 @@
   // "color_scheme": "Mariana.sublime-color-scheme",
   // "color_scheme": "Breakers.sublime-color-scheme",
 
-  // "color_scheme": "Kristina_light.sublime-color-scheme",
+  "color_scheme": "Kristina_light.sublime-color-scheme",
 
 
   // "color_scheme": "Packages/User/Color Highlighter/themes/MarkdownEditor-Copy.sublime-color-scheme",
@@ -28,11 +28,14 @@
 
 // LAYOUT
 "rulers": [
-  -0.2, 4, 20, 32, 88
+  -0.2, 4, 20, 32, 88,
   ],
 
   "draw_centered": false,
   "word_wrap": false,
+
+  "line_padding_top": 0,
+  "line_padding_bottom": 0,
 
 // Layout components
   // Gutter

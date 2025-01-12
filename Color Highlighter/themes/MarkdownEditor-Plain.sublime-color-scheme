@@ -2,12 +2,24 @@
     "name": "Plain",
     "author": "Nazar Pryjmak",
     "variables":
-    {},
+    {
+        // "backg": "hsl(0, 0%, 93%)",
+        // "foreg": "hsl(0, 0%, 33%)",
+        // "backg": "#ECECEC",
+        // "foreg": "#555555",
+
+        // "backg": "hsl(0, 0%, 90%)",
+        "backg": "hsl(0, 0%, 98%)",
+        "foreg": "hsl(0, 0%, 30%)",
+
+        // "comment": "hsl(0, 0%, 68%)",
+        "comment": "hsl(240, 30%, 70%)",
+    },
 
     "globals":
     {
-        "foreground": "#555555",
-        "background": "#ECECEC",
+        "foreground": "var(foreg)",
+        "background": "var(backg)",
         // "background": "#969696",
         "caret": "#00bbff",
         "invisibles": "#E0E0E0",
@@ -178,7 +190,7 @@
             "name": "Comments",
             "scope": "comment, comment punctuation",
             // "foreground": "#ADADAD",
-            "foreground": "hsl(0, 0%, 68%)",
+            "foreground": "var(comment)",
             // "foreground": "hsl(0, 0%, 60%)",
             // "foreground": "#3F94BFFF"
         },

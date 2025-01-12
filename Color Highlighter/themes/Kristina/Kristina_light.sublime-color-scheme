@@ -5,19 +5,21 @@
 
     {
         // "foreg": "hsl(0, 0%, 0%)",
-        "backg": "hsl(0, 0%, 100%)",
+        // "backg": "hsl(0, 0%, 100%)",
 
         // "foreg": "#aaaaaa",
         // "foreg": "#bbbbbb",
         // "foreg": "hsl(0, 0%, 77%)",
         // "foreg": "#cccccc",
         // "backg": "#131313",
+
         // "backg": "hsl(0, 0%, 93%)",
         // "foreg": "hsl(0, 0%, 33%)",
-
         // "backg": "#ECECEC",
         // "foreg": "#555555",
+
         // "backg": "hsl(0, 0%, 90%)",
+        "backg": "hsl(0, 0%, 98%)",
         "foreg": "hsl(0, 0%, 30%)",
 
 
@@ -57,6 +59,8 @@
         "const": "hsl(0, 100%, 75%)",
         "const_md": "hsl(0, 100%, 75%)",
 
+        // "func_name": "#00bbff",
+        // "func_name": "hsl(216, 76%, 50%)",
         "func_name": "hsl(246, 100%, 50%)",
 
         // "css_value": "hsl(300, 77%, 50%)",
@@ -414,7 +418,7 @@
             // "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
             "foreground": "var(func_name)",
             // "font_style": "italic bold",
-            "font_style": "bold",
+            // "font_style": "bold",
         },
 
 

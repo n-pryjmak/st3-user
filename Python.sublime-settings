@@ -11,7 +11,7 @@
 
   // "light_color_scheme": "Packages/Color Scheme - Legacy/Espresso Libre.tmTheme",
   // "light_color_scheme": "Packages/Color Scheme - Legacy/Eiffel.tmTheme",
-  "light_color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
+  // "light_color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
 
   // "color_scheme": "Packages/Color Scheme - Legacy/MagicWB (Amiga).tmTheme",
   // "color_scheme": "Mariana.sublime-color-scheme",
@@ -40,14 +40,15 @@
   "rulers": [
     // -0.2, 100,
     // 0, 100,
-    31,
-    90,
-    100,
+    // 31,
+    79,
+    91,
+    101,
   ],
   //   "draw_centered": true,
 
-  //   "word_wrap": true,
-      "wrap_width": 90,
+    "word_wrap": false,
+      "wrap_width": 91,
   //     "wrap_width_style": "constant",
 
   // "line_padding_top": -1,
