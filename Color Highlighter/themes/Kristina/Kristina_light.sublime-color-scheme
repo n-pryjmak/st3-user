@@ -18,8 +18,8 @@
         // "backg": "#ECECEC",
         // "foreg": "#555555",
 
-        // "backg": "hsl(0, 0%, 90%)",
-        "backg": "hsl(0, 0%, 98%)",
+        "backg": "hsl(0, 0%, 90%)",
+        // "backg": "hsl(0, 0%, 98%)",
         "foreg": "hsl(0, 0%, 30%)",
 
 
